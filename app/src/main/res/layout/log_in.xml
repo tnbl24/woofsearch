@@ -1,0 +1,156 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<FrameLayout
+  xmlns:android="http://schemas.android.com/apk/res/android"
+  xmlns:app="http://schemas.android.com/apk/res-auto"
+  xmlns:tools="http://schemas.android.com/tools"
+  android:layout_width="match_parent"
+  android:layout_height="807dp"
+  android:background="@drawable/drawable_shape">
+  
+  <ImageView
+    android:id="@+id/container_login_rectangle1"
+    android:layout_width="300dp"
+    android:layout_height="70dp"
+    android:layout_marginLeft="46dp"
+    android:layout_marginTop="374dp"
+    android:layout_gravity="top|left"
+    android:scaleType="centerInside"
+    android:src="@drawable/container_login_rectangle1" />
+  
+  <ImageView
+    android:id="@+id/container_login_rectangle2"
+    android:layout_width="300dp"
+    android:layout_height="70dp"
+    android:layout_marginLeft="46dp"
+    android:layout_marginTop="514dp"
+    android:layout_gravity="top|left"
+    android:scaleType="centerInside"
+    android:src="@drawable/container_login_rectangle2" />
+  
+  <TextView
+    android:id="@+id/text_login_dang_nhap1"
+    android:layout_width="wrap_content"
+    android:layout_height="25dp"
+    android:layout_marginLeft="142dp"
+    android:layout_marginTop="396.5dp"
+    android:layout_marginBottom="-0.5dp"
+    android:layout_gravity="top|left"
+    android:gravity="left|center_vertical"
+    android:includeFontPadding="false"
+    android:maxLines="1"
+    android:singleLine="true"
+    android:text="Đăng Nhập"
+    android:textColor="#FFFFFFFF"
+    android:textSize="20dp" />
+  
+  <TextView
+    android:id="@+id/text_login_dang_nhap2"
+    android:layout_width="wrap_content"
+    android:layout_height="37dp"
+    android:layout_marginLeft="117dp"
+    android:layout_marginTop="98.5dp"
+    android:layout_marginBottom="-0.5dp"
+    android:layout_gravity="top|left"
+    android:gravity="left|center_vertical"
+    android:includeFontPadding="false"
+    android:maxLines="1"
+    android:singleLine="true"
+    android:text="Đăng nhập"
+    android:textColor="#FF65C7F7"
+    android:textSize="30dp" />
+  
+  <ImageView
+    android:id="@+id/container_login_rectangle3"
+    android:layout_width="300dp"
+    android:layout_height="52dp"
+    android:layout_marginLeft="46dp"
+    android:layout_marginTop="182dp"
+    android:layout_gravity="top|left"
+    android:background="@drawable/container_login_rectangle3"
+    android:scaleType="centerInside" />
+  
+  <ImageView
+    android:id="@+id/container_login_rectangle4"
+    android:layout_width="300dp"
+    android:layout_height="52dp"
+    android:layout_marginLeft="46dp"
+    android:layout_marginTop="254dp"
+    android:layout_gravity="top|left"
+    android:background="@drawable/container_login_rectangle4"
+    android:scaleType="centerInside" />
+  
+  <TextView
+    android:id="@+id/text_login_phone_number"
+    android:layout_width="wrap_content"
+    android:layout_height="25dp"
+    android:layout_marginLeft="67dp"
+    android:layout_marginTop="195.5dp"
+    android:layout_marginBottom="-0.5dp"
+    android:layout_gravity="top|left"
+    android:gravity="left|center_vertical"
+    android:includeFontPadding="false"
+    android:maxLines="1"
+    android:singleLine="true"
+    android:text="Số điện thoại"
+    android:textColor="#FFDFDFDF"
+    android:textSize="20dp" />
+  
+  <TextView
+    android:id="@+id/text_login_password"
+    android:layout_width="wrap_content"
+    android:layout_height="25dp"
+    android:layout_marginLeft="67dp"
+    android:layout_marginTop="267.5dp"
+    android:layout_marginBottom="-0.5dp"
+    android:layout_gravity="top|left"
+    android:gravity="left|center_vertical"
+    android:includeFontPadding="false"
+    android:maxLines="1"
+    android:singleLine="true"
+    android:text="Mật khẩu"
+    android:textColor="#FFDFDFDF"
+    android:textSize="20dp" />
+  
+  <ImageView
+    android:id="@+id/container_login_pngwing"
+    android:layout_width="40dp"
+    android:layout_height="40dp"
+    android:layout_marginLeft="67dp"
+    android:layout_marginTop="529dp"
+    android:layout_gravity="top|left"
+    android:scaleType="centerInside"
+    android:src="@drawable/container_login_pngwing" />
+  
+  <TextView
+    android:id="@+id/text_login_google_login"
+    android:layout_width="wrap_content"
+    android:layout_height="25dp"
+    android:layout_marginLeft="111dp"
+    android:layout_marginTop="536.5dp"
+    android:layout_marginBottom="-0.5dp"
+    android:layout_gravity="top|left"
+    android:gravity="left|center_vertical"
+    android:includeFontPadding="false"
+    android:maxLines="1"
+    android:singleLine="true"
+    android:text="Đăng nhập với Google"
+    android:textColor="#FF000000"
+    android:textSize="20dp" />
+  
+  <TextView
+    android:id="@+id/text_login_or"
+    android:layout_width="wrap_content"
+    android:layout_height="20dp"
+    android:layout_marginLeft="177dp"
+    android:layout_marginTop="469dp"
+    android:layout_marginBottom="-1dp"
+    android:layout_gravity="top|left"
+    android:gravity="left|center_vertical"
+    android:includeFontPadding="false"
+    android:maxLines="1"
+    android:singleLine="true"
+    android:text="Hoặc"
+    android:textColor="#FF000000"
+    android:textSize="15dp" />
+</FrameLayout>

@@ -1,0 +1,644 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<FrameLayout
+  xmlns:android="http://schemas.android.com/apk/res/android"
+  xmlns:app="http://schemas.android.com/apk/res-auto"
+  xmlns:tools="http://schemas.android.com/tools"
+  android:id="@+id/thong_bao_container_thong_bao"
+  android:layout_width="match_parent"
+  android:layout_height="807dp"
+  android:background="@drawable/thong_bao_container_thong_bao">
+  
+  <FrameLayout
+    android:id="@+id/thong_bao_container_group"
+    android:layout_width="371.28dp"
+    android:layout_height="89.36dp"
+    android:layout_marginLeft="10dp"
+    android:layout_marginTop="499dp"
+    android:layout_gravity="top|left">
+    
+    <ImageView
+      android:id="@+id/thong_bao_container_line"
+      android:layout_width="match_parent"
+      android:layout_height="match_parent"
+      android:layout_marginLeft="11.28dp"
+      android:layout_marginRight="0dp"
+      android:layout_marginTop="89.36dp"
+      android:scaleType="centerCrop"
+      android:src="@drawable/thong_bao_container_line" />
+    
+    <TextView
+      android:id="@+id/text_reply_message"
+      android:layout_width="match_parent"
+      android:layout_height="23dp"
+      android:layout_marginLeft="80.28dp"
+      android:layout_marginRight="33.99dp"
+      android:layout_marginTop="8.11dp"
+      android:layout_marginBottom="-3.25dp"
+      android:layout_gravity="top"
+      android:gravity="left|center_vertical"
+      android:includeFontPadding="false"
+      android:maxLines="1"
+      android:singleLine="true"
+      android:text="Trần Huỳnh đã trả lời bài viết của bạn"
+      android:textColor="#FF000000"
+      android:textSize="18dp" />
+    
+    <TextView
+      android:id="@+id/text_time_ago"
+      android:layout_width="90dp"
+      android:layout_height="17dp"
+      android:layout_marginLeft="66.28dp"
+      android:layout_marginTop="55.36dp"
+      android:layout_marginBottom="17dp"
+      android:layout_gravity="left"
+      android:gravity="center_horizontal|center_vertical"
+      android:includeFontPadding="false"
+      android:maxLines="1"
+      android:singleLine="true"
+      android:text="2 giờ trước"
+      android:textColor="#FF000000"
+      android:textSize="13dp" />
+    
+    <ImageView
+      android:id="@+id/thong_bao_container_group1"
+      android:layout_width="59dp"
+      android:layout_height="60dp"
+      android:layout_marginTop="10dp"
+      android:layout_gravity="top|left"
+      android:scaleType="centerInside"
+      android:src="@drawable/thong_bao_container_group1" />
+    
+    <TextView
+      android:id="@+id/text_ellipsis"
+      android:layout_width="match_parent"
+      android:layout_height="23dp"
+      android:layout_marginLeft="346.28dp"
+      android:layout_marginRight="10dp"
+      android:layout_marginTop="-1dp"
+      android:layout_marginBottom="-1dp"
+      android:layout_gravity="top"
+      android:gravity="left|center_vertical"
+      android:includeFontPadding="false"
+      android:maxLines="1"
+      android:singleLine="true"
+      android:text="..."
+      android:textColor="#FF000000"
+      android:textSize="18dp" />
+  </FrameLayout>
+  
+  <FrameLayout
+    android:id="@+id/thong_bao_container_group2"
+    android:layout_width="371.28dp"
+    android:layout_height="86dp"
+    android:layout_marginLeft="10dp"
+    android:layout_marginTop="404dp"
+    android:layout_gravity="top|left">
+    
+    <ImageView
+      android:id="@+id/line"
+      android:layout_width="match_parent"
+      android:layout_height="match_parent"
+      android:layout_marginLeft="11.28dp"
+      android:layout_marginRight="0dp"
+      android:layout_marginTop="86dp"
+      android:scaleType="centerCrop"
+      android:src="@drawable/line" />
+    
+    <TextView
+      android:id="@+id/text_reply_message1"
+      android:layout_width="match_parent"
+      android:layout_height="23dp"
+      android:layout_marginLeft="80.28dp"
+      android:layout_marginRight="33.99dp"
+      android:layout_marginTop="4.75dp"
+      android:layout_marginBottom="-3.25dp"
+      android:layout_gravity="top"
+      android:gravity="left|center_vertical"
+      android:includeFontPadding="false"
+      android:maxLines="1"
+      android:singleLine="true"
+      android:text="Trần Huỳnh đã trả lời bài viết của bạn"
+      android:textColor="#FF000000"
+      android:textSize="18dp" />
+    
+    <TextView
+      android:id="@+id/text_time_ago1"
+      android:layout_width="90dp"
+      android:layout_height="17dp"
+      android:layout_marginLeft="66.28dp"
+      android:layout_marginTop="52dp"
+      android:layout_marginBottom="17dp"
+      android:layout_gravity="left"
+      android:gravity="center_horizontal|center_vertical"
+      android:includeFontPadding="false"
+      android:maxLines="1"
+      android:singleLine="true"
+      android:text="2 giờ trước"
+      android:textColor="#FF000000"
+      android:textSize="13dp" />
+    
+    <FrameLayout
+      android:id="@+id/thong_bao_container_thong_bao_image_group"
+      android:layout_width="59dp"
+      android:layout_height="66.64dp"
+      android:layout_gravity="top|left">
+      
+      <ImageView
+        android:id="@+id/thong_bao_image_ellipse1"
+        android:layout_width="59dp"
+        android:layout_height="60dp"
+        android:layout_marginTop="6.64dp"
+        android:layout_marginBottom="0dp"
+        android:scaleType="centerInside"
+        android:src="@drawable/thong_bao_image_ellipse1" />
+      
+      <ImageView
+        android:id="@+id/thong_bao_image_ellipse2"
+        android:layout_width="16dp"
+        android:layout_height="16dp"
+        android:layout_marginLeft="37.09dp"
+        android:layout_marginRight="5.91dp"
+        android:layout_gravity="top"
+        android:background="@drawable/thong_bao_image_ellipse2"
+        android:scaleType="centerInside" />
+    </FrameLayout>
+    
+    <TextView
+      android:id="@+id/text_ellipsis1"
+      android:layout_width="match_parent"
+      android:layout_height="23dp"
+      android:layout_marginLeft="346.28dp"
+      android:layout_marginRight="10dp"
+      android:layout_marginTop="-1dp"
+      android:layout_marginBottom="-1dp"
+      android:layout_gravity="top"
+      android:gravity="left|center_vertical"
+      android:includeFontPadding="false"
+      android:maxLines="1"
+      android:singleLine="true"
+      android:text="..."
+      android:textColor="#FF000000"
+      android:textSize="18dp" />
+  </FrameLayout>
+  
+  <FrameLayout
+    android:id="@+id/thong_bao_container_group4"
+    android:layout_width="371dp"
+    android:layout_height="89dp"
+    android:layout_marginLeft="10dp"
+    android:layout_marginTop="306dp"
+    android:layout_gravity="top|left">
+    
+    <ImageView
+      android:id="@+id/thong_bao_container_line2"
+      android:layout_width="match_parent"
+      android:layout_height="match_parent"
+      android:layout_marginLeft="11dp"
+      android:layout_marginTop="89dp"
+      android:scaleType="centerCrop"
+      android:src="@drawable/thong_bao_container_line2" />
+    
+    <TextView
+      android:id="@+id/text_reply_message2"
+      android:layout_width="match_parent"
+      android:layout_height="23dp"
+      android:layout_marginLeft="80dp"
+      android:layout_marginRight="33.99dp"
+      android:layout_marginTop="7.75dp"
+      android:layout_marginBottom="-3.25dp"
+      android:layout_gravity="top"
+      android:gravity="left|center_vertical"
+      android:includeFontPadding="false"
+      android:maxLines="1"
+      android:singleLine="true"
+      android:text="Trần Anh đã trả lời bình luận của bạn"
+      android:textColor="#FF000000"
+      android:textSize="18dp" />
+    
+    <TextView
+      android:id="@+id/text_time_ago3"
+      android:layout_width="90dp"
+      android:layout_height="17dp"
+      android:layout_marginLeft="66dp"
+      android:layout_marginTop="55dp"
+      android:layout_marginBottom="17dp"
+      android:layout_gravity="left"
+      android:gravity="center_horizontal|center_vertical"
+      android:includeFontPadding="false"
+      android:maxLines="1"
+      android:singleLine="true"
+      android:text="1 giờ trước"
+      android:textColor="#FF000000"
+      android:textSize="13dp" />
+    
+    <ImageView
+      android:id="@+id/thong_bao_image_ellipse4"
+      android:layout_width="59dp"
+      android:layout_height="60dp"
+      android:layout_marginTop="11dp"
+      android:layout_gravity="top|left"
+      android:scaleType="centerInside"
+      android:src="@drawable/thong_bao_image_ellipse4" />
+    
+    <TextView
+      android:id="@+id/text_ellipsis3"
+      android:layout_width="match_parent"
+      android:layout_height="23dp"
+      android:layout_marginLeft="347dp"
+      android:layout_marginRight="9dp"
+      android:layout_marginTop="-1dp"
+      android:layout_marginBottom="-1dp"
+      android:layout_gravity="top"
+      android:gravity="left|center_vertical"
+      android:includeFontPadding="false"
+      android:maxLines="1"
+      android:singleLine="true"
+      android:text="..."
+      android:textColor="#FF000000"
+      android:textSize="18dp" />
+  </FrameLayout>
+  
+  <FrameLayout
+    android:id="@+id/thong_bao_container_group3"
+    android:layout_width="371dp"
+    android:layout_height="87dp"
+    android:layout_marginLeft="10dp"
+    android:layout_marginTop="597dp"
+    android:layout_gravity="top|left">
+    
+    <ImageView
+      android:id="@+id/thong_bao_container_line1"
+      android:layout_width="match_parent"
+      android:layout_height="match_parent"
+      android:layout_marginLeft="11dp"
+      android:layout_marginTop="87dp"
+      android:scaleType="centerCrop"
+      android:src="@drawable/thong_bao_container_line1" />
+    
+    <TextView
+      android:id="@+id/text_reply_comment"
+      android:layout_width="match_parent"
+      android:layout_height="23dp"
+      android:layout_marginLeft="80dp"
+      android:layout_marginRight="33.99dp"
+      android:layout_marginTop="5.75dp"
+      android:layout_marginBottom="-3.25dp"
+      android:layout_gravity="top"
+      android:gravity="left|center_vertical"
+      android:includeFontPadding="false"
+      android:maxLines="1"
+      android:singleLine="true"
+      android:text="Trần Anh đã trả lời bình luận của bạn"
+      android:textColor="#FF000000"
+      android:textSize="18dp" />
+    
+    <TextView
+      android:id="@+id/text_time_ago2"
+      android:layout_width="90dp"
+      android:layout_height="17dp"
+      android:layout_marginLeft="66dp"
+      android:layout_marginTop="53dp"
+      android:layout_marginBottom="17dp"
+      android:layout_gravity="left"
+      android:gravity="center_horizontal|center_vertical"
+      android:includeFontPadding="false"
+      android:maxLines="1"
+      android:singleLine="true"
+      android:text="1 giờ trước"
+      android:textColor="#FF000000"
+      android:textSize="13dp" />
+    
+    <ImageView
+      android:id="@+id/thong_bao_image_ellipse3"
+      android:layout_width="59dp"
+      android:layout_height="60dp"
+      android:layout_marginTop="9dp"
+      android:layout_gravity="top|left"
+      android:scaleType="centerInside"
+      android:src="@drawable/thong_bao_image_ellipse3" />
+    
+    <TextView
+      android:id="@+id/text_ellipsis2"
+      android:layout_width="match_parent"
+      android:layout_height="23dp"
+      android:layout_marginLeft="346dp"
+      android:layout_marginRight="10dp"
+      android:layout_marginTop="-1dp"
+      android:layout_marginBottom="-1dp"
+      android:layout_gravity="top"
+      android:gravity="left|center_vertical"
+      android:includeFontPadding="false"
+      android:maxLines="1"
+      android:singleLine="true"
+      android:text="..."
+      android:textColor="#FF000000"
+      android:textSize="18dp" />
+  </FrameLayout>
+  
+  <FrameLayout
+    android:id="@+id/thong_bao_container_group6"
+    android:layout_width="366dp"
+    android:layout_height="87dp"
+    android:layout_marginLeft="15dp"
+    android:layout_marginTop="693dp"
+    android:layout_gravity="top|left">
+    
+    <ImageView
+      android:id="@+id/thong_bao_container_line3"
+      android:layout_width="match_parent"
+      android:layout_height="match_parent"
+      android:layout_marginLeft="6dp"
+      android:layout_marginTop="87dp"
+      android:scaleType="centerCrop"
+      android:src="@drawable/thong_bao_container_line3" />
+    
+    <TextView
+      android:id="@+id/text_reply_message3"
+      android:layout_width="match_parent"
+      android:layout_height="23dp"
+      android:layout_marginLeft="80dp"
+      android:layout_marginRight="28.99dp"
+      android:layout_marginTop="5.75dp"
+      android:layout_marginBottom="-3.25dp"
+      android:layout_gravity="top"
+      android:gravity="left|center_vertical"
+      android:includeFontPadding="false"
+      android:maxLines="1"
+      android:singleLine="true"
+      android:text="Trần Anh đã trả lời bình luận của bạn"
+      android:textColor="#FF000000"
+      android:textSize="18dp" />
+    
+    <TextView
+      android:id="@+id/text_time_ago4"
+      android:layout_width="90dp"
+      android:layout_height="17dp"
+      android:layout_marginLeft="66dp"
+      android:layout_marginTop="53dp"
+      android:layout_marginBottom="17dp"
+      android:layout_gravity="left"
+      android:gravity="center_horizontal|center_vertical"
+      android:includeFontPadding="false"
+      android:maxLines="1"
+      android:singleLine="true"
+      android:text="1 giờ trước"
+      android:textColor="#FF000000"
+      android:textSize="13dp" />
+    
+    <ImageView
+      android:id="@+id/thong_bao_image_ellipse5"
+      android:layout_width="59dp"
+      android:layout_height="60dp"
+      android:layout_marginTop="9dp"
+      android:layout_gravity="top|left"
+      android:scaleType="centerInside"
+      android:src="@drawable/thong_bao_image_ellipse5" />
+    
+    <TextView
+      android:id="@+id/text_ellipsis4"
+      android:layout_width="match_parent"
+      android:layout_height="23dp"
+      android:layout_marginLeft="346dp"
+      android:layout_marginRight="5dp"
+      android:layout_marginTop="-1dp"
+      android:layout_marginBottom="-1dp"
+      android:layout_gravity="top"
+      android:gravity="left|center_vertical"
+      android:includeFontPadding="false"
+      android:maxLines="1"
+      android:singleLine="true"
+      android:text="..."
+      android:textColor="#FF000000"
+      android:textSize="18dp" />
+  </FrameLayout>
+  
+  <FrameLayout
+    android:id="@+id/thong_bao_container_group7"
+    android:layout_width="371.28dp"
+    android:layout_height="90dp"
+    android:layout_marginLeft="10dp"
+    android:layout_marginTop="207dp"
+    android:layout_gravity="top|left">
+    
+    <ImageView
+      android:id="@+id/line_container"
+      android:layout_width="match_parent"
+      android:layout_height="match_parent"
+      android:layout_marginLeft="11.28dp"
+      android:layout_marginRight="0dp"
+      android:layout_marginTop="90dp"
+      android:scaleType="centerCrop"
+      android:src="@drawable/line_container" />
+    
+    <TextView
+      android:id="@+id/text_reply_message4"
+      android:layout_width="match_parent"
+      android:layout_height="23dp"
+      android:layout_marginLeft="80.28dp"
+      android:layout_marginRight="33.99dp"
+      android:layout_marginTop="8.75dp"
+      android:layout_marginBottom="-3.25dp"
+      android:layout_gravity="top"
+      android:gravity="left|center_vertical"
+      android:includeFontPadding="false"
+      android:maxLines="1"
+      android:singleLine="true"
+      android:text="Trần Huỳnh đã trả lời bài viết của bạn"
+      android:textColor="#FF000000"
+      android:textSize="18dp" />
+    
+    <TextView
+      android:id="@+id/text_time_ago5"
+      android:layout_width="90dp"
+      android:layout_height="17dp"
+      android:layout_marginLeft="66.28dp"
+      android:layout_marginTop="56dp"
+      android:layout_marginBottom="17dp"
+      android:layout_gravity="left"
+      android:gravity="center_horizontal|center_vertical"
+      android:includeFontPadding="false"
+      android:maxLines="1"
+      android:singleLine="true"
+      android:text="2 giờ trước"
+      android:textColor="#FF000000"
+      android:textSize="13dp" />
+    
+    <FrameLayout
+      android:id="@+id/thong_bao_container_thong_bao_image_group1"
+      android:layout_width="59dp"
+      android:layout_height="66.64dp"
+      android:layout_marginTop="4dp"
+      android:layout_gravity="top|left">
+      
+      <ImageView
+        android:id="@+id/thong_bao_image_ellipse6"
+        android:layout_width="59dp"
+        android:layout_height="60dp"
+        android:layout_marginTop="6.64dp"
+        android:layout_marginBottom="0dp"
+        android:scaleType="centerInside"
+        android:src="@drawable/thong_bao_image_ellipse6" />
+      
+      <ImageView
+        android:id="@+id/thong_bao_image_ellipse7"
+        android:layout_width="16dp"
+        android:layout_height="16dp"
+        android:layout_marginLeft="37.09dp"
+        android:layout_marginRight="5.91dp"
+        android:layout_gravity="top"
+        android:background="@drawable/thong_bao_image_ellipse7"
+        android:scaleType="centerInside" />
+    </FrameLayout>
+    
+    <TextView
+      android:id="@+id/text_dots"
+      android:layout_width="match_parent"
+      android:layout_height="23dp"
+      android:layout_marginLeft="348.28dp"
+      android:layout_marginRight="8dp"
+      android:layout_marginTop="-1dp"
+      android:layout_marginBottom="-1dp"
+      android:layout_gravity="top"
+      android:gravity="left|center_vertical"
+      android:includeFontPadding="false"
+      android:maxLines="1"
+      android:singleLine="true"
+      android:text="..."
+      android:textColor="#FF000000"
+      android:textSize="18dp" />
+  </FrameLayout>
+  
+  <FrameLayout
+    android:id="@+id/thong_bao_container_group8"
+    android:layout_width="375dp"
+    android:layout_height="88dp"
+    android:layout_marginLeft="1dp"
+    android:layout_marginTop="110dp"
+    android:layout_gravity="top|left">
+    
+    <ImageView
+      android:id="@+id/thong_bao_container_line4"
+      android:layout_width="match_parent"
+      android:layout_height="match_parent"
+      android:layout_marginLeft="15dp"
+      android:layout_marginTop="88dp"
+      android:scaleType="centerCrop"
+      android:src="@drawable/thong_bao_container_line4" />
+    
+    <TextView
+      android:id="@+id/text_violation_message"
+      android:layout_width="253dp"
+      android:layout_height="42dp"
+      android:layout_marginLeft="88dp"
+      android:layout_marginRight="34dp"
+      android:layout_marginTop="10dp"
+      android:layout_gravity="top"
+      android:gravity="left|top"
+      android:includeFontPadding="false"
+      android:lineHeight="21.09dp"
+      android:text="Bài viết của bạn đã vi phạm Tiêu chuẩn cộng đồng về..."
+      android:textColor="#FF000000"
+      android:textSize="18dp" />
+    
+    <TextView
+      android:id="@+id/text_time_ago6"
+      android:layout_width="90dp"
+      android:layout_height="17dp"
+      android:layout_marginLeft="74dp"
+      android:layout_marginTop="54dp"
+      android:layout_marginBottom="17dp"
+      android:layout_gravity="left"
+      android:gravity="center_horizontal|center_vertical"
+      android:includeFontPadding="false"
+      android:maxLines="1"
+      android:singleLine="true"
+      android:text="2 giờ trước"
+      android:textColor="#FF000000"
+      android:textSize="13dp" />
+    
+    <FrameLayout
+      android:id="@+id/thong_bao_container_thong_bao_image_group2"
+      android:layout_width="75dp"
+      android:layout_height="71.86dp"
+      android:layout_marginTop="5dp"
+      android:layout_gravity="top|left">
+      
+      <ImageView
+        android:id="@+id/thong_bao_image_ellipse8"
+        android:layout_width="59dp"
+        android:layout_height="59dp"
+        android:layout_marginLeft="8dp"
+        android:layout_marginRight="8dp"
+        android:layout_marginTop="6dp"
+        android:layout_gravity="top"
+        android:background="@drawable/thong_bao_image_ellipse8"
+        android:scaleType="centerInside" />
+      
+      <ImageView
+        android:id="@+id/thong_bao_image_snapedit"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:scaleType="centerCrop"
+        android:src="@drawable/thong_bao_image_snapedit" />
+    </FrameLayout>
+    
+    <TextView
+      android:id="@+id/text_ellipsis5"
+      android:layout_width="match_parent"
+      android:layout_height="23dp"
+      android:layout_marginLeft="351dp"
+      android:layout_marginRight="9dp"
+      android:layout_marginTop="-1dp"
+      android:layout_marginBottom="-1dp"
+      android:layout_gravity="top"
+      android:gravity="left|center_vertical"
+      android:includeFontPadding="false"
+      android:maxLines="1"
+      android:singleLine="true"
+      android:text="..."
+      android:textColor="#FF000000"
+      android:textSize="18dp" />
+  </FrameLayout>
+  
+  <FrameLayout
+    android:id="@+id/thong_bao_container_group5"
+    android:layout_width="393dp"
+    android:layout_height="99dp"
+    android:layout_gravity="top|left">
+    
+    <ImageView
+      android:id="@+id/thong_bao_image_rectangle"
+      android:layout_width="match_parent"
+      android:layout_height="match_parent"
+      android:scaleType="centerCrop"
+      android:src="@drawable/thong_bao_image_rectangle" />
+    
+    <ImageView
+      android:id="@+id/thong_bao_image_frame"
+      android:layout_width="29.48dp"
+      android:layout_height="25dp"
+      android:layout_marginLeft="21dp"
+      android:layout_marginTop="45dp"
+      android:layout_marginBottom="29dp"
+      android:layout_gravity="left"
+      android:scaleType="centerInside"
+      android:src="@drawable/thong_bao_image_frame" />
+  </FrameLayout>
+  
+  <TextView
+    android:id="@+id/text_thong_bao"
+    android:layout_width="wrap_content"
+    android:layout_height="30dp"
+    android:layout_marginLeft="139dp"
+    android:layout_marginTop="38dp"
+    android:layout_marginBottom="-1dp"
+    android:layout_gravity="top|left"
+    android:gravity="left|center_vertical"
+    android:includeFontPadding="false"
+    android:maxLines="1"
+    android:singleLine="true"
+    android:text="Thông báo"
+    android:textColor="#FFFFFFFF"
+    android:textSize="24dp" />
+</FrameLayout>

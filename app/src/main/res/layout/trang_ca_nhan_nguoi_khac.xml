@@ -1,0 +1,378 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<FrameLayout
+  xmlns:android="http://schemas.android.com/apk/res/android"
+  xmlns:app="http://schemas.android.com/apk/res-auto"
+  xmlns:tools="http://schemas.android.com/tools"
+  android:layout_width="match_parent"
+  android:layout_height="807dp"
+  android:background="@drawable/trang_ca_nhan_khac_drawable_shape">
+  
+  <ImageView
+    android:id="@+id/trang_ca_nhan_khac_container_group1"
+    android:layout_width="120dp"
+    android:layout_height="120dp"
+    android:layout_marginLeft="40dp"
+    android:layout_marginTop="102dp"
+    android:layout_gravity="top|left"
+    android:scaleType="centerInside"
+    android:src="@drawable/trang_ca_nhan_khac_container_group1" />
+  
+  <TextView
+    android:id="@+id/tv_user_name"
+    android:layout_width="wrap_content"
+    android:layout_height="20dp"
+    android:layout_marginLeft="171dp"
+    android:layout_marginTop="128dp"
+    android:layout_marginBottom="-1dp"
+    android:layout_gravity="top|left"
+    android:gravity="left|center_vertical"
+    android:includeFontPadding="false"
+    android:maxLines="1"
+    android:singleLine="true"
+    android:text="Đường Xuân Huấn"
+    android:textColor="#FF000000"
+    android:textSize="15dp" />
+  
+  <TextView
+    android:id="@+id/tv_user_description"
+    android:layout_width="wrap_content"
+    android:layout_height="16dp"
+    android:layout_marginLeft="171dp"
+    android:layout_marginTop="146.5dp"
+    android:layout_marginBottom="-0.5dp"
+    android:layout_gravity="top|left"
+    android:gravity="left|center_vertical"
+    android:includeFontPadding="false"
+    android:maxLines="1"
+    android:singleLine="true"
+    android:text="The friendly friend"
+    android:textColor="#FF737373"
+    android:textSize="12dp" />
+
+  <ImageView
+      android:id="@+id/trang_ca_nhan_khac_iv_profile_image"
+      android:layout_width="393dp"
+      android:layout_height="73dp"
+      android:layout_gravity="bottom|left"
+      android:background="@drawable/trang_ca_nhan_khac_drawable_shape"
+      android:scaleType="centerInside" />
+  
+  <ImageView
+    android:id="@+id/trang_ca_nhan_khac_image_group"
+    android:layout_width="40dp"
+    android:layout_height="40dp"
+    android:layout_marginLeft="136dp"
+    android:layout_marginRight="217dp"
+    android:layout_marginTop="753dp"
+    android:layout_marginBottom="14dp"
+    android:scaleType="centerInside"
+    android:src="@drawable/trang_ca_nhan_khac_image_group" />
+  
+  <ImageView
+    android:id="@+id/trang_ca_nhan_khac_container_group"
+    android:layout_width="40dp"
+    android:layout_height="40dp"
+    android:layout_marginLeft="216dp"
+    android:layout_marginRight="137dp"
+    android:layout_marginTop="753dp"
+    android:layout_marginBottom="14dp"
+    android:scaleType="centerInside"
+    android:src="@drawable/trang_ca_nhan_khac_container_group" />
+  
+  <ImageView
+    android:layout_width="40dp"
+    android:layout_height="40dp"
+    android:layout_marginLeft="296dp"
+    android:layout_marginRight="57dp"
+    android:layout_marginTop="754dp"
+    android:layout_marginBottom="13dp"
+    android:scaleType="centerInside"
+    android:src="@drawable/trang_ca_nhan_khac_drawable_image" />
+  
+  <ImageView
+    android:id="@+id/trang_ca_nhan_khac_image_group1"
+    android:layout_width="40dp"
+    android:layout_height="40dp"
+    android:layout_marginLeft="56dp"
+    android:layout_marginRight="297dp"
+    android:layout_marginTop="744dp"
+    android:layout_marginBottom="23dp"
+    android:scaleType="centerInside"
+    android:src="@drawable/trang_ca_nhan_khac_image_group1" />
+  
+  <TextView
+    android:id="@+id/tv_forum"
+    android:layout_width="wrap_content"
+    android:layout_height="21dp"
+    android:layout_marginLeft="44dp"
+    android:layout_marginTop="-1dp"
+    android:layout_marginBottom="3dp"
+    android:layout_gravity="bottom|left"
+    android:gravity="left|center_vertical"
+    android:includeFontPadding="false"
+    android:maxLines="1"
+    android:singleLine="true"
+    android:text="Diễn đàn"
+    android:textColor="#FF44AFF8"
+    android:textSize="16dp" />
+  
+  <FrameLayout
+    android:id="@+id/trang_ca_nhan_khac_container_group3"
+    android:layout_width="393dp"
+    android:layout_height="79dp"
+    android:layout_gravity="top|left">
+    
+    <ImageView
+      android:id="@+id/trang_ca_nhan_khac_image_rectangle"
+      android:layout_width="match_parent"
+      android:layout_height="match_parent"
+      android:scaleType="centerCrop"
+      android:src="@drawable/trang_ca_nhan_khac_image_rectangle" />
+    
+    <ImageView
+      android:id="@+id/trang_ca_nhan_khac_image_frame"
+      android:layout_width="29.48dp"
+      android:layout_height="25dp"
+      android:layout_marginLeft="20.74dp"
+      android:layout_marginTop="47dp"
+      android:layout_marginBottom="7dp"
+      android:layout_gravity="left"
+      android:scaleType="centerInside"
+      android:src="@drawable/trang_ca_nhan_khac_image_frame" />
+  </FrameLayout>
+  
+  <ImageView
+    android:id="@+id/trang_ca_nhan_khac_container_group2"
+    android:layout_width="27dp"
+    android:layout_height="7dp"
+    android:layout_marginLeft="328dp"
+    android:layout_marginTop="56dp"
+    android:layout_gravity="top|left"
+    android:scaleType="centerInside"
+    android:src="@drawable/trang_ca_nhan_khac_container_group2" />
+
+  <FrameLayout
+      android:id="@+id/trang_ca_nhan_khac_container_group4"
+      android:layout_width="137dp"
+      android:layout_height="37dp"
+      android:layout_gravity="top|left"
+      android:layout_marginLeft="45dp"
+      android:layout_marginTop="238dp">
+
+    <ImageView
+        android:id="@+id/trang_ca_nhan_khac_image_rectangle1"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@drawable/trang_ca_nhan_khac_image_rectangle1"
+        android:scaleType="centerCrop" />
+
+    <ImageView
+        android:id="@+id/trang_ca_nhan_khac_image_vector"
+        android:layout_width="21.83dp"
+        android:layout_height="20.17dp"
+        android:layout_marginLeft="36.5dp"
+        android:layout_marginTop="11.16dp"
+        android:layout_marginRight="78.67dp"
+        android:layout_marginBottom="5.66dp"
+        android:scaleType="centerInside"
+        android:src="@drawable/trang_ca_nhan_khac_image_vector" />
+
+    <TextView
+        android:id="@+id/text_message"
+        android:layout_width="match_parent"
+        android:layout_height="16dp"
+        android:layout_marginLeft="58dp"
+        android:layout_marginTop="10.5dp"
+        android:layout_marginRight="31dp"
+        android:layout_marginBottom="10.5dp"
+        android:gravity="left|center_vertical"
+        android:includeFontPadding="false"
+        android:maxLines="1"
+        android:singleLine="true"
+        android:text="Nhắn tin"
+        android:textColor="#FFFFFFFF"
+        android:textSize="12dp" />
+  </FrameLayout>
+  
+  <FrameLayout
+    android:id="@+id/trang_ca_nhan_khac_container_group5"
+    android:layout_width="137dp"
+    android:layout_height="37dp"
+    android:layout_marginLeft="210dp"
+    android:layout_marginTop="238dp"
+    android:layout_gravity="top|left">
+    
+    <ImageView
+      android:id="@+id/trang_ca_nhan_khac_image_rectangle2"
+      android:layout_width="match_parent"
+      android:layout_height="match_parent"
+      android:background="@drawable/trang_ca_nhan_khac_image_rectangle2"
+      android:scaleType="centerCrop" />
+    
+    <TextView
+      android:id="@+id/text_plus"
+      android:layout_width="wrap_content"
+      android:layout_height="16dp"
+      android:layout_marginLeft="48dp"
+      android:layout_marginTop="2.5dp"
+      android:layout_marginBottom="-0.5dp"
+      android:layout_gravity="top|left"
+      android:gravity="left|center_vertical"
+      android:includeFontPadding="false"
+      android:maxLines="1"
+      android:singleLine="true"
+      android:text="+"
+      android:textColor="#FFFFFFFF"
+      android:textSize="12dp" />
+    
+    <TextView
+      android:id="@+id/text_ket_ban"
+      android:layout_width="match_parent"
+      android:layout_height="16dp"
+      android:layout_marginLeft="58dp"
+      android:layout_marginRight="35dp"
+      android:layout_marginTop="10.5dp"
+      android:layout_marginBottom="10.5dp"
+      android:gravity="left|center_vertical"
+      android:includeFontPadding="false"
+      android:maxLines="1"
+      android:singleLine="true"
+      android:text="Kết bạn"
+      android:textColor="#FFFFFFFF"
+      android:textSize="12dp" />
+    
+    <ImageView
+      android:id="@+id/trang_ca_nhan_khac_image_user_solid"
+      android:layout_width="15dp"
+      android:layout_height="17.14dp"
+      android:layout_marginLeft="36dp"
+      android:layout_marginTop="9dp"
+      android:layout_gravity="top|left"
+      android:scaleType="centerInside"
+      android:src="@drawable/trang_ca_nhan_khac_image_user_solid" />
+  </FrameLayout>
+  
+  <ImageView
+    android:id="@+id/trang_ca_nhan_khac_iv_line"
+    android:layout_width="319.01dp"
+    android:layout_height="1dp"
+    android:layout_marginLeft="36dp"
+    android:layout_marginTop="288.5dp"
+    android:layout_gravity="top|left"
+    android:scaleType="centerInside"
+    android:src="@drawable/trang_ca_nhan_khac_iv_line" />
+  
+  <TextView
+    android:id="@+id/tv_gender"
+    android:layout_width="wrap_content"
+    android:layout_height="20dp"
+    android:layout_marginLeft="76dp"
+    android:layout_marginTop="306dp"
+    android:layout_marginBottom="-1dp"
+    android:layout_gravity="top|left"
+    android:gravity="left|center_vertical"
+    android:includeFontPadding="false"
+    android:maxLines="1"
+    android:singleLine="true"
+    android:text="Nam"
+    android:textColor="#FF000000"
+    android:textSize="15dp" />
+  
+  <TextView
+    android:id="@+id/tv_location"
+    android:layout_width="wrap_content"
+    android:layout_height="20dp"
+    android:layout_marginLeft="76dp"
+    android:layout_marginTop="335dp"
+    android:layout_marginBottom="-1dp"
+    android:layout_gravity="top|left"
+    android:gravity="left|center_vertical"
+    android:includeFontPadding="false"
+    android:maxLines="1"
+    android:singleLine="true"
+    android:text="Hải Phòng"
+    android:textColor="#FF000000"
+    android:textSize="15dp" />
+  
+  <ImageView
+    android:id="@+id/trang_ca_nhan_khac_ic_house_solid"
+    android:layout_width="20dp"
+    android:layout_height="17.78dp"
+    android:layout_marginLeft="47dp"
+    android:layout_marginTop="334dp"
+    android:layout_gravity="top|left"
+    android:scaleType="centerInside"
+    android:src="@drawable/trang_ca_nhan_khac_ic_house_solid" />
+  
+  <ImageView
+    android:id="@+id/trang_ca_nhan_khac_iv_rectangle1"
+    android:layout_width="100dp"
+    android:layout_height="100dp"
+    android:layout_marginLeft="42dp"
+    android:layout_marginTop="370dp"
+    android:layout_gravity="top|left"
+    android:scaleType="centerInside"
+    android:src="@drawable/trang_ca_nhan_khac_iv_rectangle1" />
+  
+  <ImageView
+    android:id="@+id/trang_ca_nhan_khac_iv_rectangle2"
+    android:layout_width="100dp"
+    android:layout_height="100dp"
+    android:layout_marginLeft="146dp"
+    android:layout_marginTop="370dp"
+    android:layout_gravity="top|left"
+    android:scaleType="centerInside"
+    android:src="@drawable/trang_ca_nhan_khac_iv_rectangle2" />
+  
+  <ImageView
+    android:id="@+id/trang_ca_nhan_khac_iv_rectangle3"
+    android:layout_width="100dp"
+    android:layout_height="100dp"
+    android:layout_marginLeft="250dp"
+    android:layout_marginTop="370dp"
+    android:layout_gravity="top|left"
+    android:scaleType="centerInside"
+    android:src="@drawable/trang_ca_nhan_khac_iv_rectangle3" />
+  
+  <FrameLayout
+    android:id="@+id/trang_ca_nhan_khac_container_group6"
+    android:layout_width="393dp"
+    android:layout_height="230dp"
+    android:layout_marginTop="497dp"
+    android:layout_gravity="top|left">
+    
+    <ImageView
+      android:id="@+id/trang_ca_nhan_khac_image_rectangle3"
+      android:layout_width="match_parent"
+      android:layout_height="match_parent"
+      android:background="@drawable/trang_ca_nhan_khac_image_rectangle3"
+      android:scaleType="centerCrop" />
+    
+    <TextView
+      android:id="@+id/text_recent_activity"
+      android:layout_width="120.08dp"
+      android:layout_height="16dp"
+      android:layout_marginLeft="21.83dp"
+      android:layout_marginTop="12.5dp"
+      android:layout_marginBottom="-0.5dp"
+      android:layout_gravity="top|left"
+      android:gravity="left|center_vertical"
+      android:includeFontPadding="false"
+      android:maxLines="1"
+      android:singleLine="true"
+      android:text="Hoạt động gần đây"
+      android:textColor="#FF737373"
+      android:textSize="12dp" />
+  </FrameLayout>
+  
+  <ImageView
+    android:id="@+id/trang_ca_nhan_khac_image_mars_solid"
+    android:layout_width="18dp"
+    android:layout_height="20.57dp"
+    android:layout_marginLeft="49dp"
+    android:layout_marginTop="306dp"
+    android:layout_gravity="top|left"
+    android:scaleType="centerInside"
+    android:src="@drawable/trang_ca_nhan_khac_image_mars_solid" />
+</FrameLayout>

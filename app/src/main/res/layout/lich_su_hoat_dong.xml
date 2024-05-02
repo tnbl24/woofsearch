@@ -1,0 +1,298 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<FrameLayout
+  xmlns:android="http://schemas.android.com/apk/res/android"
+  xmlns:app="http://schemas.android.com/apk/res-auto"
+  xmlns:tools="http://schemas.android.com/tools"
+  android:id="@+id/layer_history_activity"
+  android:layout_width="match_parent"
+  android:layout_height="807dp"
+  android:background="@drawable/layer_history_activity">
+
+  <FrameLayout
+    android:id="@+id/lich_su_hoat_dong_container_group3"
+    android:layout_width="358dp"
+    android:layout_height="76.86dp"
+    android:layout_marginLeft="10dp"
+    android:layout_marginTop="115dp"
+    android:layout_gravity="top|left">
+    
+    <FrameLayout
+      android:id="@+id/lich_su_hoat_dong_container_subgroup"
+      android:layout_width="75dp"
+      android:layout_height="match_parent"
+      android:layout_marginTop="5dp"
+      android:layout_gravity="left">
+      
+      <ImageView
+        android:id="@+id/lich_su_hoat_dong_image_ellipse"
+        android:layout_width="59dp"
+        android:layout_height="59dp"
+        android:layout_marginLeft="8dp"
+        android:layout_marginRight="8dp"
+        android:layout_marginTop="6dp"
+        android:layout_gravity="top"
+        android:background="@drawable/lich_su_hoat_dong_image_ellipse"
+        android:scaleType="centerInside" />
+      
+      <ImageView
+        android:id="@+id/lich_su_hoat_dong_image_snapedit"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:scaleType="centerCrop"
+        android:src="@drawable/lich_su_hoat_dong_image_snapedit" />
+    </FrameLayout>
+    
+    <TextView
+      android:id="@+id/text_time"
+      android:layout_width="wrap_content"
+      android:layout_height="17dp"
+      android:layout_marginLeft="93dp"
+      android:layout_marginTop="57dp"
+      android:layout_marginBottom="2.86dp"
+      android:layout_gravity="left"
+      android:gravity="left|center_vertical"
+      android:includeFontPadding="false"
+      android:maxLines="1"
+      android:singleLine="true"
+      android:text="10 phút trước"
+      android:textColor="#FF000000"
+      android:textSize="13dp" />
+    
+    <TextView
+      android:id="@+id/text_comment"
+      android:layout_width="242dp"
+      android:layout_height="47dp"
+      android:layout_marginLeft="93dp"
+      android:layout_marginRight="23dp"
+      android:layout_marginTop="11dp"
+      android:layout_gravity="top"
+      android:gravity="left|top"
+      android:includeFontPadding="false"
+      android:lineHeight="21.09dp"
+      android:text="Bạn đã bình luận bài viết của Anh Nguyễn: Tôi..."
+      android:textColor="#FF000000"
+      android:textSize="18dp" />
+    
+    <TextView
+      android:id="@+id/text_ellipsis"
+      android:layout_width="match_parent"
+      android:layout_height="23dp"
+      android:layout_marginLeft="343dp"
+      android:layout_marginTop="-1dp"
+      android:layout_marginBottom="-1dp"
+      android:layout_gravity="top"
+      android:gravity="left|center_vertical"
+      android:includeFontPadding="false"
+      android:maxLines="1"
+      android:singleLine="true"
+      android:text="..."
+      android:textColor="#FF000000"
+      android:textSize="18dp" />
+  </FrameLayout>
+  
+  <FrameLayout
+    android:id="@+id/lich_su_hoat_dong_container_group4"
+    android:layout_width="358dp"
+    android:layout_height="76.86dp"
+    android:layout_marginLeft="10dp"
+    android:layout_marginTop="291dp"
+    android:layout_gravity="top|left">
+    
+    <FrameLayout
+      android:id="@+id/lich_su_hoat_dong_container_group5"
+      android:layout_width="75dp"
+      android:layout_height="match_parent"
+      android:layout_marginTop="5dp"
+      android:layout_gravity="left">
+      
+      <ImageView
+        android:id="@+id/lich_su_hoat_dong_image_ellipse1"
+        android:layout_width="59dp"
+        android:layout_height="59dp"
+        android:layout_marginLeft="8dp"
+        android:layout_marginRight="8dp"
+        android:layout_marginTop="6dp"
+        android:layout_gravity="top"
+        android:background="@drawable/lich_su_hoat_dong_image_ellipse1"
+        android:scaleType="centerInside" />
+      
+      <ImageView
+        android:id="@+id/lich_su_hoat_dong_image_snapedit1"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:scaleType="centerCrop"
+        android:src="@drawable/lich_su_hoat_dong_image_snapedit1" />
+    </FrameLayout>
+    
+    <TextView
+      android:id="@+id/text_time1"
+      android:layout_width="wrap_content"
+      android:layout_height="17dp"
+      android:layout_marginLeft="93dp"
+      android:layout_marginTop="57dp"
+      android:layout_marginBottom="2.86dp"
+      android:layout_gravity="left"
+      android:gravity="left|center_vertical"
+      android:includeFontPadding="false"
+      android:maxLines="1"
+      android:singleLine="true"
+      android:text="10 phút trước"
+      android:textColor="#FF000000"
+      android:textSize="13dp" />
+    
+    <TextView
+      android:id="@+id/text_reply"
+      android:layout_width="233dp"
+      android:layout_height="47dp"
+      android:layout_marginLeft="93dp"
+      android:layout_marginRight="32dp"
+      android:layout_marginTop="11dp"
+      android:layout_gravity="top"
+      android:gravity="left|top"
+      android:includeFontPadding="false"
+      android:lineHeight="21.09dp"
+      android:text="Bạn đã trả lời bình luận của Anh Nguyễn: Bạn cần ..."
+      android:textColor="#FF000000"
+      android:textSize="18dp" />
+    
+    <TextView
+      android:id="@+id/text_ellipsis1"
+      android:layout_width="match_parent"
+      android:layout_height="23dp"
+      android:layout_marginLeft="343dp"
+      android:layout_marginTop="-1dp"
+      android:layout_marginBottom="-1dp"
+      android:layout_gravity="top"
+      android:gravity="left|center_vertical"
+      android:includeFontPadding="false"
+      android:maxLines="1"
+      android:singleLine="true"
+      android:text="..."
+      android:textColor="#FF000000"
+      android:textSize="18dp" />
+  </FrameLayout>
+  
+  <FrameLayout
+    android:id="@+id/lich_su_hoat_dong_container_group6"
+    android:layout_width="356dp"
+    android:layout_height="76.86dp"
+    android:layout_marginLeft="10dp"
+    android:layout_marginTop="203dp"
+    android:layout_gravity="top|left">
+    
+    <FrameLayout
+      android:id="@+id/lich_su_hoat_dong_container_group7"
+      android:layout_width="75dp"
+      android:layout_height="match_parent"
+      android:layout_marginTop="5dp"
+      android:layout_gravity="left">
+      
+      <ImageView
+        android:id="@+id/lich_su_hoat_dong_image_ellipse2"
+        android:layout_width="59dp"
+        android:layout_height="59dp"
+        android:layout_marginLeft="8dp"
+        android:layout_marginRight="8dp"
+        android:layout_marginTop="6dp"
+        android:layout_gravity="top"
+        android:background="@drawable/lich_su_hoat_dong_image_ellipse2"
+        android:scaleType="centerInside" />
+      
+      <ImageView
+        android:id="@+id/lich_su_hoat_dong_image_snapedit2"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:scaleType="centerCrop"
+        android:src="@drawable/lich_su_hoat_dong_image_snapedit2" />
+    </FrameLayout>
+    
+    <TextView
+      android:id="@+id/text_time2"
+      android:layout_width="wrap_content"
+      android:layout_height="17dp"
+      android:layout_marginLeft="93dp"
+      android:layout_marginTop="57dp"
+      android:layout_marginBottom="2.86dp"
+      android:layout_gravity="left"
+      android:gravity="left|center_vertical"
+      android:includeFontPadding="false"
+      android:maxLines="1"
+      android:singleLine="true"
+      android:text="20 phút trước"
+      android:textColor="#FF000000"
+      android:textSize="13dp" />
+    
+    <TextView
+      android:id="@+id/text_post"
+      android:layout_width="231dp"
+      android:layout_height="47dp"
+      android:layout_marginLeft="93dp"
+      android:layout_marginRight="32dp"
+      android:layout_marginTop="11dp"
+      android:layout_gravity="top"
+      android:gravity="left|top"
+      android:includeFontPadding="false"
+      android:lineHeight="21.09dp"
+      android:text="Bạn đã đăng một bài viết: Tôi muốn tìm một bé ..."
+      android:textColor="#FF000000"
+      android:textSize="18dp" />
+    
+    <TextView
+      android:id="@+id/text_ellipsis2"
+      android:layout_width="match_parent"
+      android:layout_height="23dp"
+      android:layout_marginLeft="341dp"
+      android:layout_marginTop="-1dp"
+      android:layout_marginBottom="-1dp"
+      android:layout_gravity="top"
+      android:gravity="left|center_vertical"
+      android:includeFontPadding="false"
+      android:maxLines="1"
+      android:singleLine="true"
+      android:text="..."
+      android:textColor="#FF000000"
+      android:textSize="18dp" />
+  </FrameLayout>
+  
+  <FrameLayout
+    android:id="@+id/lich_su_hoat_dong_container_group2"
+    android:layout_width="393dp"
+    android:layout_height="99dp"
+    android:layout_gravity="top|left">
+    
+    <ImageView
+      android:id="@+id/lich_su_hoat_dong_image_rectangle"
+      android:layout_width="match_parent"
+      android:layout_height="match_parent"
+      android:scaleType="centerCrop"
+      android:src="@drawable/lich_su_hoat_dong_image_rectangle" />
+    
+    <ImageView
+      android:id="@+id/lich_su_hoat_dong_image_frame"
+      android:layout_width="29.48dp"
+      android:layout_height="25dp"
+      android:layout_marginLeft="21dp"
+      android:layout_marginTop="45dp"
+      android:layout_marginBottom="29dp"
+      android:layout_gravity="left"
+      android:scaleType="centerInside"
+      android:src="@drawable/lich_su_hoat_dong_image_frame" />
+  </FrameLayout>
+  
+  <TextView
+    android:id="@+id/text_recent_activity"
+    android:layout_width="wrap_content"
+    android:layout_height="30dp"
+    android:layout_marginLeft="110dp"
+    android:layout_marginTop="43dp"
+    android:layout_marginBottom="-1dp"
+    android:layout_gravity="top|left"
+    android:gravity="left|center_vertical"
+    android:includeFontPadding="false"
+    android:maxLines="1"
+    android:singleLine="true"
+    android:text="Hoạt động gần đây"
+    android:textColor="#FFFFFFFF"
+    android:textSize="24dp" />
+</FrameLayout>

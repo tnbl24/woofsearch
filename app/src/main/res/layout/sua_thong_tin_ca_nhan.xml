@@ -1,0 +1,437 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<FrameLayout
+  xmlns:android="http://schemas.android.com/apk/res/android"
+  xmlns:app="http://schemas.android.com/apk/res-auto"
+  xmlns:tools="http://schemas.android.com/tools"
+  android:id="@+id/container_edit_personal_info"
+  android:layout_width="match_parent"
+  android:layout_height="807dp"
+  android:background="@drawable/container_edit_personal_info">
+  
+  <ImageView
+    android:id="@+id/sua_thong_tin_ca_nhan_img_rectangle"
+    android:layout_width="393dp"
+    android:layout_height="99dp"
+    android:layout_gravity="top|left"
+    android:scaleType="centerInside"
+    android:src="@drawable/sua_thong_tin_ca_nhan_img_rectangle" />
+  
+  <ImageView
+    android:id="@+id/sua_thong_tin_ca_nhan_container_frame"
+    android:layout_width="27dp"
+    android:layout_height="25dp"
+    android:layout_marginLeft="19dp"
+    android:layout_marginTop="47dp"
+    android:layout_gravity="top|left"
+    android:scaleType="centerInside"
+    android:src="@drawable/sua_thong_tin_ca_nhan_container_frame" />
+  
+  <TextView
+    android:id="@+id/text_edit_personal_info_title"
+    android:layout_width="wrap_content"
+    android:layout_height="30dp"
+    android:layout_marginLeft="77dp"
+    android:layout_marginTop="45dp"
+    android:layout_marginBottom="-1dp"
+    android:layout_gravity="top|left"
+    android:gravity="left|center_vertical"
+    android:includeFontPadding="false"
+    android:maxLines="1"
+    android:singleLine="true"
+    android:text="Sửa thông tin cá nhân"
+    android:textColor="#FFFFFFFF"
+    android:textSize="24dp" />
+  
+  <ImageView
+    android:id="@+id/sua_thong_tin_ca_nhan_img_rectangle1"
+    android:layout_width="349dp"
+    android:layout_height="206dp"
+    android:layout_marginLeft="22dp"
+    android:layout_marginTop="299dp"
+    android:layout_gravity="top|left"
+    android:background="@drawable/sua_thong_tin_ca_nhan_img_rectangle1"
+    android:scaleType="centerInside" />
+  
+  <ImageView
+    android:id="@+id/sua_thong_tin_ca_nhan_img_rectangle2"
+    android:layout_width="349dp"
+    android:layout_height="104dp"
+    android:layout_marginLeft="22dp"
+    android:layout_marginTop="545dp"
+    android:layout_gravity="top|left"
+    android:background="@drawable/sua_thong_tin_ca_nhan_img_rectangle2"
+    android:scaleType="centerInside" />
+  
+  <TextView
+    android:id="@+id/text_display_name"
+    android:layout_width="wrap_content"
+    android:layout_height="20dp"
+    android:layout_marginLeft="45dp"
+    android:layout_marginTop="315dp"
+    android:layout_marginBottom="-1dp"
+    android:layout_gravity="top|left"
+    android:gravity="left|center_vertical"
+    android:includeFontPadding="false"
+    android:maxLines="1"
+    android:singleLine="true"
+    android:text="Tên hiển thị"
+    android:textColor="#FF000000"
+    android:textSize="15dp" />
+  
+  <TextView
+    android:id="@+id/text_email"
+    android:layout_width="wrap_content"
+    android:layout_height="20dp"
+    android:layout_marginLeft="46dp"
+    android:layout_marginTop="561dp"
+    android:layout_marginBottom="-1dp"
+    android:layout_gravity="top|left"
+    android:gravity="right|center_vertical"
+    android:includeFontPadding="false"
+    android:maxLines="1"
+    android:singleLine="true"
+    android:text="Email"
+    android:textColor="#FF000000"
+    android:textSize="15dp" />
+  
+  <TextView
+    android:id="@+id/text_display_name_value"
+    android:layout_width="wrap_content"
+    android:layout_height="20dp"
+    android:layout_marginLeft="287dp"
+    android:layout_marginTop="319dp"
+    android:layout_marginBottom="-1dp"
+    android:layout_gravity="top|left"
+    android:gravity="right|center_vertical"
+    android:includeFontPadding="false"
+    android:maxLines="1"
+    android:singleLine="true"
+    android:text="Tô Cu Đa"
+    android:textColor="#FF000000"
+    android:textSize="15dp" />
+  
+  <TextView
+    android:id="@+id/text_email_value"
+    android:layout_width="wrap_content"
+    android:layout_height="20dp"
+    android:layout_marginLeft="205dp"
+    android:layout_marginTop="561dp"
+    android:layout_marginBottom="-1dp"
+    android:layout_gravity="top|left"
+    android:gravity="right|center_vertical"
+    android:includeFontPadding="false"
+    android:maxLines="1"
+    android:singleLine="true"
+    android:text="meomeo@gmail.com"
+    android:textColor="#FF000000"
+    android:textSize="15dp" />
+  
+  <TextView
+    android:id="@+id/text_gender"
+    android:layout_width="wrap_content"
+    android:layout_height="20dp"
+    android:layout_marginLeft="45dp"
+    android:layout_marginTop="366dp"
+    android:layout_marginBottom="-1dp"
+    android:layout_gravity="top|left"
+    android:gravity="left|center_vertical"
+    android:includeFontPadding="false"
+    android:maxLines="1"
+    android:singleLine="true"
+    android:text="Giới tính"
+    android:textColor="#FF000000"
+    android:textSize="15dp" />
+  
+  <TextView
+    android:id="@+id/text_address"
+    android:layout_width="wrap_content"
+    android:layout_height="20dp"
+    android:layout_marginLeft="46dp"
+    android:layout_marginTop="417dp"
+    android:layout_marginBottom="-1dp"
+    android:layout_gravity="top|left"
+    android:gravity="left|center_vertical"
+    android:includeFontPadding="false"
+    android:maxLines="1"
+    android:singleLine="true"
+    android:text="Địa chỉ"
+    android:textColor="#FF000000"
+    android:textSize="15dp" />
+  
+  <TextView
+    android:id="@+id/text_description"
+    android:layout_width="wrap_content"
+    android:layout_height="20dp"
+    android:layout_marginLeft="46dp"
+    android:layout_marginTop="468dp"
+    android:layout_marginBottom="-1dp"
+    android:layout_gravity="top|left"
+    android:gravity="left|center_vertical"
+    android:includeFontPadding="false"
+    android:maxLines="1"
+    android:singleLine="true"
+    android:text="Mô tả"
+    android:textColor="#FF000000"
+    android:textSize="15dp" />
+  
+  <TextView
+    android:id="@+id/text_phone_number"
+    android:layout_width="wrap_content"
+    android:layout_height="20dp"
+    android:layout_marginLeft="45dp"
+    android:layout_marginTop="612dp"
+    android:layout_marginBottom="-1dp"
+    android:layout_gravity="top|left"
+    android:gravity="right|center_vertical"
+    android:includeFontPadding="false"
+    android:maxLines="1"
+    android:singleLine="true"
+    android:text="Số điện thoại"
+    android:textColor="#FF000000"
+    android:textSize="15dp" />
+  
+  <TextView
+    android:id="@+id/text_male"
+    android:layout_width="wrap_content"
+    android:layout_height="20dp"
+    android:layout_marginLeft="268dp"
+    android:layout_marginTop="366dp"
+    android:layout_marginBottom="-1dp"
+    android:layout_gravity="top|left"
+    android:gravity="right|center_vertical"
+    android:includeFontPadding="false"
+    android:maxLines="1"
+    android:singleLine="true"
+    android:text="Nam"
+    android:textColor="#FF000000"
+    android:textSize="15dp" />
+  
+  <TextView
+    android:id="@+id/text_female"
+    android:layout_width="wrap_content"
+    android:layout_height="20dp"
+    android:layout_marginLeft="329dp"
+    android:layout_marginTop="366dp"
+    android:layout_marginBottom="-1dp"
+    android:layout_gravity="top|left"
+    android:gravity="left|center_vertical"
+    android:includeFontPadding="false"
+    android:maxLines="1"
+    android:singleLine="true"
+    android:text="Nữ"
+    android:textColor="#FF000000"
+    android:textSize="15dp" />
+  
+  <TextView
+    android:id="@+id/text_city"
+    android:layout_width="wrap_content"
+    android:layout_height="20dp"
+    android:layout_marginLeft="303dp"
+    android:layout_marginTop="417dp"
+    android:layout_marginBottom="-1dp"
+    android:layout_gravity="top|left"
+    android:gravity="right|center_vertical"
+    android:includeFontPadding="false"
+    android:maxLines="1"
+    android:singleLine="true"
+    android:text="Hà Nội"
+    android:textColor="#FF000000"
+    android:textSize="15dp" />
+  
+  <TextView
+    android:id="@+id/text_animal_protection_team_leader"
+    android:layout_width="wrap_content"
+    android:layout_height="20dp"
+    android:layout_marginLeft="155dp"
+    android:layout_marginTop="468dp"
+    android:layout_marginBottom="-1dp"
+    android:layout_gravity="top|left"
+    android:gravity="right|center_vertical"
+    android:includeFontPadding="false"
+    android:maxLines="1"
+    android:singleLine="true"
+    android:text="Tổ trưởng tổ bảo vệ động vật"
+    android:textColor="#FF000000"
+    android:textSize="15dp" />
+  
+  <TextView
+    android:id="@+id/text_phone_number_value"
+    android:layout_width="wrap_content"
+    android:layout_height="20dp"
+    android:layout_marginLeft="262dp"
+    android:layout_marginTop="612dp"
+    android:layout_marginBottom="-1dp"
+    android:layout_gravity="top|left"
+    android:gravity="right|center_vertical"
+    android:includeFontPadding="false"
+    android:maxLines="1"
+    android:singleLine="true"
+    android:text="0123456789"
+    android:textColor="#FF000000"
+    android:textSize="15dp" />
+  
+  <ImageView
+    android:id="@+id/sua_thong_tin_ca_nhan_container_line"
+    android:layout_width="330dp"
+    android:layout_height="1.07dp"
+    android:layout_marginLeft="31dp"
+    android:layout_marginTop="350dp"
+    android:layout_gravity="top|left"
+    android:scaleType="centerInside"
+    android:src="@drawable/sua_thong_tin_ca_nhan_container_line" />
+  
+  <ImageView
+    android:id="@+id/sua_thong_tin_ca_nhan_container_line1"
+    android:layout_width="330dp"
+    android:layout_height="1.07dp"
+    android:layout_marginLeft="32dp"
+    android:layout_marginTop="401dp"
+    android:layout_gravity="top|left"
+    android:scaleType="centerInside"
+    android:src="@drawable/sua_thong_tin_ca_nhan_container_line1" />
+  
+  <ImageView
+    android:id="@+id/sua_thong_tin_ca_nhan_container_line2"
+    android:layout_width="330dp"
+    android:layout_height="1.07dp"
+    android:layout_marginLeft="32dp"
+    android:layout_marginTop="452dp"
+    android:layout_gravity="top|left"
+    android:scaleType="centerInside"
+    android:src="@drawable/sua_thong_tin_ca_nhan_container_line2" />
+  
+  <ImageView
+    android:id="@+id/sua_thong_tin_ca_nhan_container_line3"
+    android:layout_width="330dp"
+    android:layout_height="1.07dp"
+    android:layout_marginLeft="32dp"
+    android:layout_marginTop="596dp"
+    android:layout_gravity="top|left"
+    android:scaleType="centerInside"
+    android:src="@drawable/sua_thong_tin_ca_nhan_container_line3" />
+  
+  <TextView
+    android:id="@+id/text_public_info"
+    android:layout_width="wrap_content"
+    android:layout_height="20dp"
+    android:layout_marginLeft="28dp"
+    android:layout_marginTop="277dp"
+    android:layout_marginBottom="-1dp"
+    android:layout_gravity="top|left"
+    android:gravity="right|center_vertical"
+    android:includeFontPadding="false"
+    android:maxLines="1"
+    android:singleLine="true"
+    android:text="Thông tin công khai"
+    android:textColor="#FF737373"
+    android:textSize="15dp" />
+  
+  <TextView
+    android:id="@+id/text_private_info"
+    android:layout_width="wrap_content"
+    android:layout_height="20dp"
+    android:layout_marginLeft="28dp"
+    android:layout_marginTop="520dp"
+    android:layout_marginBottom="-1dp"
+    android:layout_gravity="top|left"
+    android:gravity="right|center_vertical"
+    android:includeFontPadding="false"
+    android:maxLines="1"
+    android:singleLine="true"
+    android:text="Thông tin riêng tư"
+    android:textColor="#FF737373"
+    android:textSize="15dp" />
+  
+  <FrameLayout
+    android:id="@+id/container_group"
+    android:layout_width="120dp"
+    android:layout_height="120dp"
+    android:layout_marginLeft="137dp"
+    android:layout_marginTop="129dp"
+    android:layout_gravity="top|left">
+    
+    <ImageView
+      android:id="@+id/sua_thong_tin_ca_nhan_image_ellipse1"
+      android:layout_width="match_parent"
+      android:layout_height="match_parent"
+      android:scaleType="centerCrop"
+      android:src="@drawable/sua_thong_tin_ca_nhan_image_ellipse1" />
+    
+    <ImageView
+      android:id="@+id/sua_thong_tin_ca_nhan_image_ellipse2"
+      android:layout_width="30dp"
+      android:layout_height="30dp"
+      android:layout_marginLeft="90dp"
+      android:layout_marginTop="90dp"
+      android:background="@drawable/sua_thong_tin_ca_nhan_image_ellipse2"
+      android:scaleType="centerInside" />
+    
+    <ImageView
+      android:id="@+id/sua_thong_tin_ca_nhan_image_camera_solid"
+      android:layout_width="20dp"
+      android:layout_height="20dp"
+      android:layout_marginLeft="95dp"
+      android:layout_marginRight="5dp"
+      android:layout_marginTop="95dp"
+      android:layout_marginBottom="5dp"
+      android:scaleType="centerInside"
+      android:src="@drawable/sua_thong_tin_ca_nhan_image_camera_solid" />
+  </FrameLayout>
+  
+  <ImageView
+    android:id="@+id/sua_thong_tin_ca_nhan_img_ellipse"
+    android:layout_width="10dp"
+    android:layout_height="10dp"
+    android:layout_marginLeft="253dp"
+    android:layout_marginTop="370dp"
+    android:layout_gravity="top|left"
+    android:background="@drawable/sua_thong_tin_ca_nhan_img_ellipse"
+    android:scaleType="centerInside" />
+  
+  <ImageView
+    android:id="@+id/sua_thong_tin_ca_nhan_img_ellipse1"
+    android:layout_width="6dp"
+    android:layout_height="6dp"
+    android:layout_marginLeft="255dp"
+    android:layout_marginTop="372dp"
+    android:layout_gravity="top|left"
+    android:background="@drawable/sua_thong_tin_ca_nhan_img_ellipse1"
+    android:scaleType="centerInside" />
+  
+  <ImageView
+    android:id="@+id/sua_thong_tin_ca_nhan_img_ellipse2"
+    android:layout_width="10dp"
+    android:layout_height="10dp"
+    android:layout_marginLeft="312dp"
+    android:layout_marginTop="370dp"
+    android:layout_gravity="top|left"
+    android:background="@drawable/sua_thong_tin_ca_nhan_img_ellipse2"
+    android:scaleType="centerInside" />
+  
+  <ImageView
+    android:id="@+id/sua_thong_tin_ca_nhan_img_rectangle3"
+    android:layout_width="320dp"
+    android:layout_height="40dp"
+    android:layout_marginLeft="37dp"
+    android:layout_marginTop="716dp"
+    android:layout_gravity="top|left"
+    android:scaleType="centerInside"
+    android:src="@drawable/sua_thong_tin_ca_nhan_img_rectangle3" />
+  
+  <TextView
+    android:id="@+id/text_save"
+    android:layout_width="wrap_content"
+    android:layout_height="25dp"
+    android:layout_marginLeft="178dp"
+    android:layout_marginTop="723.5dp"
+    android:layout_marginBottom="-0.5dp"
+    android:layout_gravity="top|left"
+    android:gravity="left|center_vertical"
+    android:includeFontPadding="false"
+    android:maxLines="1"
+    android:singleLine="true"
+    android:text="Lưu"
+    android:textColor="#FFFFFFFF"
+    android:textSize="20dp" />
+</FrameLayout>

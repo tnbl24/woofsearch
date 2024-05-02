@@ -1,0 +1,100 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="393dp"
+    android:layout_height="325dp"
+    android:background="@drawable/popup_background"
+    android:layout_marginTop="500dp"
+    android:layout_centerInParent="true">
+
+    <!-- Thêm các phần tử giao diện vào đây -->
+    <!-- Ví dụ: Text, Buttons, etc. -->
+
+    <!-- Ví dụ: Text View -->
+
+    <ImageView
+        android:id="@+id/img_rectangle2"
+        android:layout_width="58.95dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="top|left"
+        android:layout_marginLeft="167.02dp"
+        android:layout_marginTop="12dp"
+        android:scaleType="centerInside"
+        android:src="@drawable/item_popup" />
+
+    <ImageView
+        android:id="@+id/container_group2"
+        android:layout_width="70dp"
+        android:layout_height="71dp"
+        android:layout_marginLeft="158.29dp"
+        android:layout_marginTop="39dp"
+        android:layout_gravity="top|left"
+        android:scaleType="centerInside"
+        android:src="@drawable/dang_theo_doi_container_group1" />
+
+    <TextView
+        android:id="@+id/tvMessage"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Trần Huỳnh đã trả lời bài viết của bạn"
+        android:gravity="center"
+        android:layout_marginTop="120dp"
+        android:textSize="18sp"
+        android:textColor="#000000" />
+
+    <TextView
+        android:id="@+id/txt_delete_notification"
+        android:layout_width="162.66dp"
+        android:layout_height="23dp"
+        android:layout_marginLeft="63.32dp"
+        android:layout_marginTop="183dp"
+        android:layout_marginBottom="119dp"
+        android:layout_gravity="left"
+        android:gravity="center_horizontal|center_vertical"
+        android:includeFontPadding="false"
+        android:maxLines="1"
+        android:singleLine="true"
+        android:text="Xóa thông báo này"
+        android:textStyle="bold"
+        android:textColor="#FF000000"
+        android:textSize="18dp" />
+
+    <TextView
+        android:id="@+id/txt_delete_notification2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="67dp"
+        android:layout_marginTop="235dp"
+        android:layout_marginBottom="119dp"
+        android:layout_gravity="left"
+        android:gravity="center_horizontal|center_vertical"
+        android:includeFontPadding="false"
+        android:maxLines="1"
+        android:singleLine="true"
+        android:text="Tắt thông báo về Trần Huỳnh"
+        android:textStyle="bold"
+        android:textColor="#FF000000"
+        android:textSize="18dp" />
+
+    <ImageView
+        android:id="@+id/img_frame"
+        android:layout_width="28dp"
+        android:layout_height="28dp"
+        android:layout_marginLeft="22dp"
+        android:layout_marginTop="181dp"
+        android:layout_marginBottom="116dp"
+        android:layout_gravity="left"
+        android:scaleType="centerInside"
+        android:src="@drawable/img_thungrac" />
+
+    <ImageView
+        android:id="@+id/img_person_delete_filled"
+        android:layout_width="32dp"
+        android:layout_height="32dp"
+        android:layout_marginLeft="22dp"
+        android:layout_marginTop="235dp"
+        android:layout_marginBottom="58dp"
+        android:layout_gravity="left"
+        android:scaleType="centerInside"
+        android:src="@drawable/img_unfriend" />
+
+
+</RelativeLayout>

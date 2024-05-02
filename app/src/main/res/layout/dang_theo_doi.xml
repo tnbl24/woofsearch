@@ -1,0 +1,444 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<FrameLayout
+  xmlns:android="http://schemas.android.com/apk/res/android"
+  xmlns:app="http://schemas.android.com/apk/res-auto"
+  xmlns:tools="http://schemas.android.com/tools"
+  android:id="@+id/dang_theo_doi_container_following"
+  android:layout_width="match_parent"
+  android:layout_height="807dp"
+  android:background="@drawable/dang_theo_doi_container_following">
+
+  <ImageView
+    android:id="@+id/dang_theo_doi_img_group"
+    android:layout_width="393dp"
+    android:layout_height="127dp"
+    android:layout_gravity="top|left"
+    android:scaleType="centerInside"
+    android:src="@drawable/dang_theo_doi_img_group" />
+
+  <FrameLayout
+      android:id="@+id/dang_theo_doi_container_group2"
+      android:layout_width="362dp"
+      android:layout_height="75dp"
+      android:layout_gravity="top|left"
+      android:layout_marginLeft="14dp"
+      android:layout_marginTop="300dp">
+
+    <ImageView
+        android:id="@+id/line"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginLeft="2dp"
+        android:layout_marginTop="75dp"
+        android:scaleType="centerCrop"
+        android:src="@drawable/line" />
+
+    <TextView
+        android:id="@+id/text_minh"
+        android:layout_width="47dp"
+        android:layout_height="23dp"
+        android:layout_gravity="top|left"
+        android:layout_marginLeft="79dp"
+        android:layout_marginTop="25dp"
+        android:layout_marginBottom="-3dp"
+        android:gravity="left|center_vertical"
+        android:includeFontPadding="false"
+        android:maxLines="1"
+        android:singleLine="true"
+        android:text="Minh"
+        android:textColor="#FF000000"
+        android:textSize="18dp" />
+
+    <ImageView
+        android:id="@+id/image"
+        android:layout_width="20dp"
+        android:layout_height="20dp"
+        android:layout_gravity="top"
+        android:layout_marginLeft="331dp"
+        android:layout_marginRight="11dp"
+        android:scaleType="centerInside"
+        android:src="@drawable/image" />
+
+    <FrameLayout
+        android:id="@+id/dang_theo_doi_container_group3"
+        android:layout_width="59dp"
+        android:layout_height="67dp"
+        android:layout_gravity="top|left">
+
+      <ImageView
+          android:id="@+id/dang_theo_doi_image_ellipse1"
+          android:layout_width="59dp"
+          android:layout_height="60dp"
+          android:layout_marginTop="7dp"
+          android:scaleType="centerInside"
+          android:src="@drawable/dang_theo_doi_image_ellipse1" />
+
+      <ImageView
+          android:id="@+id/dang_theo_doi_image_ellipse2"
+          android:layout_width="16dp"
+          android:layout_height="16dp"
+          android:layout_gravity="top"
+          android:layout_marginLeft="39dp"
+          android:layout_marginRight="4dp"
+          android:background="@drawable/dang_theo_doi_image_ellipse2"
+          android:scaleType="centerInside" />
+    </FrameLayout>
+  </FrameLayout>
+
+  <FrameLayout
+      android:id="@+id/dang_theo_doi_container_group14"
+      android:layout_width="362dp"
+      android:layout_height="75dp"
+      android:layout_gravity="top|left"
+      android:layout_marginLeft="14dp"
+      android:layout_marginTop="220dp">
+
+    <ImageView
+        android:id="@+id/dang_theo_doi_container_line4"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginLeft="2dp"
+        android:layout_marginTop="75dp"
+        android:scaleType="centerCrop"
+        android:src="@drawable/dang_theo_doi_container_line4" />
+
+    <TextView
+        android:id="@+id/text_tran_huynh4"
+        android:layout_width="104dp"
+        android:layout_height="23dp"
+        android:layout_gravity="top|left"
+        android:layout_marginLeft="74dp"
+        android:layout_marginTop="25dp"
+        android:layout_marginBottom="-3dp"
+        android:gravity="left|center_vertical"
+        android:includeFontPadding="false"
+        android:maxLines="1"
+        android:singleLine="true"
+        android:text="Trần Huỳnh "
+        android:textColor="#FF000000"
+        android:textSize="18dp" />
+
+    <FrameLayout
+        android:id="@+id/dang_theo_doi_container_group15"
+        android:layout_width="match_parent"
+        android:layout_height="34dp"
+        android:layout_gravity="top"
+        android:layout_marginLeft="216dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginRight="36dp"
+        android:background="@drawable/dang_theo_doi_container_group15">
+
+      <ImageView
+          android:id="@+id/dang_theo_doi_image_rectangle5"
+          android:layout_width="match_parent"
+          android:layout_height="match_parent"
+          android:scaleType="centerCrop"
+          android:src="@drawable/dang_theo_doi_image_rectangle5" />
+
+      <TextView
+          android:id="@+id/text_dang_follow2"
+          android:layout_width="match_parent"
+          android:layout_height="24dp"
+          android:layout_marginLeft="6dp"
+          android:layout_marginTop="5dp"
+          android:layout_marginRight="5dp"
+          android:layout_marginBottom="5dp"
+          android:gravity="left|center_vertical"
+          android:includeFontPadding="false"
+          android:maxLines="1"
+          android:singleLine="true"
+          android:text="Đang Follow"
+          android:textColor="#FF000000"
+          android:textSize="18dp" />
+    </FrameLayout>
+
+    <ImageView
+        android:id="@+id/dang_theo_doi_image_image2"
+        android:layout_width="20dp"
+        android:layout_height="20dp"
+        android:layout_gravity="top"
+        android:layout_marginLeft="331dp"
+        android:layout_marginRight="11dp"
+        android:scaleType="centerInside"
+        android:src="@drawable/dang_theo_doi_image_image2" />
+
+    <ImageView
+        android:id="@+id/dang_theo_doi_image_ellipse7"
+        android:layout_width="59dp"
+        android:layout_height="60dp"
+        android:layout_gravity="left"
+        android:layout_marginTop="8dp"
+        android:layout_marginBottom="7dp"
+        android:scaleType="centerInside"
+        android:src="@drawable/dang_theo_doi_image_ellipse7" />
+  </FrameLayout>
+
+  <FrameLayout
+      android:id="@+id/dang_theo_doi_container_group20"
+      android:layout_width="361dp"
+      android:layout_height="75dp"
+      android:layout_gravity="top|left"
+      android:layout_marginLeft="14dp"
+      android:layout_marginTop="140dp">
+
+    <ImageView
+        android:id="@+id/dang_theo_doi_container_line6"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginLeft="1dp"
+        android:layout_marginTop="75dp"
+        android:scaleType="centerCrop"
+        android:src="@drawable/dang_theo_doi_container_line6" />
+
+    <TextView
+        android:id="@+id/text_tran_huynh5"
+        android:layout_width="104dp"
+        android:layout_height="23dp"
+        android:layout_gravity="top|left"
+        android:layout_marginLeft="73dp"
+        android:layout_marginTop="25dp"
+        android:layout_marginBottom="-3dp"
+        android:gravity="left|center_vertical"
+        android:includeFontPadding="false"
+        android:maxLines="1"
+        android:singleLine="true"
+        android:text="Trần Huỳnh "
+        android:textColor="#FF000000"
+        android:textSize="18dp" />
+
+    <FrameLayout
+        android:id="@+id/dang_theo_doi_container_group21"
+        android:layout_width="59dp"
+        android:layout_height="66.64dp"
+        android:layout_gravity="top|left">
+
+      <ImageView
+          android:id="@+id/dang_theo_doi_image_ellipse8"
+          android:layout_width="59dp"
+          android:layout_height="60dp"
+          android:layout_marginTop="6.64dp"
+          android:layout_marginBottom="0dp"
+          android:scaleType="centerInside"
+          android:src="@drawable/dang_theo_doi_image_ellipse8" />
+
+      <ImageView
+          android:id="@+id/dang_theo_doi_image_ellipse9"
+          android:layout_width="16dp"
+          android:layout_height="16dp"
+          android:layout_gravity="top"
+          android:layout_marginLeft="37.09dp"
+          android:layout_marginRight="5.91dp"
+          android:background="@drawable/dang_theo_doi_image_ellipse9"
+          android:scaleType="centerInside" />
+    </FrameLayout>
+
+    <FrameLayout
+        android:id="@+id/dang_theo_doi_container_group22"
+        android:layout_width="match_parent"
+        android:layout_height="34dp"
+        android:layout_gravity="top"
+        android:layout_marginLeft="215dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginRight="36dp"
+        android:background="@drawable/dang_theo_doi_container_group22">
+
+      <ImageView
+          android:id="@+id/dang_theo_doi_image_rectangle7"
+          android:layout_width="match_parent"
+          android:layout_height="match_parent"
+          android:scaleType="centerCrop"
+          android:src="@drawable/dang_theo_doi_image_rectangle7" />
+
+      <TextView
+          android:id="@+id/text_ban_be2"
+          android:layout_width="wrap_content"
+          android:layout_height="23dp"
+          android:layout_gravity="top|left"
+          android:layout_marginLeft="26dp"
+          android:layout_marginTop="5dp"
+          android:layout_marginBottom="-1dp"
+          android:gravity="left|center_vertical"
+          android:includeFontPadding="false"
+          android:maxLines="1"
+          android:singleLine="true"
+          android:text="Bạn bè"
+          android:textColor="#FF000000"
+          android:textSize="18dp" />
+    </FrameLayout>
+
+    <ImageView
+        android:id="@+id/dang_theo_doi_image_image3"
+        android:layout_width="20dp"
+        android:layout_height="20dp"
+        android:layout_gravity="top"
+        android:layout_marginLeft="330dp"
+        android:layout_marginRight="11dp"
+        android:scaleType="centerInside"
+        android:src="@drawable/dang_theo_doi_image_image3" />
+  </FrameLayout>
+
+  <FrameLayout
+    android:id="@+id/dang_theo_doi_container_group11"
+    android:layout_width="110dp"
+    android:layout_height="34dp"
+    android:layout_marginLeft="230dp"
+    android:layout_marginTop="300dp"
+    android:layout_gravity="top|left"
+    android:background="@drawable/dang_theo_doi_container_group11">
+
+    <ImageView
+        android:id="@+id/dang_theo_doi_image_rectangle2"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:scaleType="centerCrop"
+        android:src="@drawable/dang_theo_doi_image_rectangle2" />
+
+    <TextView
+      android:id="@+id/text_ban_be"
+      android:layout_width="wrap_content"
+      android:layout_height="23dp"
+      android:layout_marginLeft="22dp"
+      android:layout_marginTop="5dp"
+      android:layout_marginBottom="-1dp"
+      android:layout_gravity="top|left"
+      android:gravity="left|center_vertical"
+      android:includeFontPadding="false"
+      android:maxLines="1"
+      android:singleLine="true"
+      android:text="Bạn bè"
+      android:textColor="#FF000000"
+      android:textSize="18dp" />
+  </FrameLayout>
+
+  <FrameLayout
+    android:id="@+id/dang_theo_doi_container_group16"
+    android:layout_width="244dp"
+    android:layout_height="32dp"
+    android:layout_marginLeft="58dp"
+    android:layout_marginTop="46dp"
+    android:layout_gravity="top|left">
+    
+    <FrameLayout
+      android:id="@+id/dang_theo_doi_container_group17"
+      android:layout_width="135.79dp"
+      android:layout_height="match_parent"
+      android:layout_gravity="left">
+      
+      <TextView
+        android:id="@+id/text_dang_follow3"
+        android:layout_width="wrap_content"
+        android:layout_height="30dp"
+        android:layout_marginTop="-1dp"
+        android:layout_marginBottom="-1dp"
+        android:layout_gravity="top|left"
+        android:gravity="left|center_vertical"
+        android:includeFontPadding="false"
+        android:maxLines="1"
+        android:singleLine="true"
+        android:text="Đang Follow"
+        android:textColor="#FFFFFFFF"
+        android:textSize="24dp" />
+      
+      <ImageView
+        android:id="@+id/dang_theo_doi_container_line5"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginLeft="1.02dp"
+        android:layout_marginRight="0dp"
+        android:layout_marginTop="32dp"
+        android:scaleType="centerCrop"
+        android:src="@drawable/dang_theo_doi_container_line5" />
+    </FrameLayout>
+    
+    <TextView
+      android:id="@+id/text_follow"
+      android:layout_width="match_parent"
+      android:layout_height="25dp"
+      android:layout_marginLeft="183.77dp"
+      android:layout_marginRight="0dp"
+      android:layout_marginTop="4dp"
+      android:layout_marginBottom="3dp"
+      android:gravity="left|center_vertical"
+      android:includeFontPadding="false"
+      android:maxLines="1"
+      android:singleLine="true"
+      android:text="Follow"
+      android:textColor="#FFFFFFFF"
+      android:textSize="20dp" />
+  </FrameLayout>
+  
+  <FrameLayout
+    android:id="@+id/dang_theo_doi_container_group18"
+    android:layout_width="393dp"
+    android:layout_height="73dp"
+    android:layout_gravity="bottom">
+    
+    <ImageView
+      android:id="@+id/dang_theo_doi_image_rectangle6"
+      android:layout_width="match_parent"
+      android:layout_height="match_parent"
+      android:background="@drawable/dang_theo_doi_image_rectangle6"
+      android:scaleType="centerCrop" />
+    
+    <ImageView
+      android:id="@+id/dang_theo_doi_image_frame"
+      android:layout_width="40dp"
+      android:layout_height="40dp"
+      android:layout_marginLeft="222dp"
+      android:layout_marginRight="131dp"
+      android:layout_marginTop="5dp"
+      android:layout_marginBottom="28dp"
+      android:scaleType="centerInside"
+      android:src="@drawable/dang_theo_doi_image_frame" />
+    
+    <TextView
+      android:id="@+id/text_ban_be1"
+      android:layout_width="match_parent"
+      android:layout_height="21dp"
+      android:layout_marginLeft="218dp"
+      android:layout_marginRight="126dp"
+      android:layout_marginTop="48dp"
+      android:layout_marginBottom="4dp"
+      android:gravity="left|center_vertical"
+      android:includeFontPadding="false"
+      android:maxLines="1"
+      android:singleLine="true"
+      android:text="Bạn bè"
+      android:textColor="#FF73C6FF"
+      android:textSize="16dp" />
+    
+    <ImageView
+      android:id="@+id/dang_theo_doi_image_frame1"
+      android:layout_width="40dp"
+      android:layout_height="40dp"
+      android:layout_marginLeft="316dp"
+      android:layout_marginRight="37dp"
+      android:layout_marginBottom="16dp"
+      android:layout_gravity="bottom"
+      android:scaleType="centerInside"
+      android:src="@drawable/dang_theo_doi_image_frame1" />
+    
+    <ImageView
+      android:id="@+id/dang_theo_doi_image_frame2"
+      android:layout_width="40dp"
+      android:layout_height="40dp"
+      android:layout_marginLeft="29dp"
+      android:layout_marginTop="16dp"
+      android:layout_marginBottom="17dp"
+      android:layout_gravity="left"
+      android:scaleType="centerInside"
+      android:src="@drawable/dang_theo_doi_image_frame2" />
+    
+    <ImageView
+      android:id="@+id/dang_theo_doi_container_group19"
+      android:layout_width="40dp"
+      android:layout_height="40dp"
+      android:layout_marginLeft="128dp"
+      android:layout_marginTop="16dp"
+      android:layout_marginBottom="17dp"
+      android:layout_gravity="left"
+      android:scaleType="centerInside"
+      android:src="@drawable/dang_theo_doi_container_group19" />
+  </FrameLayout>
+</FrameLayout>

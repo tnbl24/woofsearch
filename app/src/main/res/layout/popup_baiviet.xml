@@ -1,0 +1,81 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="393dp"
+    android:layout_height="147dp"
+    android:background="@drawable/popup_background"
+    android:layout_marginTop="670dp"
+    android:layout_centerInParent="true">
+
+    <!-- Thêm các phần tử giao diện vào đây -->
+    <!-- Ví dụ: Text, Buttons, etc. -->
+
+    <!-- Ví dụ: Text View -->
+
+    <ImageView
+        android:id="@+id/img_rectangle2"
+        android:layout_width="57dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="top|left"
+        android:layout_marginLeft="167.02dp"
+        android:layout_marginTop="12dp"
+        android:scaleType="centerInside"
+        android:src="@drawable/item_popup" />
+
+
+    <TextView
+        android:id="@+id/txt_delete_notification"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="65dp"
+        android:layout_marginTop="50dp"
+        android:layout_marginBottom="119dp"
+        android:layout_gravity="left"
+        android:gravity="center_horizontal|center_vertical"
+        android:includeFontPadding="false"
+        android:maxLines="1"
+        android:singleLine="true"
+        android:text="Xóa bài viết"
+        android:textStyle="bold"
+        android:textColor="#FF000000"
+        android:textSize="18dp" />
+
+    <TextView
+        android:id="@+id/txt_delete_notification2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="67dp"
+        android:layout_marginTop="100dp"
+        android:layout_marginBottom="119dp"
+        android:layout_gravity="left"
+        android:gravity="center_horizontal|center_vertical"
+        android:includeFontPadding="false"
+        android:maxLines="1"
+        android:singleLine="true"
+        android:text="Chỉnh sửa bài viết"
+        android:textStyle="bold"
+        android:textColor="#FF000000"
+        android:textSize="18dp" />
+
+    <ImageView
+        android:id="@+id/img_frame"
+        android:layout_width="28dp"
+        android:layout_height="28dp"
+        android:layout_marginLeft="22dp"
+        android:layout_marginTop="50dp"
+        android:layout_marginBottom="116dp"
+        android:layout_gravity="left"
+        android:scaleType="centerInside"
+        android:src="@drawable/img_thungrac" />
+
+    <ImageView
+        android:id="@+id/img_person_delete_filled"
+        android:layout_width="32dp"
+        android:layout_height="32dp"
+        android:layout_marginLeft="22dp"
+        android:layout_marginTop="95dp"
+        android:layout_marginBottom="58dp"
+        android:layout_gravity="left"
+        android:scaleType="centerInside"
+        android:src="@drawable/popup_edit" />
+
+
+</RelativeLayout>

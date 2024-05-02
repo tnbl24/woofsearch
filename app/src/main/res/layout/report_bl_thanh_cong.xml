@@ -1,0 +1,458 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<FrameLayout
+  xmlns:android="http://schemas.android.com/apk/res/android"
+  xmlns:app="http://schemas.android.com/apk/res-auto"
+  xmlns:tools="http://schemas.android.com/tools"
+  android:id="@+id/report_bl_thanh_cong_container_bao_cao_binh_luan_thanh_cong"
+  android:layout_width="match_parent"
+  android:layout_height="807dp"
+  android:background="@drawable/report_bl_thanh_cong_container_bao_cao_binh_luan_thanh_cong">
+  
+  <ImageView
+    android:id="@+id/report_bl_thanh_cong_container_group"
+    android:layout_width="393dp"
+    android:layout_height="76dp"
+    android:layout_gravity="top|left"
+    android:scaleType="centerInside"
+    android:src="@drawable/report_bl_thanh_cong_container_group" />
+  
+  <TextView
+    android:id="@+id/text_bai_viet_cua_name"
+    android:layout_width="wrap_content"
+    android:layout_height="32dp"
+    android:layout_marginTop="37dp"
+    android:layout_marginBottom="-1dp"
+    android:layout_gravity="center_horizontal"
+    android:gravity="center_horizontal|center_vertical"
+    android:includeFontPadding="false"
+    android:maxLines="1"
+    android:singleLine="true"
+    android:text="Bài viết của Name"
+    android:textColor="#FFFFFFFF"
+    android:textSize="26dp" />
+  
+  <ImageView
+    android:id="@+id/report_bl_thanh_cong_image_rectangle"
+    android:layout_width="305dp"
+    android:layout_height="51dp"
+    android:layout_marginLeft="12dp"
+    android:layout_marginTop="736dp"
+    android:layout_gravity="top|left"
+    android:background="@drawable/report_bl_thanh_cong_image_rectangle"
+    android:scaleType="centerInside" />
+  
+  <ImageView
+    android:id="@+id/report_bl_thanh_cong_image_rectangle1"
+    android:layout_width="53dp"
+    android:layout_height="51dp"
+    android:layout_marginLeft="325dp"
+    android:layout_marginTop="736dp"
+    android:layout_gravity="top|left"
+    android:background="@drawable/report_bl_thanh_cong_image_rectangle1"
+    android:scaleType="centerInside" />
+  
+  <ImageView
+    android:id="@+id/report_bl_thanh_cong_container_frame"
+    android:layout_width="27dp"
+    android:layout_height="25dp"
+    android:layout_marginLeft="19dp"
+    android:layout_marginTop="41dp"
+    android:layout_gravity="top|left"
+    android:scaleType="centerInside"
+    android:src="@drawable/report_bl_thanh_cong_container_frame" />
+  
+  <FrameLayout
+    android:id="@+id/report_bl_thanh_cong_container_group3"
+    android:layout_width="178dp"
+    android:layout_height="54.23dp"
+    android:layout_marginLeft="14dp"
+    android:layout_marginTop="107dp"
+    android:layout_gravity="top|left">
+    
+    <ImageView
+      android:id="@+id/report_bl_thanh_cong_image_snapedit1"
+      android:layout_width="49dp"
+      android:layout_height="41dp"
+      android:layout_marginLeft="3dp"
+      android:layout_gravity="top|left"
+      android:scaleType="centerInside"
+      android:src="@drawable/report_bl_thanh_cong_image_snapedit1" />
+    
+    <TextView
+      android:id="@+id/text_name"
+      android:layout_width="match_parent"
+      android:layout_height="25dp"
+      android:layout_marginLeft="65dp"
+      android:layout_marginTop="4dp"
+      android:layout_marginBottom="-2dp"
+      android:layout_gravity="top"
+      android:gravity="left|center_vertical"
+      android:includeFontPadding="false"
+      android:maxLines="1"
+      android:singleLine="true"
+      android:text="Name"
+      android:textColor="#FF000000"
+      android:textSize="20dp" />
+    
+    <TextView
+      android:id="@+id/text_time"
+      android:layout_width="match_parent"
+      android:layout_height="15dp"
+      android:layout_marginLeft="65dp"
+      android:layout_marginRight="30dp"
+      android:layout_marginTop="28dp"
+      android:layout_marginBottom="11.23dp"
+      android:gravity="left|center_vertical"
+      android:includeFontPadding="false"
+      android:maxLines="1"
+      android:singleLine="true"
+      android:text="4 giờ trước"
+      android:textColor="#FF000000"
+      android:textSize="11dp" />
+    
+    <ImageView
+      android:id="@+id/report_bl_thanh_cong_image_ellipse1"
+      android:layout_width="58dp"
+      android:layout_height="54.23dp"
+      android:layout_marginTop="0dp"
+      android:layout_marginBottom="0dp"
+      android:layout_gravity="left"
+      android:scaleType="centerInside"
+      android:src="@drawable/report_bl_thanh_cong_image_ellipse1" />
+  </FrameLayout>
+  
+  <FrameLayout
+    android:id="@+id/report_bl_thanh_cong_container_group1"
+    android:layout_width="50dp"
+    android:layout_height="50dp"
+    android:layout_marginLeft="11dp"
+    android:layout_marginTop="491dp"
+    android:layout_gravity="top|left">
+    
+    <ImageView
+      android:id="@+id/report_bl_thanh_cong_image_snapedit"
+      android:layout_width="43.3dp"
+      android:layout_height="38.21dp"
+      android:layout_marginLeft="2.02dp"
+      android:layout_gravity="top|left"
+      android:scaleType="centerInside"
+      android:src="@drawable/report_bl_thanh_cong_image_snapedit" />
+    
+    <ImageView
+      android:id="@+id/report_bl_thanh_cong_image_ellipse"
+      android:layout_width="50dp"
+      android:layout_height="49.45dp"
+      android:layout_marginLeft="0dp"
+      android:layout_marginRight="0dp"
+      android:layout_marginTop="0.55dp"
+      android:layout_marginBottom="0dp"
+      android:scaleType="centerInside"
+      android:src="@drawable/report_bl_thanh_cong_image_ellipse" />
+  </FrameLayout>
+  
+  <ImageView
+    android:id="@+id/report_bl_thanh_cong_container_line"
+    android:layout_width="345dp"
+    android:layout_height="1.06dp"
+    android:layout_marginLeft="20dp"
+    android:layout_marginTop="476dp"
+    android:layout_gravity="top|left"
+    android:scaleType="centerInside"
+    android:src="@drawable/report_bl_thanh_cong_container_line" />
+  
+  <TextView
+    android:id="@+id/text_noi_dung_cua_bai_viet"
+    android:layout_width="wrap_content"
+    android:layout_height="20dp"
+    android:layout_marginLeft="17dp"
+    android:layout_marginTop="171dp"
+    android:layout_marginBottom="-1dp"
+    android:layout_gravity="top|left"
+    android:gravity="left|center_vertical"
+    android:includeFontPadding="false"
+    android:maxLines="1"
+    android:singleLine="true"
+    android:text="Đây là nội dung của bài viết"
+    android:textColor="#FF000000"
+    android:textSize="15dp" />
+  
+  <ImageView
+    android:id="@+id/report_bl_thanh_cong_image_rectangle2"
+    android:layout_width="393dp"
+    android:layout_height="229dp"
+    android:layout_marginTop="207dp"
+    android:layout_gravity="top|left"
+    android:scaleType="centerInside"
+    android:src="@drawable/report_bl_thanh_cong_image_rectangle2" />
+  
+  <ImageView
+    android:id="@+id/report_bl_thanh_cong_image_frame"
+    android:layout_width="23dp"
+    android:layout_height="21dp"
+    android:layout_marginLeft="18dp"
+    android:layout_marginTop="450dp"
+    android:layout_gravity="top|left"
+    android:scaleType="centerInside"
+    android:src="@drawable/report_bl_thanh_cong_image_frame" />
+  
+  <ImageView
+    android:id="@+id/report_bl_thanh_cong_image_frame1"
+    android:layout_width="18dp"
+    android:layout_height="16dp"
+    android:layout_marginLeft="156dp"
+    android:layout_marginTop="588dp"
+    android:layout_gravity="top|left"
+    android:scaleType="centerInside"
+    android:src="@drawable/report_bl_thanh_cong_image_frame1" />
+  
+  <TextView
+    android:id="@+id/text_thich"
+    android:layout_width="wrap_content"
+    android:layout_height="17dp"
+    android:layout_marginLeft="46dp"
+    android:layout_marginTop="453dp"
+    android:layout_marginBottom="-1dp"
+    android:layout_gravity="top|left"
+    android:gravity="left|center_vertical"
+    android:includeFontPadding="false"
+    android:maxLines="1"
+    android:singleLine="true"
+    android:text="Thích"
+    android:textColor="#FF000000"
+    android:textSize="13dp" />
+  
+  <TextView
+    android:id="@+id/text_thich1"
+    android:layout_width="wrap_content"
+    android:layout_height="17dp"
+    android:layout_marginLeft="175dp"
+    android:layout_marginTop="588dp"
+    android:layout_marginBottom="-1dp"
+    android:layout_gravity="top|left"
+    android:gravity="left|center_vertical"
+    android:includeFontPadding="false"
+    android:maxLines="1"
+    android:singleLine="true"
+    android:text="Thích"
+    android:textColor="#FF000000"
+    android:textSize="13dp" />
+  
+  <ImageView
+    android:id="@+id/report_bl_thanh_cong_container_frame1"
+    android:layout_width="23dp"
+    android:layout_height="21dp"
+    android:layout_marginLeft="136dp"
+    android:layout_marginTop="450dp"
+    android:layout_gravity="top|left"
+    android:scaleType="centerInside"
+    android:src="@drawable/report_bl_thanh_cong_container_frame1" />
+  
+  <TextView
+    android:id="@+id/text_binh_luan"
+    android:layout_width="wrap_content"
+    android:layout_height="17dp"
+    android:layout_marginLeft="164dp"
+    android:layout_marginTop="452dp"
+    android:layout_marginBottom="-1dp"
+    android:layout_gravity="top|left"
+    android:gravity="left|center_vertical"
+    android:includeFontPadding="false"
+    android:maxLines="1"
+    android:singleLine="true"
+    android:text="Bình luận"
+    android:textColor="#FF000000"
+    android:textSize="13dp" />
+  
+  <TextView
+    android:id="@+id/text_1"
+    android:layout_width="wrap_content"
+    android:layout_height="14dp"
+    android:layout_marginLeft="339dp"
+    android:layout_marginTop="455dp"
+    android:layout_marginBottom="-1dp"
+    android:layout_gravity="top|left"
+    android:gravity="left|center_vertical"
+    android:includeFontPadding="false"
+    android:maxLines="1"
+    android:singleLine="true"
+    android:text="1.500"
+    android:textColor="#FF000000"
+    android:textSize="10dp" />
+  
+  <TextView
+    android:id="@+id/text_2"
+    android:layout_width="wrap_content"
+    android:layout_height="14dp"
+    android:layout_marginLeft="281dp"
+    android:layout_marginTop="455dp"
+    android:layout_marginBottom="-1dp"
+    android:layout_gravity="top|left"
+    android:gravity="left|center_vertical"
+    android:includeFontPadding="false"
+    android:maxLines="1"
+    android:singleLine="true"
+    android:text="1.500"
+    android:textColor="#FF000000"
+    android:textSize="10dp" />
+  
+  <ImageView
+    android:id="@+id/report_bl_thanh_cong_container_frame2"
+    android:layout_width="12dp"
+    android:layout_height="12dp"
+    android:layout_marginLeft="325dp"
+    android:layout_marginTop="455dp"
+    android:layout_gravity="top|left"
+    android:scaleType="centerInside"
+    android:src="@drawable/report_bl_thanh_cong_container_frame2" />
+  
+  <ImageView
+    android:id="@+id/report_bl_thanh_cong_container_frame3"
+    android:layout_width="11dp"
+    android:layout_height="10dp"
+    android:layout_marginLeft="270dp"
+    android:layout_marginTop="456dp"
+    android:layout_gravity="top|left"
+    android:scaleType="centerInside"
+    android:src="@drawable/report_bl_thanh_cong_container_frame3" />
+  
+  <ImageView
+    android:id="@+id/report_bl_thanh_cong_image_rectangle3"
+    android:layout_width="296dp"
+    android:layout_height="92dp"
+    android:layout_marginLeft="69dp"
+    android:layout_marginTop="491dp"
+    android:layout_gravity="top|left"
+    android:background="@drawable/report_bl_thanh_cong_image_rectangle3"
+    android:scaleType="centerInside" />
+  
+  <TextView
+    android:id="@+id/text_name1"
+    android:layout_width="wrap_content"
+    android:layout_height="25dp"
+    android:layout_marginLeft="76dp"
+    android:layout_marginTop="498dp"
+    android:layout_marginBottom="-1dp"
+    android:layout_gravity="top|left"
+    android:gravity="left|center_vertical"
+    android:includeFontPadding="false"
+    android:maxLines="1"
+    android:singleLine="true"
+    android:text="Name"
+    android:textColor="#FF000000"
+    android:textSize="20dp" />
+  
+  <TextView
+    android:id="@+id/text_noi_dung_binh_luan"
+    android:layout_width="wrap_content"
+    android:layout_height="20dp"
+    android:layout_marginLeft="76dp"
+    android:layout_marginTop="522dp"
+    android:layout_marginBottom="-1dp"
+    android:layout_gravity="top|left"
+    android:gravity="left|center_vertical"
+    android:includeFontPadding="false"
+    android:maxLines="1"
+    android:singleLine="true"
+    android:text="Nội dung bình luận ở đây"
+    android:textColor="#FF000000"
+    android:textSize="15dp" />
+  
+  <TextView
+    android:id="@+id/text_gio_truoc"
+    android:layout_width="wrap_content"
+    android:layout_height="17dp"
+    android:layout_marginLeft="76dp"
+    android:layout_marginTop="588dp"
+    android:layout_marginBottom="-1dp"
+    android:layout_gravity="top|left"
+    android:gravity="left|center_vertical"
+    android:includeFontPadding="false"
+    android:maxLines="1"
+    android:singleLine="true"
+    android:text="4 giờ trước"
+    android:textColor="#FF000000"
+    android:textSize="13dp" />
+  
+  <TextView
+    android:id="@+id/text_tra_loi"
+    android:layout_width="wrap_content"
+    android:layout_height="21dp"
+    android:layout_marginLeft="28dp"
+    android:layout_marginTop="751dp"
+    android:layout_marginBottom="-1dp"
+    android:layout_gravity="top|left"
+    android:gravity="left|center_vertical"
+    android:includeFontPadding="false"
+    android:maxLines="1"
+    android:singleLine="true"
+    android:text="Trả lời..."
+    android:textColor="#FF44AFF8"
+    android:textSize="16dp" />
+  
+  <TextView
+    android:id="@+id/text_gui"
+    android:layout_width="wrap_content"
+    android:layout_height="21dp"
+    android:layout_marginLeft="337dp"
+    android:layout_marginTop="751dp"
+    android:layout_marginBottom="-1dp"
+    android:layout_gravity="top|left"
+    android:gravity="left|center_vertical"
+    android:includeFontPadding="false"
+    android:maxLines="1"
+    android:singleLine="true"
+    android:text="Gửi"
+    android:textColor="#FF000000"
+    android:textSize="16dp" />
+  
+  <ImageView
+    android:id="@+id/report_bl_thanh_cong_image_frame2"
+    android:layout_width="30dp"
+    android:layout_height="30dp"
+    android:layout_marginLeft="338dp"
+    android:layout_marginTop="107dp"
+    android:layout_gravity="top|left"
+    android:alpha="0.4000000059604645"
+    android:scaleType="centerInside"
+    android:src="@drawable/report_bl_thanh_cong_image_frame2" />
+  
+  <TextView
+    android:id="@+id/text_ban_da_bao_cao_binh_luan_nay"
+    android:layout_width="wrap_content"
+    android:layout_height="16dp"
+    android:layout_marginLeft="100dp"
+    android:layout_marginTop="611dp"
+    android:layout_marginBottom="-1dp"
+    android:layout_gravity="top|left"
+    android:alpha="0.6000000238418579"
+    android:gravity="left|center_vertical"
+    android:includeFontPadding="false"
+    android:maxLines="1"
+    android:singleLine="true"
+    android:text="Bạn đã báo cáo bình luận này!"
+    android:textColor="#FF000000"
+    android:textSize="12dp" />
+  
+  <ImageView
+    android:id="@+id/report_bl_thanh_cong_container_frame4"
+    android:layout_width="20dp"
+    android:layout_height="20dp"
+    android:layout_marginLeft="76dp"
+    android:layout_marginTop="609dp"
+    android:layout_gravity="top|left"
+    android:alpha="0.6000000238418579"
+    android:scaleType="centerInside"
+    android:src="@drawable/report_bl_thanh_cong_container_frame4" />
+  
+  <ImageView
+    android:id="@+id/report_bl_thanh_cong_image_frame3"
+    android:layout_width="30dp"
+    android:layout_height="30dp"
+    android:layout_marginLeft="274dp"
+    android:layout_marginTop="747dp"
+    android:layout_gravity="top|left"
+    android:alpha="0.699999988079071"
+    android:scaleType="centerInside"
+    android:src="@drawable/report_bl_thanh_cong_image_frame3" />
+</FrameLayout>

@@ -1,0 +1,430 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<FrameLayout
+  xmlns:android="http://schemas.android.com/apk/res/android"
+  xmlns:app="http://schemas.android.com/apk/res-auto"
+  xmlns:tools="http://schemas.android.com/tools"
+  android:id="@+id/chat_container_message"
+  android:layout_width="match_parent"
+  android:layout_height="807dp"
+  android:background="@drawable/chat_container_message">
+  
+  <ImageView
+    android:id="@+id/chat_container_group"
+    android:layout_width="28dp"
+    android:layout_height="26.28dp"
+    android:layout_marginLeft="11dp"
+    android:layout_marginTop="514dp"
+    android:layout_gravity="top|left"
+    android:scaleType="centerInside"
+    android:src="@drawable/chat_container_group" />
+  
+  <ImageView
+    android:id="@+id/chat_container_group1"
+    android:layout_width="28dp"
+    android:layout_height="26.28dp"
+    android:layout_marginLeft="11dp"
+    android:layout_marginTop="673dp"
+    android:layout_gravity="top|left"
+    android:scaleType="centerInside"
+    android:src="@drawable/chat_container_group1" />
+  
+  <ImageView
+    android:id="@+id/chat_container_group2"
+    android:layout_width="18dp"
+    android:layout_height="18dp"
+    android:layout_marginLeft="363dp"
+    android:layout_marginTop="699dp"
+    android:layout_gravity="top|left"
+    android:scaleType="centerInside"
+    android:src="@drawable/chat_container_group2" />
+  
+  <FrameLayout
+    android:id="@+id/chat_container_group3"
+    android:layout_width="232.71dp"
+    android:layout_height="26dp"
+    android:layout_marginLeft="147dp"
+    android:layout_marginTop="230dp"
+    android:layout_gravity="top|left"
+    android:background="@drawable/chat_container_group3">
+    
+    <ImageView
+      android:id="@+id/chat_image_rectangle"
+      android:layout_width="match_parent"
+      android:layout_height="match_parent"
+      android:background="@drawable/chat_image_rectangle"
+      android:scaleType="centerCrop" />
+    
+    <TextView
+      android:id="@+id/text_message"
+      android:layout_width="212dp"
+      android:layout_height="16dp"
+      android:layout_marginLeft="10dp"
+      android:layout_marginTop="4.5dp"
+      android:layout_marginBottom="-0.5dp"
+      android:layout_gravity="top|left"
+      android:gravity="left|center_vertical"
+      android:includeFontPadding="false"
+      android:maxLines="1"
+      android:singleLine="true"
+      android:text="Chị ơi, bé này có ai nhận nuôi chưa ạ"
+      android:textColor="#FF000000"
+      android:textSize="12dp" />
+  </FrameLayout>
+  
+  <FrameLayout
+    android:id="@+id/chat_container_group5"
+    android:layout_width="234dp"
+    android:layout_height="45dp"
+    android:layout_marginLeft="147dp"
+    android:layout_marginTop="560dp"
+    android:layout_gravity="top|left"
+    android:background="@drawable/chat_container_group5">
+    
+    <ImageView
+      android:id="@+id/chat_image_rectangle2"
+      android:layout_width="233dp"
+      android:layout_height="match_parent"
+      android:layout_gravity="left"
+      android:background="@drawable/chat_image_rectangle2"
+      android:scaleType="centerCrop" />
+    
+    <TextView
+      android:id="@+id/text_info"
+      android:layout_width="match_parent"
+      android:layout_height="30dp"
+      android:layout_marginLeft="11dp"
+      android:layout_marginTop="8dp"
+      android:layout_marginBottom="7dp"
+      android:gravity="left|top"
+      android:includeFontPadding="false"
+      android:lineHeight="14.52dp"
+      android:text="Cho em xin thông tin bé trắng bên với ạ"
+      android:textColor="#FF000000"
+      android:textSize="12dp" />
+  </FrameLayout>
+  
+  <FrameLayout
+    android:id="@+id/chat_container_group4"
+    android:layout_width="207dp"
+    android:layout_height="26dp"
+    android:layout_marginLeft="50dp"
+    android:layout_marginTop="272dp"
+    android:layout_gravity="top|left">
+    
+    <ImageView
+      android:id="@+id/chat_image_rectangle1"
+      android:layout_width="match_parent"
+      android:layout_height="match_parent"
+      android:background="@drawable/chat_image_rectangle1"
+      android:scaleType="centerCrop" />
+    
+    <TextView
+      android:id="@+id/text_content"
+      android:layout_width="match_parent"
+      android:layout_height="16dp"
+      android:layout_marginLeft="11dp"
+      android:layout_marginRight="9dp"
+      android:layout_marginTop="4.5dp"
+      android:layout_marginBottom="-0.5dp"
+      android:layout_gravity="top"
+      android:gravity="left|center_vertical"
+      android:includeFontPadding="false"
+      android:maxLines="1"
+      android:singleLine="true"
+      android:text="Bé này vừa có bạn nhận rồi em ạ"
+      android:textColor="#FF000000"
+      android:textSize="12dp" />
+  </FrameLayout>
+  
+  <FrameLayout
+    android:id="@+id/chat_container_group11"
+    android:layout_width="233dp"
+    android:layout_height="45dp"
+    android:layout_marginLeft="50dp"
+    android:layout_marginTop="495dp"
+    android:layout_gravity="top|left">
+    
+    <ImageView
+      android:id="@+id/chat_image_rectangle6"
+      android:layout_width="match_parent"
+      android:layout_height="match_parent"
+      android:background="@drawable/chat_image_rectangle6"
+      android:scaleType="centerCrop" />
+    
+    <TextView
+      android:id="@+id/text_description"
+      android:layout_width="210.23dp"
+      android:layout_height="33.75dp"
+      android:layout_marginLeft="11dp"
+      android:layout_marginTop="6dp"
+      android:layout_marginBottom="5.25dp"
+      android:layout_gravity="left"
+      android:gravity="left|top"
+      android:includeFontPadding="false"
+      android:lineHeight="14.52dp"
+      android:text="Hiện tại bên chị còn mấy bé này, em xem có ưng bé nào không "
+      android:textColor="#FF000000"
+      android:textSize="12dp" />
+  </FrameLayout>
+  
+  <FrameLayout
+    android:id="@+id/chat_container_group7"
+    android:layout_width="233dp"
+    android:layout_height="45dp"
+    android:layout_marginLeft="50dp"
+    android:layout_marginTop="625dp"
+    android:layout_gravity="top|left">
+    
+    <ImageView
+      android:id="@+id/chat_image_rectangle4"
+      android:layout_width="match_parent"
+      android:layout_height="match_parent"
+      android:background="@drawable/chat_image_rectangle4"
+      android:scaleType="centerCrop" />
+    
+    <TextView
+      android:id="@+id/text_be_trang"
+      android:layout_width="210.23dp"
+      android:layout_height="33.75dp"
+      android:layout_marginLeft="11dp"
+      android:layout_marginTop="6dp"
+      android:layout_marginBottom="5.25dp"
+      android:layout_gravity="left"
+      android:gravity="left|top"
+      android:includeFontPadding="false"
+      android:lineHeight="14.52dp"
+      android:text="Bé trắng này hiện tại được 1 tháng tuổi, chưa tiêm phòng nha "
+      android:textColor="#FF000000"
+      android:textSize="12dp" />
+  </FrameLayout>
+  
+  <ImageView
+    android:id="@+id/chat_image_message"
+    android:layout_width="150dp"
+    android:layout_height="112.5dp"
+    android:layout_marginLeft="230dp"
+    android:layout_marginTop="110dp"
+    android:layout_gravity="top|left"
+    android:scaleType="centerInside"
+    android:src="@drawable/chat_image_message" />
+  
+  <ImageView
+    android:id="@+id/chat_image_message1"
+    android:layout_width="150dp"
+    android:layout_height="99.9dp"
+    android:layout_marginLeft="50dp"
+    android:layout_marginTop="302dp"
+    android:layout_gravity="top|left"
+    android:scaleType="centerInside"
+    android:src="@drawable/chat_image_message1" />
+  
+  <ImageView
+    android:id="@+id/chat_image_message2"
+    android:layout_width="150dp"
+    android:layout_height="84.38dp"
+    android:layout_marginLeft="50dp"
+    android:layout_marginTop="405dp"
+    android:layout_gravity="top|left"
+    android:scaleType="centerInside"
+    android:src="@drawable/chat_image_message2" />
+  
+  <FrameLayout
+    android:layout_width="314dp"
+    android:layout_height="57dp"
+    android:layout_marginBottom="2dp"
+    android:layout_gravity="bottom">
+    
+    <ImageView
+      android:layout_width="36dp"
+      android:layout_height="34dp"
+      android:layout_marginLeft="51dp"
+      android:layout_marginTop="1dp"
+      android:layout_gravity="top|left"
+      android:scaleType="centerInside"
+      android:src="@drawable/chat_drawable_image" />
+    
+    <ImageView
+      android:layout_width="22dp"
+      android:layout_height="22dp"
+      android:layout_marginLeft="281dp"
+      android:layout_marginRight="11dp"
+      android:layout_marginTop="7dp"
+      android:layout_gravity="top"
+      android:scaleType="centerInside"
+      android:src="@drawable/chat_drawable_image_1" />
+
+    <FrameLayout
+      android:layout_width="match_parent"
+      android:layout_height="35dp"
+      android:layout_marginLeft="98dp"
+      android:layout_gravity="top"
+      android:background="@drawable/chat_drawable_shape">
+      
+      <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@drawable/chat_drawable_shape_1"
+        android:scaleType="centerCrop" />
+      
+      <TextView
+        android:layout_width="74.18dp"
+        android:layout_height="23dp"
+        android:layout_marginLeft="14.18dp"
+        android:layout_marginTop="7dp"
+        android:layout_marginBottom="5dp"
+        android:layout_gravity="left"
+        android:gravity="center_horizontal|center_vertical"
+        android:includeFontPadding="false"
+        android:maxLines="1"
+        android:singleLine="true"
+        android:text="Nhắn tin"
+        android:textColor="#FF808080"
+        android:textSize="18dp" />
+    </FrameLayout>
+    
+    <ImageView
+      android:layout_width="35dp"
+      android:layout_height="25dp"
+      android:layout_marginLeft="2dp"
+      android:layout_marginRight="277dp"
+      android:layout_marginTop="6dp"
+      android:layout_marginBottom="26dp"
+      android:scaleType="centerInside"
+      android:src="@drawable/chat_drawable_image_2" />
+  </FrameLayout>
+  
+  <FrameLayout
+    android:id="@+id/chat_container_group6"
+    android:layout_width="393dp"
+    android:layout_height="99dp"
+    android:layout_gravity="top|left">
+    
+    <ImageView
+      android:id="@+id/chat_image_rectangle3"
+      android:layout_width="match_parent"
+      android:layout_height="match_parent"
+      android:scaleType="centerCrop"
+      android:src="@drawable/chat_image_rectangle3" />
+    
+    <ImageView
+      android:id="@+id/chat_image_frame"
+      android:layout_width="29.48dp"
+      android:layout_height="25dp"
+      android:layout_marginLeft="21dp"
+      android:layout_marginTop="45dp"
+      android:layout_marginBottom="29dp"
+      android:layout_gravity="left"
+      android:scaleType="centerInside"
+      android:src="@drawable/chat_image_frame" />
+  </FrameLayout>
+  
+  <FrameLayout
+    android:id="@+id/chat_container_group8"
+    android:layout_width="212dp"
+    android:layout_height="26dp"
+    android:layout_marginLeft="50dp"
+    android:layout_marginTop="673dp"
+    android:layout_gravity="top|left">
+    
+    <ImageView
+      android:id="@+id/chat_image_rectangle5"
+      android:layout_width="match_parent"
+      android:layout_height="match_parent"
+      android:background="@drawable/chat_image_rectangle5"
+      android:scaleType="centerCrop" />
+    
+    <TextView
+      android:id="@+id/text_address"
+      android:layout_width="match_parent"
+      android:layout_height="16dp"
+      android:layout_marginLeft="7dp"
+      android:layout_marginTop="2.03dp"
+      android:layout_marginBottom="-2.43dp"
+      android:layout_gravity="top"
+      android:gravity="left|center_vertical"
+      android:includeFontPadding="false"
+      android:maxLines="1"
+      android:singleLine="true"
+      android:text="Nếu em nhận thì cho chị xin địa chỉ"
+      android:textColor="#FF000000"
+      android:textSize="12dp" />
+  </FrameLayout>
+  
+  <FrameLayout
+    android:id="@+id/chat_container_group9"
+    android:layout_width="144dp"
+    android:layout_height="48dp"
+    android:layout_marginLeft="68dp"
+    android:layout_marginTop="34dp"
+    android:layout_gravity="top|left">
+    
+    <FrameLayout
+      android:id="@+id/chat_container_group10"
+      android:layout_width="47dp"
+      android:layout_height="match_parent"
+      android:layout_gravity="left">
+      
+      <ImageView
+        android:id="@+id/chat_image_ellipse3"
+        android:layout_width="47dp"
+        android:layout_height="45.05dp"
+        android:layout_marginTop="2.95dp"
+        android:layout_marginBottom="0dp"
+        android:scaleType="centerInside"
+        android:src="@drawable/chat_image_ellipse3" />
+      
+      <ImageView
+        android:id="@+id/chat_image_ellipse4"
+        android:layout_width="13.58dp"
+        android:layout_height="13.57dp"
+        android:layout_marginLeft="30.29dp"
+        android:layout_marginRight="3.13dp"
+        android:layout_gravity="top"
+        android:background="@drawable/chat_image_ellipse4"
+        android:scaleType="centerInside" />
+    </FrameLayout>
+    
+    <TextView
+      android:id="@+id/text_tran_anh"
+      android:layout_width="match_parent"
+      android:layout_height="23dp"
+      android:layout_marginLeft="58dp"
+      android:layout_marginRight="12dp"
+      android:layout_marginTop="4dp"
+      android:layout_marginBottom="-1dp"
+      android:layout_gravity="top"
+      android:gravity="center_horizontal|center_vertical"
+      android:includeFontPadding="false"
+      android:maxLines="1"
+      android:singleLine="true"
+      android:text="Trần Anh"
+      android:textColor="#FFFFFFFF"
+      android:textSize="18dp" />
+    
+    <TextView
+      android:id="@+id/text_dang_hoat_dong"
+      android:layout_width="match_parent"
+      android:layout_height="16dp"
+      android:layout_marginLeft="58dp"
+      android:layout_marginTop="28dp"
+      android:layout_marginBottom="4dp"
+      android:gravity="center_horizontal|center_vertical"
+      android:includeFontPadding="false"
+      android:maxLines="1"
+      android:singleLine="true"
+      android:text="Đang hoạt động"
+      android:textColor="#FFFFFFFF"
+      android:textSize="12dp" />
+  </FrameLayout>
+  
+  <ImageView
+    android:id="@+id/chat_ic_like_icon"
+    android:layout_width="27.21dp"
+    android:layout_height="25.31dp"
+    android:layout_marginLeft="345.4dp"
+    android:layout_marginTop="752.34dp"
+    android:layout_gravity="top|left"
+    android:scaleType="centerInside"
+    android:src="@drawable/chat_ic_like_icon" />
+</FrameLayout>

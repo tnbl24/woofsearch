@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="355dp"
+    android:layout_height="232dp"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:background="@drawable/popup_background"
+    android:layout_margin="18dp">
+
+    <!-- Thêm các phần tử giao diện vào đây -->
+    <!-- Ví dụ: Text, Buttons, etc. -->
+
+    <!-- Ví dụ: Text View -->
+    <TextView
+        android:id="@+id/tvMessage10"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginStart="50dp"
+        android:layout_marginTop="40dp"
+        android:gravity="center"
+        android:text="Xóa bình luận?"
+        android:textStyle="bold"
+        android:textColor="#000000"
+        android:textSize="20sp" />
+
+    <TextView
+        android:id="@+id/tvMessage11"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginStart="50dp"
+        android:layout_marginTop="80dp"
+        android:gravity="center"
+        android:text="Bạn có chắc là muốn xóa bình luận này hay không? Sau khi xóa bạn sẽ không thể khôi phục lại bình luận"
+        android:textColor="#000000"
+        android:textSize="16sp" />
+
+    <!-- Ví dụ: Buttons -->
+    <Button
+        android:id="@+id/btnCancel"
+        android:layout_width="125dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/tvMessage11"
+        android:layout_alignParentStart="true"
+        android:layout_marginLeft="40dp"
+        android:layout_marginTop="16dp"
+        android:text="Hủy"
+        android:background="@drawable/button_background"
+        android:textColor="#020000"
+        app:backgroundTint="@null"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.498"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        />
+
+    <Button
+        android:id="@+id/btnDelete"
+        android:layout_width="125dp"
+        android:layout_height="wrap_content"
+        android:text="Xóa"
+        android:layout_below="@id/tvMessage11"
+        android:layout_alignParentEnd="true"
+        android:layout_marginTop="16dp"
+        android:layout_marginRight="40dp"
+        android:background="@drawable/button_background"
+        android:textColor="#020000"
+        app:backgroundTint="@null"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.498"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        />
+</RelativeLayout>

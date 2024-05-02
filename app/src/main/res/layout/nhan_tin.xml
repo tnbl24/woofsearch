@@ -1,0 +1,781 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<FrameLayout
+  xmlns:android="http://schemas.android.com/apk/res/android"
+  xmlns:app="http://schemas.android.com/apk/res-auto"
+  xmlns:tools="http://schemas.android.com/tools"
+  android:layout_width="match_parent"
+  android:layout_height="807dp"
+  android:background="@drawable/nhan_tin_drawable_shape">
+
+  <FrameLayout
+    android:id="@+id/container_group"
+    android:layout_width="393dp"
+    android:layout_height="99dp"
+    android:layout_gravity="top|left">
+
+    <ImageView
+      android:id="@+id/nhan_tin_image_rectangle"
+      android:layout_width="match_parent"
+      android:layout_height="match_parent"
+      android:scaleType="centerCrop"
+      android:src="@drawable/nhan_tin_image_rectangle" />
+
+    <ImageView
+      android:id="@+id/nhan_tin_image_frame"
+      android:layout_width="29.48dp"
+      android:layout_height="25dp"
+      android:layout_marginLeft="21dp"
+      android:layout_marginTop="45dp"
+      android:layout_marginBottom="29dp"
+      android:layout_gravity="left"
+      android:scaleType="centerInside"
+      android:src="@drawable/nhan_tin_image_frame" />
+  </FrameLayout>
+  
+  <TextView
+    android:layout_width="wrap_content"
+    android:layout_height="30dp"
+    android:layout_marginLeft="142dp"
+    android:layout_marginTop="43dp"
+    android:layout_marginBottom="-1dp"
+    android:layout_gravity="top|left"
+    android:gravity="left|center_vertical"
+    android:includeFontPadding="false"
+    android:maxLines="1"
+    android:singleLine="true"
+    android:text="Đoạn chat"
+    android:textColor="#FFFFFFFF"
+    android:textSize="24dp" />
+  
+  <FrameLayout
+    android:id="@+id/container_group1"
+    android:layout_width="59dp"
+    android:layout_height="66.64dp"
+    android:layout_marginLeft="35dp"
+    android:layout_marginTop="116dp"
+    android:layout_gravity="top|left">
+    
+    <ImageView
+      android:id="@+id/nhan_tin_image_ellipse1"
+      android:layout_width="59dp"
+      android:layout_height="60dp"
+      android:layout_marginTop="6.64dp"
+      android:layout_marginBottom="0dp"
+      android:scaleType="centerInside"
+      android:src="@drawable/nhan_tin_image_ellipse1" />
+    
+    <ImageView
+      android:id="@+id/nhan_tin_image_ellipse2"
+      android:layout_width="16dp"
+      android:layout_height="16dp"
+      android:layout_marginLeft="37.09dp"
+      android:layout_marginRight="5.91dp"
+      android:layout_gravity="top"
+      android:background="@drawable/nhan_tin_image_ellipse2"
+      android:scaleType="centerInside" />
+  </FrameLayout>
+  
+  <ImageView
+    android:layout_width="59dp"
+    android:layout_height="60dp"
+    android:layout_marginLeft="126dp"
+    android:layout_marginTop="123dp"
+    android:layout_gravity="top|left"
+    android:scaleType="centerInside"
+    android:src="@drawable/nhan_tin_drawable_image" />
+  
+  <ImageView
+    android:layout_width="16dp"
+    android:layout_height="16dp"
+    android:layout_marginLeft="165dp"
+    android:layout_marginTop="116dp"
+    android:layout_gravity="top|left"
+    android:background="@drawable/nhan_tin_drawable_shape_1"
+    android:scaleType="centerInside" />
+  
+  <ImageView
+    android:layout_width="59dp"
+    android:layout_height="60dp"
+    android:layout_marginLeft="217dp"
+    android:layout_marginTop="123dp"
+    android:layout_gravity="top|left"
+    android:scaleType="centerInside"
+    android:src="@drawable/nhan_tin_drawable_image_1" />
+  
+  <ImageView
+    android:layout_width="16dp"
+    android:layout_height="16dp"
+    android:layout_marginLeft="253dp"
+    android:layout_marginTop="116dp"
+    android:layout_gravity="top|left"
+    android:background="@drawable/nhan_tin_drawable_shape_2"
+    android:scaleType="centerInside" />
+  
+  <ImageView
+    android:layout_width="59dp"
+    android:layout_height="60dp"
+    android:layout_marginLeft="308dp"
+    android:layout_marginTop="123dp"
+    android:layout_gravity="top|left"
+    android:scaleType="centerInside"
+    android:src="@drawable/nhan_tin_drawable_image_2" />
+  
+  <ImageView
+    android:layout_width="16dp"
+    android:layout_height="16dp"
+    android:layout_marginLeft="340dp"
+    android:layout_marginTop="116dp"
+    android:layout_gravity="top|left"
+    android:background="@drawable/nhan_tin_drawable_shape_3"
+    android:scaleType="centerInside" />
+  
+  <TextView
+    android:layout_width="wrap_content"
+    android:layout_height="17dp"
+    android:layout_marginLeft="31dp"
+    android:layout_marginTop="187dp"
+    android:layout_marginBottom="-1dp"
+    android:layout_gravity="top|left"
+    android:gravity="center_horizontal|center_vertical"
+    android:includeFontPadding="false"
+    android:maxLines="1"
+    android:singleLine="true"
+    android:text="Trần Huỳnh"
+    android:textColor="#FF000000"
+    android:textSize="13dp" />
+  
+  <TextView
+    android:layout_width="wrap_content"
+    android:layout_height="17dp"
+    android:layout_marginLeft="141dp"
+    android:layout_marginTop="187dp"
+    android:layout_marginBottom="-1dp"
+    android:layout_gravity="top|left"
+    android:gravity="center_horizontal|center_vertical"
+    android:includeFontPadding="false"
+    android:maxLines="1"
+    android:singleLine="true"
+    android:text="Minh"
+    android:textColor="#FF000000"
+    android:textSize="13dp" />
+  
+  <TextView
+    android:layout_width="wrap_content"
+    android:layout_height="17dp"
+    android:layout_marginLeft="231dp"
+    android:layout_marginTop="187dp"
+    android:layout_marginBottom="-1dp"
+    android:layout_gravity="top|left"
+    android:gravity="center_horizontal|center_vertical"
+    android:includeFontPadding="false"
+    android:maxLines="1"
+    android:singleLine="true"
+    android:text="Ngọc"
+    android:textColor="#FF000000"
+    android:textSize="13dp" />
+  
+  <TextView
+    android:layout_width="wrap_content"
+    android:layout_height="17dp"
+    android:layout_marginLeft="323dp"
+    android:layout_marginTop="187dp"
+    android:layout_marginBottom="-1dp"
+    android:layout_gravity="top|left"
+    android:gravity="center_horizontal|center_vertical"
+    android:includeFontPadding="false"
+    android:maxLines="1"
+    android:singleLine="true"
+    android:text="Lan "
+    android:textColor="#FF000000"
+    android:textSize="13dp" />
+  
+  <ImageView
+    android:layout_width="370dp"
+    android:layout_height="1dp"
+    android:layout_marginLeft="12dp"
+    android:layout_marginTop="223dp"
+    android:layout_gravity="top|left"
+    android:scaleType="centerInside"
+    android:src="@drawable/nhan_tin_drawable_image_3" />
+  
+  <FrameLayout
+    android:layout_width="393dp"
+    android:layout_height="67dp"
+    android:layout_marginTop="232dp"
+    android:layout_gravity="top|left"
+    android:background="@drawable/nhan_tin_drawable_shape_4">
+    
+    <FrameLayout
+      android:layout_width="347dp"
+      android:layout_height="66.64dp"
+      android:layout_marginLeft="13dp"
+      android:layout_gravity="top|left">
+      
+      <FrameLayout
+        android:layout_width="286dp"
+        android:layout_height="match_parent"
+        android:layout_gravity="left">
+        
+        <TextView
+          android:layout_width="wrap_content"
+          android:layout_height="23dp"
+          android:layout_marginLeft="73dp"
+          android:layout_marginTop="12dp"
+          android:layout_marginBottom="-1dp"
+          android:layout_gravity="top|left"
+          android:gravity="center_horizontal|center_vertical"
+          android:includeFontPadding="false"
+          android:maxLines="1"
+          android:singleLine="true"
+          android:text="Trần Anh"
+          android:textColor="#FF000000"
+          android:textSize="18dp" />
+        
+        <TextView
+          android:layout_width="match_parent"
+          android:layout_height="21dp"
+          android:layout_marginLeft="73dp"
+          android:layout_marginTop="41dp"
+          android:layout_marginBottom="4.64dp"
+          android:gravity="center_horizontal|center_vertical"
+          android:includeFontPadding="false"
+          android:maxLines="1"
+          android:singleLine="true"
+          android:text="Nếu em nhận thì cho chị xin ...  "
+          android:textColor="#FF000000"
+          android:textSize="16dp" />
+        
+        <FrameLayout
+          android:layout_width="59dp"
+          android:layout_height="match_parent"
+          android:layout_gravity="left">
+          
+          <ImageView
+            android:layout_width="59dp"
+            android:layout_height="60dp"
+            android:layout_marginTop="6.64dp"
+            android:layout_marginBottom="0dp"
+            android:scaleType="centerInside"
+            android:src="@drawable/nhan_tin_drawable_image_4" />
+          
+          <ImageView
+            android:layout_width="16dp"
+            android:layout_height="16dp"
+            android:layout_marginLeft="37.09dp"
+            android:layout_marginRight="5.91dp"
+            android:layout_gravity="top"
+            android:background="@drawable/nhan_tin_drawable_shape_5"
+            android:scaleType="centerInside" />
+        </FrameLayout>
+      </FrameLayout>
+      
+      <TextView
+        android:layout_width="match_parent"
+        android:layout_height="21dp"
+        android:layout_marginLeft="307dp"
+        android:layout_marginTop="41dp"
+        android:layout_marginBottom="4.64dp"
+        android:gravity="center_horizontal|center_vertical"
+        android:includeFontPadding="false"
+        android:maxLines="1"
+        android:singleLine="true"
+        android:text="20:09"
+        android:textColor="#FF000000"
+        android:textSize="16dp" />
+    </FrameLayout>
+    
+    <ImageView
+      android:layout_width="49.13dp"
+      android:layout_height="50.27dp"
+      android:layout_marginLeft="393dp"
+      android:layout_marginRight="-49.13dp"
+      android:layout_marginTop="12.06dp"
+      android:layout_marginBottom="4.67dp"
+      android:scaleType="centerInside"
+      android:src="@drawable/nhan_tin_drawable_image_5" />
+  </FrameLayout>
+  
+  <FrameLayout
+    android:layout_width="393dp"
+    android:layout_height="67dp"
+    android:layout_marginTop="568dp"
+    android:layout_gravity="top|left"
+    android:background="@drawable/nhan_tin_drawable_shape_6">
+    
+    <FrameLayout
+      android:layout_width="347dp"
+      android:layout_height="66.64dp"
+      android:layout_marginLeft="13dp"
+      android:layout_gravity="top|left">
+      
+      <FrameLayout
+        android:layout_width="286dp"
+        android:layout_height="match_parent"
+        android:layout_gravity="left">
+        
+        <TextView
+          android:layout_width="wrap_content"
+          android:layout_height="23dp"
+          android:layout_marginLeft="73dp"
+          android:layout_marginTop="12dp"
+          android:layout_marginBottom="-1dp"
+          android:layout_gravity="top|left"
+          android:gravity="center_horizontal|center_vertical"
+          android:includeFontPadding="false"
+          android:maxLines="1"
+          android:singleLine="true"
+          android:text="Trần Anh"
+          android:textColor="#FF000000"
+          android:textSize="18dp" />
+        
+        <TextView
+          android:layout_width="match_parent"
+          android:layout_height="21dp"
+          android:layout_marginLeft="73dp"
+          android:layout_marginTop="41dp"
+          android:layout_marginBottom="4.64dp"
+          android:gravity="center_horizontal|center_vertical"
+          android:includeFontPadding="false"
+          android:maxLines="1"
+          android:singleLine="true"
+          android:text="Nếu em nhận thì cho chị xin ...  "
+          android:textColor="#FF000000"
+          android:textSize="16dp" />
+        
+        <FrameLayout
+          android:layout_width="59dp"
+          android:layout_height="match_parent"
+          android:layout_gravity="left">
+          
+          <ImageView
+            android:layout_width="59dp"
+            android:layout_height="60dp"
+            android:layout_marginTop="6.64dp"
+            android:layout_marginBottom="0dp"
+            android:scaleType="centerInside"
+            android:src="@drawable/nhan_tin_drawable_image_6" />
+          
+          <ImageView
+            android:layout_width="16dp"
+            android:layout_height="16dp"
+            android:layout_marginLeft="37.09dp"
+            android:layout_marginRight="5.91dp"
+            android:layout_gravity="top"
+            android:background="@drawable/nhan_tin_drawable_shape_7"
+            android:scaleType="centerInside" />
+        </FrameLayout>
+      </FrameLayout>
+      
+      <TextView
+        android:layout_width="match_parent"
+        android:layout_height="21dp"
+        android:layout_marginLeft="307dp"
+        android:layout_marginTop="41dp"
+        android:layout_marginBottom="4.64dp"
+        android:gravity="center_horizontal|center_vertical"
+        android:includeFontPadding="false"
+        android:maxLines="1"
+        android:singleLine="true"
+        android:text="20:09"
+        android:textColor="#FF000000"
+        android:textSize="16dp" />
+    </FrameLayout>
+    
+    <ImageView
+      android:layout_width="49.13dp"
+      android:layout_height="50.27dp"
+      android:layout_marginLeft="393dp"
+      android:layout_marginRight="-49.13dp"
+      android:layout_marginTop="12.06dp"
+      android:layout_marginBottom="4.67dp"
+      android:scaleType="centerInside"
+      android:src="@drawable/nhan_tin_drawable_image_7" />
+  </FrameLayout>
+  
+  <FrameLayout
+    android:id="@+id/nhan_tin_container_frame"
+    android:layout_width="393dp"
+    android:layout_height="67dp"
+    android:layout_marginTop="316dp"
+    android:layout_gravity="top|left"
+    android:background="@drawable/nhan_tin_container_frame">
+    
+    <FrameLayout
+      android:id="@+id/container_group11"
+      android:layout_width="347dp"
+      android:layout_height="60dp"
+      android:layout_marginLeft="13dp"
+      android:layout_marginTop="4dp"
+      android:layout_gravity="top|left">
+      
+      <FrameLayout
+        android:id="@+id/container_group2"
+        android:layout_width="239dp"
+        android:layout_height="match_parent"
+        android:layout_gravity="left">
+        
+        <TextView
+          android:id="@+id/text_tran_huynh"
+          android:layout_width="match_parent"
+          android:layout_height="23dp"
+          android:layout_marginLeft="73dp"
+          android:layout_marginRight="72dp"
+          android:layout_marginTop="7dp"
+          android:layout_marginBottom="-1dp"
+          android:layout_gravity="top"
+          android:gravity="center_horizontal|center_vertical"
+          android:includeFontPadding="false"
+          android:maxLines="1"
+          android:singleLine="true"
+          android:text="Trần Huỳnh"
+          android:textColor="#FFA4A1A1"
+          android:textSize="18dp" />
+        
+        <ImageView
+          android:id="@+id/nhan_tin_image_ellipse"
+          android:layout_width="59dp"
+          android:layout_height="60dp"
+          android:layout_gravity="left"
+          android:scaleType="centerInside"
+          android:src="@drawable/nhan_tin_image_ellipse" />
+        
+        <TextView
+          android:id="@+id/text_trao_doi_them"
+          android:layout_width="match_parent"
+          android:layout_height="21dp"
+          android:layout_marginLeft="73dp"
+          android:layout_marginTop="37dp"
+          android:layout_marginBottom="2dp"
+          android:gravity="center_horizontal|center_vertical"
+          android:includeFontPadding="false"
+          android:maxLines="1"
+          android:singleLine="true"
+          android:text="Tôi muốn trao đổi thêm"
+          android:textColor="#FFA4A1A1"
+          android:textSize="16dp" />
+      </FrameLayout>
+      
+      <TextView
+        android:id="@+id/text_time"
+        android:layout_width="match_parent"
+        android:layout_height="21dp"
+        android:layout_marginLeft="307dp"
+        android:layout_marginTop="37dp"
+        android:layout_marginBottom="2dp"
+        android:gravity="center_horizontal|center_vertical"
+        android:includeFontPadding="false"
+        android:maxLines="1"
+        android:singleLine="true"
+        android:text="20:09"
+        android:textColor="#FF000000"
+        android:textSize="16dp" />
+    </FrameLayout>
+    
+    <ImageView
+      android:id="@+id/nhan_tin_image_group"
+      android:layout_width="49.13dp"
+      android:layout_height="50.27dp"
+      android:layout_marginLeft="393dp"
+      android:layout_marginRight="-49.13dp"
+      android:layout_marginTop="12.06dp"
+      android:layout_marginBottom="4.67dp"
+      android:scaleType="centerInside"
+      android:src="@drawable/nhan_tin_image_group" />
+  </FrameLayout>
+  
+  <FrameLayout
+    android:id="@+id/nhan_tin_container_frame2"
+    android:layout_width="393dp"
+    android:layout_height="67dp"
+    android:layout_marginTop="484dp"
+    android:layout_gravity="top|left"
+    android:background="@drawable/nhan_tin_container_frame2">
+    
+    <FrameLayout
+      android:id="@+id/container_group13"
+      android:layout_width="274dp"
+      android:layout_height="49dp"
+      android:layout_marginLeft="86dp"
+      android:layout_marginTop="12dp"
+      android:layout_gravity="top|left">
+      
+      <FrameLayout
+        android:id="@+id/container_group22"
+        android:layout_width="166dp"
+        android:layout_height="match_parent"
+        android:layout_gravity="left">
+        
+        <TextView
+          android:id="@+id/text_tran_huynh1"
+          android:layout_width="wrap_content"
+          android:layout_height="23dp"
+          android:layout_marginTop="-1dp"
+          android:layout_marginBottom="-1dp"
+          android:layout_gravity="top|left"
+          android:gravity="center_horizontal|center_vertical"
+          android:includeFontPadding="false"
+          android:maxLines="1"
+          android:singleLine="true"
+          android:text="Trần Huỳnh"
+          android:textColor="#FFA4A1A1"
+          android:textSize="18dp" />
+        
+        <TextView
+          android:id="@+id/text_trao_doi_them1"
+          android:layout_width="match_parent"
+          android:layout_height="21dp"
+          android:layout_marginTop="29dp"
+          android:layout_marginBottom="-1dp"
+          android:gravity="center_horizontal|center_vertical"
+          android:includeFontPadding="false"
+          android:maxLines="1"
+          android:singleLine="true"
+          android:text="Tôi muốn trao đổi thêm"
+          android:textColor="#FFA4A1A1"
+          android:textSize="16dp" />
+      </FrameLayout>
+      
+      <TextView
+        android:id="@+id/text_time2"
+        android:layout_width="match_parent"
+        android:layout_height="21dp"
+        android:layout_marginLeft="234dp"
+        android:layout_marginTop="29dp"
+        android:layout_marginBottom="-1dp"
+        android:gravity="center_horizontal|center_vertical"
+        android:includeFontPadding="false"
+        android:maxLines="1"
+        android:singleLine="true"
+        android:text="20:09"
+        android:textColor="#FF000000"
+        android:textSize="16dp" />
+    </FrameLayout>
+    
+    <ImageView
+      android:id="@+id/nhan_tin_image_group2"
+      android:layout_width="49.13dp"
+      android:layout_height="50.27dp"
+      android:layout_marginLeft="393dp"
+      android:layout_marginRight="-49.13dp"
+      android:layout_marginTop="12.06dp"
+      android:layout_marginBottom="4.67dp"
+      android:scaleType="centerInside"
+      android:src="@drawable/nhan_tin_image_group2" />
+    
+    <ImageView
+      android:id="@+id/nhan_tin_image_ellipse4"
+      android:layout_width="59dp"
+      android:layout_height="60dp"
+      android:layout_marginLeft="13dp"
+      android:layout_marginTop="4dp"
+      android:layout_gravity="top|left"
+      android:scaleType="centerInside"
+      android:src="@drawable/nhan_tin_image_ellipse4" />
+  </FrameLayout>
+  
+  <FrameLayout
+    android:id="@+id/nhan_tin_container_frame1"
+    android:layout_width="393dp"
+    android:layout_height="67dp"
+    android:layout_marginTop="400dp"
+    android:layout_gravity="top|left"
+    android:background="@drawable/nhan_tin_container_frame1">
+    
+    <FrameLayout
+      android:id="@+id/container_group12"
+      android:layout_width="347dp"
+      android:layout_height="60dp"
+      android:layout_marginLeft="13dp"
+      android:layout_marginTop="7dp"
+      android:layout_gravity="top|left">
+      
+      <FrameLayout
+        android:id="@+id/container_group21"
+        android:layout_width="147dp"
+        android:layout_height="match_parent"
+        android:layout_gravity="left">
+        
+        <ImageView
+          android:id="@+id/nhan_tin_image_ellipse3"
+          android:layout_width="59dp"
+          android:layout_height="60dp"
+          android:layout_gravity="left"
+          android:scaleType="centerInside"
+          android:src="@drawable/nhan_tin_image_ellipse3" />
+        
+        <TextView
+          android:id="@+id/text_tran_anh"
+          android:layout_width="match_parent"
+          android:layout_height="23dp"
+          android:layout_marginLeft="73dp"
+          android:layout_marginTop="5dp"
+          android:layout_marginBottom="-1dp"
+          android:layout_gravity="top"
+          android:gravity="center_horizontal|center_vertical"
+          android:includeFontPadding="false"
+          android:maxLines="1"
+          android:singleLine="true"
+          android:text="Trần Anh"
+          android:textColor="#FF000000"
+          android:textSize="18dp" />
+      </FrameLayout>
+      
+      <TextView
+        android:id="@+id/text_time1"
+        android:layout_width="match_parent"
+        android:layout_height="21dp"
+        android:layout_marginLeft="307dp"
+        android:layout_marginTop="34dp"
+        android:layout_marginBottom="5dp"
+        android:gravity="center_horizontal|center_vertical"
+        android:includeFontPadding="false"
+        android:maxLines="1"
+        android:singleLine="true"
+        android:text="20:09"
+        android:textColor="#FF000000"
+        android:textSize="16dp" />
+    </FrameLayout>
+    
+    <ImageView
+      android:id="@+id/nhan_tin_image_group1"
+      android:layout_width="49.13dp"
+      android:layout_height="50.27dp"
+      android:layout_marginLeft="393dp"
+      android:layout_marginRight="-49.13dp"
+      android:layout_marginTop="12.06dp"
+      android:layout_marginBottom="4.67dp"
+      android:scaleType="centerInside"
+      android:src="@drawable/nhan_tin_image_group1" />
+    
+    <TextView
+      android:id="@+id/text_exchange_more"
+      android:layout_width="wrap_content"
+      android:layout_height="21dp"
+      android:layout_marginLeft="86dp"
+      android:layout_marginTop="41dp"
+      android:layout_marginBottom="-1dp"
+      android:layout_gravity="top|left"
+      android:gravity="center_horizontal|center_vertical"
+      android:includeFontPadding="false"
+      android:maxLines="1"
+      android:singleLine="true"
+      android:text="Tôi muốn trao đổi thêm"
+      android:textColor="#FF000000"
+      android:textSize="16dp" />
+  </FrameLayout>
+  
+  <ImageView
+    android:layout_width="40dp"
+    android:layout_height="40dp"
+    android:layout_marginLeft="227dp"
+    android:layout_marginBottom="17dp"
+    android:layout_gravity="bottom|left"
+    android:scaleType="centerInside" />
+  
+  <ImageView
+    android:layout_width="40dp"
+    android:layout_height="40dp"
+    android:layout_marginLeft="316dp"
+    android:layout_marginBottom="16dp"
+    android:layout_gravity="bottom|left"
+    android:scaleType="centerInside" />
+  
+  <ImageView
+    android:layout_width="40dp"
+    android:layout_height="40dp"
+    android:layout_marginLeft="29dp"
+    android:layout_marginBottom="17dp"
+    android:layout_gravity="bottom|left"
+    android:scaleType="centerInside" />
+  
+  <FrameLayout
+    android:id="@+id/container_group3"
+    android:layout_width="393dp"
+    android:layout_height="73dp"
+    android:layout_gravity="bottom">
+    
+    <ImageView
+      android:id="@+id/nhan_tin_image_frame1"
+      android:layout_width="40dp"
+      android:layout_height="40dp"
+      android:layout_marginLeft="128dp"
+      android:layout_marginTop="5dp"
+      android:layout_marginBottom="28dp"
+      android:layout_gravity="left"
+      android:scaleType="centerInside" />
+    
+    <FrameLayout
+      android:id="@+id/container_group4"
+      android:layout_width="match_parent"
+      android:layout_height="match_parent">
+      
+      <ImageView
+        android:id="@+id/nhan_tin_image_rectangle1"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@drawable/nhan_tin_image_rectangle1"
+        android:scaleType="centerCrop" />
+      
+      <ImageView
+        android:id="@+id/nhan_tin_image_group3"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:layout_marginLeft="227dp"
+        android:layout_marginRight="126dp"
+        android:layout_marginTop="16dp"
+        android:layout_marginBottom="17dp"
+        android:scaleType="centerInside"
+        android:src="@drawable/nhan_tin_image_group3" />
+      
+      <ImageView
+        android:id="@+id/nhan_tin_image_group4"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:layout_marginLeft="316dp"
+        android:layout_marginRight="37dp"
+        android:layout_marginTop="15dp"
+        android:layout_marginBottom="18dp"
+        android:scaleType="centerInside"
+        android:src="@drawable/nhan_tin_image_group4" />
+      
+      <ImageView
+        android:id="@+id/nhan_tin_image_group5"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:layout_marginLeft="29dp"
+        android:layout_marginRight="324dp"
+        android:layout_marginTop="16dp"
+        android:layout_marginBottom="17dp"
+        android:scaleType="centerInside"
+        android:src="@drawable/nhan_tin_image_group5" />
+      
+      <ImageView
+        android:id="@+id/nhan_tin_image_group6"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:layout_marginLeft="128dp"
+        android:layout_marginRight="225dp"
+        android:layout_marginTop="5dp"
+        android:layout_marginBottom="28dp"
+        android:scaleType="centerInside"
+        android:src="@drawable/nhan_tin_image_group6" />
+      
+      <TextView
+        android:id="@+id/text_nhan_tin"
+        android:layout_width="wrap_content"
+        android:layout_height="21dp"
+        android:layout_marginLeft="118dp"
+        android:layout_marginTop="48dp"
+        android:layout_marginBottom="4dp"
+        android:layout_gravity="left"
+        android:gravity="left|center_vertical"
+        android:includeFontPadding="false"
+        android:maxLines="1"
+        android:singleLine="true"
+        android:text="Nhắn tin"
+        android:textColor="#FF73C6FF"
+        android:textSize="16dp" />
+    </FrameLayout>
+  </FrameLayout>
+</FrameLayout>

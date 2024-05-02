@@ -1,0 +1,482 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<FrameLayout
+  xmlns:android="http://schemas.android.com/apk/res/android"
+  xmlns:app="http://schemas.android.com/apk/res-auto"
+  xmlns:tools="http://schemas.android.com/tools"
+  android:layout_width="match_parent"
+  android:layout_height="807dp"
+  android:background="@drawable/drawable_shape">
+  
+  <ImageView
+    android:layout_width="19.83dp"
+    android:layout_height="14.97dp"
+    android:layout_marginLeft="30.57dp"
+    android:layout_marginRight="342.6dp"
+    android:layout_marginTop="63.54dp"
+    android:layout_marginBottom="728.49dp"
+    android:scaleType="centerInside"
+    android:src="@drawable/drawable_image" />
+  
+  <ImageView
+    android:layout_width="393dp"
+    android:layout_height="99dp"
+    android:layout_gravity="top|left"
+    android:scaleType="centerInside"
+    android:src="@drawable/drawable_image_1" />
+  
+  <ImageView
+    android:layout_width="27dp"
+    android:layout_height="25dp"
+    android:layout_marginLeft="19dp"
+    android:layout_marginRight="347dp"
+    android:layout_marginTop="47dp"
+    android:layout_marginBottom="735dp"
+    android:scaleType="centerInside"
+    android:src="@drawable/drawable_image_2" />
+  
+  <TextView
+    android:layout_width="wrap_content"
+    android:layout_height="30dp"
+    android:layout_marginLeft="77dp"
+    android:layout_marginTop="45dp"
+    android:layout_marginBottom="-1dp"
+    android:layout_gravity="top|left"
+    android:gravity="left|center_vertical"
+    android:includeFontPadding="false"
+    android:maxLines="1"
+    android:singleLine="true"
+    android:text="Thông tin tài khoản"
+    android:textColor="#FFFFFFFF"
+    android:textSize="24dp" />
+  
+  <ImageView
+    android:layout_width="349dp"
+    android:layout_height="207dp"
+    android:layout_marginLeft="22dp"
+    android:layout_marginTop="152dp"
+    android:layout_gravity="top|left"
+    android:background="@drawable/drawable_shape_1"
+    android:scaleType="centerInside" />
+  
+  <ImageView
+    android:layout_width="349dp"
+    android:layout_height="104dp"
+    android:layout_marginLeft="22dp"
+    android:layout_marginTop="399dp"
+    android:layout_gravity="top|left"
+    android:background="@drawable/drawable_shape_2"
+    android:scaleType="centerInside" />
+  
+  <TextView
+    android:layout_width="wrap_content"
+    android:layout_height="20dp"
+    android:layout_marginLeft="45dp"
+    android:layout_marginTop="168dp"
+    android:layout_marginBottom="-1dp"
+    android:layout_gravity="top|left"
+    android:gravity="left|center_vertical"
+    android:includeFontPadding="false"
+    android:maxLines="1"
+    android:singleLine="true"
+    android:text="Tên hiển thị"
+    android:textColor="#FF000000"
+    android:textSize="15dp" />
+  
+  <TextView
+    android:layout_width="wrap_content"
+    android:layout_height="20dp"
+    android:layout_marginLeft="46dp"
+    android:layout_marginTop="415dp"
+    android:layout_marginBottom="-1dp"
+    android:layout_gravity="top|left"
+    android:gravity="right|center_vertical"
+    android:includeFontPadding="false"
+    android:maxLines="1"
+    android:singleLine="true"
+    android:text="Email"
+    android:textColor="#FF000000"
+    android:textSize="15dp" />
+  
+  <TextView
+    android:layout_width="wrap_content"
+    android:layout_height="20dp"
+    android:layout_marginLeft="287dp"
+    android:layout_marginTop="172dp"
+    android:layout_marginBottom="-1dp"
+    android:layout_gravity="top|left"
+    android:gravity="right|center_vertical"
+    android:includeFontPadding="false"
+    android:maxLines="1"
+    android:singleLine="true"
+    android:text="Tô Cu Đa"
+    android:textColor="#FF000000"
+    android:textSize="15dp" />
+  
+  <TextView
+    android:layout_width="wrap_content"
+    android:layout_height="20dp"
+    android:layout_marginLeft="205dp"
+    android:layout_marginTop="415dp"
+    android:layout_marginBottom="-1dp"
+    android:layout_gravity="top|left"
+    android:gravity="right|center_vertical"
+    android:includeFontPadding="false"
+    android:maxLines="1"
+    android:singleLine="true"
+    android:text="meomeo@gmail.com"
+    android:textColor="#FF000000"
+    android:textSize="15dp" />
+  
+  <TextView
+    android:layout_width="wrap_content"
+    android:layout_height="20dp"
+    android:layout_marginLeft="45dp"
+    android:layout_marginTop="219dp"
+    android:layout_marginBottom="-1dp"
+    android:layout_gravity="top|left"
+    android:gravity="left|center_vertical"
+    android:includeFontPadding="false"
+    android:maxLines="1"
+    android:singleLine="true"
+    android:text="Giới tính"
+    android:textColor="#FF000000"
+    android:textSize="15dp" />
+  
+  <TextView
+    android:layout_width="wrap_content"
+    android:layout_height="20dp"
+    android:layout_marginLeft="46dp"
+    android:layout_marginTop="270dp"
+    android:layout_marginBottom="-1dp"
+    android:layout_gravity="top|left"
+    android:gravity="left|center_vertical"
+    android:includeFontPadding="false"
+    android:maxLines="1"
+    android:singleLine="true"
+    android:text="Địa chỉ"
+    android:textColor="#FF000000"
+    android:textSize="15dp" />
+  
+  <TextView
+    android:layout_width="wrap_content"
+    android:layout_height="20dp"
+    android:layout_marginLeft="46dp"
+    android:layout_marginTop="321dp"
+    android:layout_marginBottom="-1dp"
+    android:layout_gravity="top|left"
+    android:gravity="left|center_vertical"
+    android:includeFontPadding="false"
+    android:maxLines="1"
+    android:singleLine="true"
+    android:text="Mô tả"
+    android:textColor="#FF000000"
+    android:textSize="15dp" />
+  
+  <TextView
+    android:layout_width="wrap_content"
+    android:layout_height="20dp"
+    android:layout_marginLeft="45dp"
+    android:layout_marginTop="466dp"
+    android:layout_marginBottom="-1dp"
+    android:layout_gravity="top|left"
+    android:gravity="right|center_vertical"
+    android:includeFontPadding="false"
+    android:maxLines="1"
+    android:singleLine="true"
+    android:text="Số điện thoại"
+    android:textColor="#FF000000"
+    android:textSize="15dp" />
+  
+  <TextView
+    android:layout_width="wrap_content"
+    android:layout_height="20dp"
+    android:layout_marginLeft="316dp"
+    android:layout_marginTop="219dp"
+    android:layout_marginBottom="-1dp"
+    android:layout_gravity="top|left"
+    android:gravity="right|center_vertical"
+    android:includeFontPadding="false"
+    android:maxLines="1"
+    android:singleLine="true"
+    android:text="Nam"
+    android:textColor="#FF000000"
+    android:textSize="15dp" />
+  
+  <TextView
+    android:layout_width="wrap_content"
+    android:layout_height="20dp"
+    android:layout_marginLeft="303dp"
+    android:layout_marginTop="270dp"
+    android:layout_marginBottom="-1dp"
+    android:layout_gravity="top|left"
+    android:gravity="right|center_vertical"
+    android:includeFontPadding="false"
+    android:maxLines="1"
+    android:singleLine="true"
+    android:text="Hà Nội"
+    android:textColor="#FF000000"
+    android:textSize="15dp" />
+  
+  <TextView
+    android:layout_width="wrap_content"
+    android:layout_height="20dp"
+    android:layout_marginLeft="155dp"
+    android:layout_marginTop="321dp"
+    android:layout_marginBottom="-1dp"
+    android:layout_gravity="top|left"
+    android:gravity="right|center_vertical"
+    android:includeFontPadding="false"
+    android:maxLines="1"
+    android:singleLine="true"
+    android:text="Tổ trưởng tổ bảo vệ động vật"
+    android:textColor="#FF000000"
+    android:textSize="15dp" />
+  
+  <TextView
+    android:layout_width="wrap_content"
+    android:layout_height="20dp"
+    android:layout_marginLeft="262dp"
+    android:layout_marginTop="466dp"
+    android:layout_marginBottom="-1dp"
+    android:layout_gravity="top|left"
+    android:gravity="right|center_vertical"
+    android:includeFontPadding="false"
+    android:maxLines="1"
+    android:singleLine="true"
+    android:text="0123456789"
+    android:textColor="#FF000000"
+    android:textSize="15dp" />
+  
+  <ImageView
+    android:layout_width="330dp"
+    android:layout_height="1.07dp"
+    android:layout_marginLeft="31dp"
+    android:layout_marginTop="203dp"
+    android:layout_gravity="top|left"
+    android:scaleType="centerInside"
+    android:src="@drawable/drawable_image_3" />
+  
+  <ImageView
+    android:layout_width="330dp"
+    android:layout_height="1.07dp"
+    android:layout_marginLeft="32dp"
+    android:layout_marginTop="254dp"
+    android:layout_gravity="top|left"
+    android:scaleType="centerInside"
+    android:src="@drawable/drawable_image_4" />
+  
+  <ImageView
+    android:layout_width="330dp"
+    android:layout_height="1.07dp"
+    android:layout_marginLeft="32dp"
+    android:layout_marginTop="305dp"
+    android:layout_gravity="top|left"
+    android:scaleType="centerInside"
+    android:src="@drawable/drawable_image_5" />
+  
+  <ImageView
+    android:layout_width="330dp"
+    android:layout_height="1.07dp"
+    android:layout_marginLeft="32dp"
+    android:layout_marginTop="450dp"
+    android:layout_gravity="top|left"
+    android:scaleType="centerInside"
+    android:src="@drawable/drawable_image_6" />
+  
+  <TextView
+    android:layout_width="wrap_content"
+    android:layout_height="20dp"
+    android:layout_marginLeft="28dp"
+    android:layout_marginTop="130dp"
+    android:layout_marginBottom="-1dp"
+    android:layout_gravity="top|left"
+    android:gravity="right|center_vertical"
+    android:includeFontPadding="false"
+    android:maxLines="1"
+    android:singleLine="true"
+    android:text="Thông tin công khai"
+    android:textColor="#FF737373"
+    android:textSize="15dp" />
+  
+  <TextView
+    android:layout_width="wrap_content"
+    android:layout_height="20dp"
+    android:layout_marginLeft="28dp"
+    android:layout_marginTop="374dp"
+    android:layout_marginBottom="-1dp"
+    android:layout_gravity="top|left"
+    android:gravity="right|center_vertical"
+    android:includeFontPadding="false"
+    android:maxLines="1"
+    android:singleLine="true"
+    android:text="Thông tin riêng tư"
+    android:textColor="#FF737373"
+    android:textSize="15dp" />
+  
+  <TextView
+    android:layout_width="wrap_content"
+    android:layout_height="20dp"
+    android:layout_marginLeft="28dp"
+    android:layout_marginTop="518dp"
+    android:layout_marginBottom="-1dp"
+    android:layout_gravity="top|left"
+    android:gravity="right|center_vertical"
+    android:includeFontPadding="false"
+    android:maxLines="1"
+    android:singleLine="true"
+    android:text="Mật khẩu và bảo mật"
+    android:textColor="#FF737373"
+    android:textSize="15dp" />
+  
+  <ImageView
+    android:layout_width="349dp"
+    android:layout_height="52dp"
+    android:layout_marginLeft="22dp"
+    android:layout_marginTop="543dp"
+    android:layout_gravity="top|left"
+    android:background="@drawable/drawable_shape_3"
+    android:scaleType="centerInside" />
+  
+  <ImageView
+    android:layout_width="349dp"
+    android:layout_height="52dp"
+    android:layout_marginLeft="22dp"
+    android:layout_marginTop="595dp"
+    android:layout_gravity="top|left"
+    android:background="@drawable/drawable_layer"
+    android:scaleType="centerInside" />
+  
+  <ImageView
+    android:layout_width="349dp"
+    android:layout_height="52dp"
+    android:layout_marginLeft="22dp"
+    android:layout_marginTop="647dp"
+    android:layout_gravity="top|left"
+    android:background="@drawable/drawable_shape_4"
+    android:scaleType="centerInside" />
+  
+  <TextView
+    android:layout_width="wrap_content"
+    android:layout_height="20dp"
+    android:layout_marginLeft="46dp"
+    android:layout_marginTop="559dp"
+    android:layout_marginBottom="-1dp"
+    android:layout_gravity="top|left"
+    android:gravity="right|center_vertical"
+    android:includeFontPadding="false"
+    android:maxLines="1"
+    android:singleLine="true"
+    android:text="Đổi mật khẩu"
+    android:textColor="#FF000000"
+    android:textSize="15dp" />
+  
+  <TextView
+    android:layout_width="wrap_content"
+    android:layout_height="20dp"
+    android:layout_marginLeft="46dp"
+    android:layout_marginTop="611dp"
+    android:layout_marginBottom="-1dp"
+    android:layout_gravity="top|left"
+    android:gravity="right|center_vertical"
+    android:includeFontPadding="false"
+    android:maxLines="1"
+    android:singleLine="true"
+    android:text="Xác thực 2 bước"
+    android:textColor="#FF000000"
+    android:textSize="15dp" />
+  
+  <TextView
+    android:layout_width="wrap_content"
+    android:layout_height="20dp"
+    android:layout_marginLeft="43dp"
+    android:layout_marginTop="662dp"
+    android:layout_marginBottom="-1dp"
+    android:layout_gravity="top|left"
+    android:gravity="right|center_vertical"
+    android:includeFontPadding="false"
+    android:maxLines="1"
+    android:singleLine="true"
+    android:text="Xóa tài khoản và thông tin của bạn"
+    android:textColor="#FF000000"
+    android:textSize="15dp" />
+  
+  <TextView
+    android:layout_width="wrap_content"
+    android:layout_height="20dp"
+    android:layout_marginLeft="341dp"
+    android:layout_marginTop="559dp"
+    android:layout_marginBottom="-1dp"
+    android:layout_gravity="top|left"
+    android:gravity="right|center_vertical"
+    android:includeFontPadding="false"
+    android:maxLines="1"
+    android:singleLine="true"
+    android:text="&gt;"
+    android:textColor="#FF000000"
+    android:textSize="15dp" />
+  
+  <TextView
+    android:layout_width="wrap_content"
+    android:layout_height="20dp"
+    android:layout_marginLeft="341dp"
+    android:layout_marginTop="611dp"
+    android:layout_marginBottom="-1dp"
+    android:layout_gravity="top|left"
+    android:gravity="right|center_vertical"
+    android:includeFontPadding="false"
+    android:maxLines="1"
+    android:singleLine="true"
+    android:text="&gt;"
+    android:textColor="#FF000000"
+    android:textSize="15dp" />
+  
+  <TextView
+    android:layout_width="wrap_content"
+    android:layout_height="20dp"
+    android:layout_marginLeft="341dp"
+    android:layout_marginTop="663dp"
+    android:layout_marginBottom="-1dp"
+    android:layout_gravity="top|left"
+    android:gravity="right|center_vertical"
+    android:includeFontPadding="false"
+    android:maxLines="1"
+    android:singleLine="true"
+    android:text="&gt;"
+    android:textColor="#FF000000"
+    android:textSize="15dp" />
+  
+  <ImageView
+    android:layout_width="320dp"
+    android:layout_height="40dp"
+    android:layout_marginLeft="36dp"
+    android:layout_marginTop="718dp"
+    android:layout_gravity="top|left"
+    android:background="@drawable/drawable_shape_5"
+    android:scaleType="centerInside" />
+  
+  <TextView
+    android:layout_width="wrap_content"
+    android:layout_height="25dp"
+    android:layout_marginLeft="147dp"
+    android:layout_marginTop="725.5dp"
+    android:layout_marginBottom="-0.5dp"
+    android:layout_gravity="top|left"
+    android:gravity="left|center_vertical"
+    android:includeFontPadding="false"
+    android:maxLines="1"
+    android:singleLine="true"
+    android:text="Đăng xuất"
+    android:textColor="#FF000000"
+    android:textSize="20dp" />
+  
+  <ImageView
+    android:id="@+id/ic_pencil_solid"
+    android:layout_width="15dp"
+    android:layout_height="15dp"
+    android:layout_marginLeft="344dp"
+    android:layout_marginTop="115dp"
+    android:layout_gravity="top|left"
+    android:scaleType="centerInside"
+    android:src="@drawable/ic_pencil_solid" />
+</FrameLayout>

@@ -1,0 +1,255 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout
+  xmlns:android="http://schemas.android.com/apk/res/android"
+  xmlns:app="http://schemas.android.com/apk/res-auto"
+  xmlns:tools="http://schemas.android.com/tools"
+  android:id="@+id/container_disable_account"
+  android:layout_width="match_parent"
+  android:layout_height="807dp"
+  android:background="@drawable/container_disable_account"
+  android:gravity="left|top"
+  android:orientation="vertical">
+  
+  <FrameLayout
+    android:id="@+id/container_group"
+    android:layout_width="393dp"
+    android:layout_height="99dp"
+    android:layout_gravity="left">
+    
+    <ImageView
+      android:id="@+id/xoa_tai_khoan_image_rectangle"
+      android:layout_width="match_parent"
+      android:layout_height="match_parent"
+      android:scaleType="centerCrop"
+      android:src="@drawable/xoa_tai_khoan_image_rectangle" />
+    
+    <ImageView
+      android:id="@+id/xoa_tai_khoan_image_frame"
+      android:layout_width="29.47dp"
+      android:layout_height="25dp"
+      android:layout_marginLeft="20.74dp"
+      android:layout_marginTop="47dp"
+      android:layout_marginBottom="27dp"
+      android:layout_gravity="left"
+      android:scaleType="centerInside"
+      android:src="@drawable/xoa_tai_khoan_image_frame" />
+    
+    <TextView
+      android:id="@+id/text_delete_account"
+      android:layout_width="160.48dp"
+      android:layout_height="30dp"
+      android:layout_marginLeft="84.06dp"
+      android:layout_marginTop="45dp"
+      android:layout_marginBottom="24dp"
+      android:layout_gravity="left"
+      android:gravity="left|center_vertical"
+      android:includeFontPadding="false"
+      android:maxLines="1"
+      android:singleLine="true"
+      android:text="Xóa tài khoản"
+      android:textColor="#FFFFFFFF"
+      android:textSize="24dp" />
+  </FrameLayout>
+  
+  <FrameLayout
+    android:layout_width="349dp"
+    android:layout_height="353dp"
+    android:layout_marginLeft="22dp"
+    android:layout_marginTop="25dp"
+    android:layout_gravity="left">
+    
+    <TextView
+      android:id="@+id/xoa_tai_khoan_group_text_disable_delete_account"
+      android:layout_width="wrap_content"
+      android:layout_height="20dp"
+      android:layout_marginLeft="6dp"
+      android:layout_marginTop="-1dp"
+      android:layout_marginBottom="-1dp"
+      android:layout_gravity="top|left"
+      android:gravity="right|center_vertical"
+      android:includeFontPadding="false"
+      android:maxLines="1"
+      android:singleLine="true"
+      android:text="Vô hiệu hóa hoặc xóa tài khoản WoofSearch "
+      android:textColor="#FF000000"
+      android:textSize="15dp" />
+    
+    <TextView
+      android:layout_width="wrap_content"
+      android:layout_height="36dp"
+      android:layout_marginLeft="6dp"
+      android:layout_marginTop="22dp"
+      android:layout_gravity="top|left"
+      android:gravity="left|top"
+      android:includeFontPadding="false"
+      android:lineHeight="11.72dp"
+      android:text="Nếu muốn tạm ngưng sử dụng WoofSearch, bạn có thể vô hiệu hóa tài  khoản. Còn nếu muốn xóa vĩnh viễn tài khoản WoofSearch, hãy cho chúng tôi biết nhé."
+      android:textColor="#FF737373"
+      android:textSize="10dp" />
+    
+    <ImageView
+      android:id="@+id/xoa_tai_khoan_group_xoa_tai_khoan_image_rectangle1"
+      android:layout_width="match_parent"
+      android:layout_height="match_parent"
+      android:layout_marginLeft="15dp"
+      android:layout_marginRight="14dp"
+      android:layout_marginTop="264dp"
+      android:layout_marginBottom="49dp"
+      android:scaleType="centerCrop"
+      android:src="@drawable/xoa_tai_khoan_group_image_rectangle1" />
+    
+    <ImageView
+      android:id="@+id/xoa_tai_khoan_group_xoa_tai_khoan_image_rectangle2"
+      android:layout_width="match_parent"
+      android:layout_height="match_parent"
+      android:layout_marginLeft="15dp"
+      android:layout_marginRight="14dp"
+      android:layout_marginTop="313dp"
+      android:scaleType="centerCrop"
+      android:src="@drawable/xoa_tai_khoan_group_image_rectangle2" />
+    
+    <TextView
+      android:id="@+id/xoa_tai_khoan_group_text_continue_disable_account"
+      android:layout_width="match_parent"
+      android:layout_height="20dp"
+      android:layout_marginLeft="67dp"
+      android:layout_marginRight="67dp"
+      android:layout_marginTop="274dp"
+      android:layout_marginBottom="59dp"
+      android:gravity="left|center_vertical"
+      android:includeFontPadding="false"
+      android:maxLines="1"
+      android:singleLine="true"
+      android:text="Tiếp tục vô hiệu hóa tài khoản"
+      android:textColor="#FFFFFFFF"
+      android:textSize="15dp" />
+    
+    <TextView
+      android:id="@+id/xoa_tai_khoan_group_text_cancel"
+      android:layout_width="match_parent"
+      android:layout_height="20dp"
+      android:layout_marginLeft="160dp"
+      android:layout_marginRight="160dp"
+      android:layout_marginTop="323dp"
+      android:layout_marginBottom="10dp"
+      android:gravity="left|center_vertical"
+      android:includeFontPadding="false"
+      android:maxLines="1"
+      android:singleLine="true"
+      android:text="Hủy"
+      android:textColor="#FF000000"
+      android:textSize="15dp" />
+    
+    <ImageView
+      android:id="@+id/xoa_tai_khoan_group_xoa_tai_khoan_image_rectangle3"
+      android:layout_width="match_parent"
+      android:layout_height="79dp"
+      android:layout_marginTop="73dp"
+      android:layout_gravity="top"
+      android:background="@drawable/xoa_tai_khoan_group_image_rectangle3"
+      android:scaleType="centerCrop" />
+    
+    <ImageView
+      android:id="@+id/xoa_tai_khoan_group_xoa_tai_khoan_image_rectangle4"
+      android:layout_width="match_parent"
+      android:layout_height="match_parent"
+      android:layout_marginTop="161dp"
+      android:layout_marginBottom="113dp"
+      android:background="@drawable/xoa_tai_khoan_group_image_rectangle4"
+      android:scaleType="centerCrop" />
+    
+    <TextView
+      android:id="@+id/xoa_tai_khoan_group_text_disable_account"
+      android:layout_width="wrap_content"
+      android:layout_height="20dp"
+      android:layout_marginLeft="28dp"
+      android:layout_marginTop="81dp"
+      android:layout_marginBottom="-1dp"
+      android:layout_gravity="top|left"
+      android:gravity="right|center_vertical"
+      android:includeFontPadding="false"
+      android:maxLines="1"
+      android:singleLine="true"
+      android:text="Vô hiệu hóa tài khoản "
+      android:textColor="#FF000000"
+      android:textSize="15dp" />
+    
+    <TextView
+      android:id="@+id/xoa_tai_khoan_group_text_delete_account"
+      android:layout_width="wrap_content"
+      android:layout_height="20dp"
+      android:layout_marginLeft="28dp"
+      android:layout_marginTop="169dp"
+      android:layout_marginBottom="164dp"
+      android:layout_gravity="left"
+      android:gravity="right|center_vertical"
+      android:includeFontPadding="false"
+      android:maxLines="1"
+      android:singleLine="true"
+      android:text="Xóa tài khoản"
+      android:textColor="#FF000000"
+      android:textSize="15dp" />
+    
+    <TextView
+      android:id="@+id/xoa_tai_khoan_group_text_account_temporarily_disabled"
+      android:layout_width="wrap_content"
+      android:layout_height="36dp"
+      android:layout_marginLeft="30dp"
+      android:layout_marginRight="7dp"
+      android:layout_marginTop="104dp"
+      android:layout_gravity="top"
+      android:gravity="left|top"
+      android:includeFontPadding="false"
+      android:lineHeight="11.72dp"
+      android:text="Tài khoản của bạn chỉ bị vô hiệu hóa tạm thời. Hệ thống sẽ vô hiệu hóa tài khoản, cũng như gỡ tên và ảnh của bạn khỏi hầu hết những gì bạn đã chia sẻ."
+      android:textColor="#FF737373"
+      android:textSize="10dp" />
+    
+    <TextView
+      android:id="@+id/xoa_tai_khoan_group_text_account_permanently_deleted"
+      android:layout_width="wrap_content"
+      android:layout_height="36dp"
+      android:layout_marginLeft="30dp"
+      android:layout_marginRight="14dp"
+      android:layout_marginTop="192dp"
+      android:layout_marginBottom="125dp"
+      android:gravity="left|top"
+      android:includeFontPadding="false"
+      android:lineHeight="11.72dp"
+      android:text="Tài khoản của bạn sẽ bị xóa vĩnh viễn. Khi xóa tài khoản WoofSearch, bạn sẽ không thể truy suất nội dung hoặc thông tin mình đã chia sẻ  trên WoofSearch. Tất cả tin nhắn của bạn cũng sẽ bị xóa đi."
+      android:textColor="#FF737373"
+      android:textSize="10dp" />
+    
+    <ImageView
+      android:id="@+id/xoa_tai_khoan_group_xoa_tai_khoan_image_ellipse1"
+      android:layout_width="10dp"
+      android:layout_height="10dp"
+      android:layout_marginLeft="8dp"
+      android:layout_marginTop="107dp"
+      android:layout_gravity="top|left"
+      android:background="@drawable/xoa_tai_khoan_group_image_ellipse1"
+      android:scaleType="centerInside" />
+    
+    <ImageView
+      android:id="@+id/xoa_tai_khoan_group_xoa_tai_khoan_image_ellipse2"
+      android:layout_width="10dp"
+      android:layout_height="10dp"
+      android:layout_marginLeft="8dp"
+      android:layout_marginTop="195dp"
+      android:layout_marginBottom="148dp"
+      android:layout_gravity="left"
+      android:background="@drawable/xoa_tai_khoan_group_image_ellipse2"
+      android:scaleType="centerInside" />
+    
+    <ImageView
+      android:id="@+id/xoa_tai_khoan_group_xoa_tai_khoan_image_ellipse3"
+      android:layout_width="6dp"
+      android:layout_height="6dp"
+      android:layout_marginLeft="10dp"
+      android:layout_marginTop="109dp"
+      android:layout_gravity="top|left"
+      android:background="@drawable/xoa_tai_khoan_group_image_ellipse3"
+      android:scaleType="centerInside" />
+  </FrameLayout>
+</LinearLayout>

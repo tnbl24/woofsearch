@@ -1,0 +1,181 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<FrameLayout
+  xmlns:android="http://schemas.android.com/apk/res/android"
+  xmlns:app="http://schemas.android.com/apk/res-auto"
+  xmlns:tools="http://schemas.android.com/tools"
+  android:layout_width="match_parent"
+  android:layout_height="807dp"
+  android:background="@drawable/sign_up_drawable_shape">
+  
+  <ImageView
+    android:layout_width="300dp"
+    android:layout_height="70dp"
+    android:layout_marginLeft="46dp"
+    android:layout_marginTop="605dp"
+    android:layout_gravity="top|left"
+    android:scaleType="centerInside"
+    android:src="@drawable/sign_up_drawable_image" />
+  
+  <TextView
+    android:layout_width="wrap_content"
+    android:layout_height="25dp"
+    android:layout_marginLeft="155dp"
+    android:layout_marginTop="627.5dp"
+    android:layout_marginBottom="-0.5dp"
+    android:layout_gravity="top|left"
+    android:gravity="left|center_vertical"
+    android:includeFontPadding="false"
+    android:maxLines="1"
+    android:singleLine="true"
+    android:text="Đăng Ký"
+    android:textColor="#FFFFFFFF"
+    android:textSize="20dp" />
+  
+  <TextView
+    android:layout_width="wrap_content"
+    android:layout_height="37dp"
+    android:layout_marginLeft="67dp"
+    android:layout_marginTop="98.5dp"
+    android:layout_marginBottom="-0.5dp"
+    android:layout_gravity="top|left"
+    android:gravity="left|center_vertical"
+    android:includeFontPadding="false"
+    android:maxLines="1"
+    android:singleLine="true"
+    android:text="Tạo tài khoản mới"
+    android:textColor="#FF65C7F7"
+    android:textSize="30dp" />
+  
+  <FrameLayout
+    android:id="@+id/container_group"
+    android:layout_width="120dp"
+    android:layout_height="120dp"
+    android:layout_marginLeft="136dp"
+    android:layout_marginTop="150dp"
+    android:layout_gravity="top|left">
+    
+    <ImageView
+      android:id="@+id/image_ellipse1"
+      android:layout_width="match_parent"
+      android:layout_height="match_parent"
+      android:scaleType="centerCrop"
+      android:src="@drawable/image_ellipse1" />
+    
+    <ImageView
+      android:id="@+id/image_ellipse2"
+      android:layout_width="30dp"
+      android:layout_height="30dp"
+      android:layout_marginLeft="90dp"
+      android:layout_marginTop="90dp"
+      android:background="@drawable/image_ellipse2"
+      android:scaleType="centerInside" />
+    
+    <ImageView
+      android:id="@+id/image_camera_solid"
+      android:layout_width="20dp"
+      android:layout_height="20dp"
+      android:layout_marginLeft="95dp"
+      android:layout_marginRight="5dp"
+      android:layout_marginTop="95dp"
+      android:layout_marginBottom="5dp"
+      android:scaleType="centerInside"
+      android:src="@drawable/image_camera_solid" />
+  </FrameLayout>
+  
+  <ImageView
+    android:layout_width="300dp"
+    android:layout_height="52dp"
+    android:layout_marginLeft="46dp"
+    android:layout_marginTop="303dp"
+    android:layout_gravity="top|left"
+    android:background="@drawable/sign_up_drawable_shape_1"
+    android:scaleType="centerInside" />
+  
+  <ImageView
+    android:layout_width="300dp"
+    android:layout_height="52dp"
+    android:layout_marginLeft="46dp"
+    android:layout_marginTop="370dp"
+    android:layout_gravity="top|left"
+    android:background="@drawable/sign_up_drawable_shape_2"
+    android:scaleType="centerInside" />
+  
+  <ImageView
+    android:layout_width="300dp"
+    android:layout_height="52dp"
+    android:layout_marginLeft="46dp"
+    android:layout_marginTop="437dp"
+    android:layout_gravity="top|left"
+    android:background="@drawable/sign_up_drawable_shape_3"
+    android:scaleType="centerInside" />
+  
+  <ImageView
+    android:layout_width="300dp"
+    android:layout_height="52dp"
+    android:layout_marginLeft="46dp"
+    android:layout_marginTop="504dp"
+    android:layout_gravity="top|left"
+    android:background="@drawable/sign_up_drawable_shape_4"
+    android:scaleType="centerInside" />
+  
+  <TextView
+    android:layout_width="wrap_content"
+    android:layout_height="25dp"
+    android:layout_marginLeft="67dp"
+    android:layout_marginTop="316.5dp"
+    android:layout_marginBottom="-0.5dp"
+    android:layout_gravity="top|left"
+    android:gravity="left|center_vertical"
+    android:includeFontPadding="false"
+    android:maxLines="1"
+    android:singleLine="true"
+    android:text="Họ và tên"
+    android:textColor="#FFDFDFDF"
+    android:textSize="20dp" />
+  
+  <TextView
+    android:layout_width="wrap_content"
+    android:layout_height="25dp"
+    android:layout_marginLeft="64dp"
+    android:layout_marginTop="383.5dp"
+    android:layout_marginBottom="-0.5dp"
+    android:layout_gravity="top|left"
+    android:gravity="left|center_vertical"
+    android:includeFontPadding="false"
+    android:maxLines="1"
+    android:singleLine="true"
+    android:text="Số điện thoại"
+    android:textColor="#FFDFDFDF"
+    android:textSize="20dp" />
+  
+  <TextView
+    android:layout_width="wrap_content"
+    android:layout_height="25dp"
+    android:layout_marginLeft="67dp"
+    android:layout_marginTop="450.5dp"
+    android:layout_marginBottom="-0.5dp"
+    android:layout_gravity="top|left"
+    android:gravity="left|center_vertical"
+    android:includeFontPadding="false"
+    android:maxLines="1"
+    android:singleLine="true"
+    android:text="E-mail"
+    android:textColor="#FFDFDFDF"
+    android:textSize="20dp" />
+  
+  <TextView
+    android:layout_width="wrap_content"
+    android:layout_height="25dp"
+    android:layout_marginLeft="67dp"
+    android:layout_marginTop="517.5dp"
+    android:layout_marginBottom="-0.5dp"
+    android:layout_gravity="top|left"
+    android:gravity="left|center_vertical"
+    android:includeFontPadding="false"
+    android:maxLines="1"
+    android:singleLine="true"
+    android:text="Mật khẩu"
+    android:textColor="#FFDFDFDF"
+    android:textSize="20dp" />
+</FrameLayout>

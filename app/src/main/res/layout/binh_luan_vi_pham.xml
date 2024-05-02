@@ -1,0 +1,197 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<FrameLayout
+  xmlns:android="http://schemas.android.com/apk/res/android"
+  xmlns:app="http://schemas.android.com/apk/res-auto"
+  xmlns:tools="http://schemas.android.com/tools"
+  android:id="@+id/binh_luan_vi_pham_container_notification_report_comment"
+  android:layout_width="match_parent"
+  android:layout_height="807dp"
+  android:background="@drawable/binh_luan_vi_pham_container_notification_report_comment">
+  
+  <ImageView
+    android:id="@+id/binh_luan_vi_pham_container_group"
+    android:layout_width="393dp"
+    android:layout_height="101dp"
+    android:layout_gravity="top|left"
+    android:scaleType="centerInside"
+    android:src="@drawable/binh_luan_vi_pham_container_group" />
+  
+  <ImageView
+    android:id="@+id/binh_luan_vi_pham_image_rectangle"
+    android:layout_width="164dp"
+    android:layout_height="51dp"
+    android:layout_marginLeft="25dp"
+    android:layout_marginTop="735dp"
+    android:layout_gravity="top|left"
+    android:background="@drawable/binh_luan_vi_pham_image_rectangle"
+    android:scaleType="centerInside" />
+  
+  <TextView
+    android:id="@+id/text_objection"
+    android:layout_width="wrap_content"
+    android:layout_height="21dp"
+    android:layout_marginLeft="71dp"
+    android:layout_marginTop="750dp"
+    android:layout_marginBottom="-1dp"
+    android:layout_gravity="top|left"
+    android:gravity="left|center_vertical"
+    android:includeFontPadding="false"
+    android:maxLines="1"
+    android:singleLine="true"
+    android:text="Phản đối"
+    android:textColor="#FF000000"
+    android:textSize="16dp" />
+  
+  <ImageView
+    android:id="@+id/binh_luan_vi_pham_image_rectangle1"
+    android:layout_width="164dp"
+    android:layout_height="51dp"
+    android:layout_marginLeft="205dp"
+    android:layout_marginTop="735dp"
+    android:layout_gravity="top|left"
+    android:background="@drawable/binh_luan_vi_pham_image_rectangle1"
+    android:scaleType="centerInside" />
+  
+  <TextView
+    android:id="@+id/text_ok"
+    android:layout_width="wrap_content"
+    android:layout_height="21dp"
+    android:layout_marginLeft="277dp"
+    android:layout_marginTop="750dp"
+    android:layout_marginBottom="-1dp"
+    android:layout_gravity="top|left"
+    android:gravity="left|center_vertical"
+    android:includeFontPadding="false"
+    android:maxLines="1"
+    android:singleLine="true"
+    android:text="OK"
+    android:textColor="#FF000000"
+    android:textSize="16dp" />
+  
+  <TextView
+    android:id="@+id/text_comment_privacy_warning"
+    android:layout_width="343dp"
+    android:layout_height="72dp"
+    android:layout_marginLeft="26dp"
+    android:layout_marginTop="110dp"
+    android:layout_gravity="top|left"
+    android:gravity="left|top"
+    android:includeFontPadding="false"
+    android:lineHeight="17.58dp"
+    android:text="Không ai khác có thể nhìn thấy bình luận của bạn. Chúng tôi đặt ra các tiêu chuẩn này để ngăn chặn những nội dung như quảng cáo sai lệch, lừa đảo và vi phạm bảo mật."
+    android:textColor="#FF000000"
+    android:textSize="15dp" />
+  
+  <TextView
+    android:id="@+id/text_comment_spam_warning"
+    android:layout_width="322dp"
+    android:layout_height="46dp"
+    android:layout_marginLeft="47dp"
+    android:layout_marginTop="39dp"
+    android:layout_gravity="top|left"
+    android:gravity="left|top"
+    android:includeFontPadding="false"
+    android:lineHeight="23.44dp"
+    android:text="Bình luận của bạn đã vi phạm Tiêu chuẩn cộng đồng về spam"
+    android:textColor="#FFFFFFFF"
+    android:textSize="20dp" />
+  
+  <ImageView
+    android:id="@+id/binh_luan_vi_pham_container_frame"
+    android:layout_width="27dp"
+    android:layout_height="25dp"
+    android:layout_marginLeft="10dp"
+    android:layout_marginTop="40dp"
+    android:layout_gravity="top|left"
+    android:scaleType="centerInside"
+    android:src="@drawable/binh_luan_vi_pham_container_frame" />
+  
+  <FrameLayout
+    android:id="@+id/binh_luan_vi_pham_container_group1"
+    android:layout_width="50.01dp"
+    android:layout_height="49.99dp"
+    android:layout_marginLeft="10.99dp"
+    android:layout_marginTop="221.55dp"
+    android:layout_gravity="top|left">
+    
+    <ImageView
+      android:id="@+id/binh_luan_vi_pham_image_ellipse"
+      android:layout_width="50.01dp"
+      android:layout_height="49.99dp"
+      android:layout_marginLeft="0dp"
+      android:layout_marginRight="0dp"
+      android:layout_marginBottom="0dp"
+      android:scaleType="centerInside"
+      android:src="@drawable/binh_luan_vi_pham_image_ellipse" />
+  </FrameLayout>
+  
+  <ImageView
+    android:id="@+id/binh_luan_vi_pham_image_rectangle2"
+    android:layout_width="277dp"
+    android:layout_height="92dp"
+    android:layout_marginLeft="73dp"
+    android:layout_marginTop="221dp"
+    android:layout_gravity="top|left"
+    android:background="@drawable/binh_luan_vi_pham_image_rectangle2"
+    android:scaleType="centerInside" />
+  
+  <TextView
+    android:id="@+id/text_your_name"
+    android:layout_width="wrap_content"
+    android:layout_height="25dp"
+    android:layout_marginLeft="80dp"
+    android:layout_marginTop="228dp"
+    android:layout_marginBottom="-1dp"
+    android:layout_gravity="top|left"
+    android:gravity="left|center_vertical"
+    android:includeFontPadding="false"
+    android:maxLines="1"
+    android:singleLine="true"
+    android:text="Your name"
+    android:textColor="#FF000000"
+    android:textSize="20dp" />
+  
+  <TextView
+    android:id="@+id/text_comment_content"
+    android:layout_width="wrap_content"
+    android:layout_height="20dp"
+    android:layout_marginLeft="80dp"
+    android:layout_marginTop="252dp"
+    android:layout_marginBottom="-1dp"
+    android:layout_gravity="top|left"
+    android:gravity="left|center_vertical"
+    android:includeFontPadding="false"
+    android:maxLines="1"
+    android:singleLine="true"
+    android:text="Nội dung bình luận ở đây"
+    android:textColor="#FF000000"
+    android:textSize="15dp" />
+
+  <ImageView
+      android:id="@+id/binh_luan_vi_pham_container_line"
+      android:layout_width="345dp"
+      android:layout_height="1dp"
+      android:layout_gravity="top|left"
+      android:layout_marginLeft="26dp"
+      android:layout_marginTop="194.5dp"
+      android:background="#2196F3"
+      android:scaleType="centerInside"
+      android:src="@drawable/binh_luan_vi_pham_container_line" />
+  
+  <TextView
+    android:id="@+id/text_hours_ago"
+    android:layout_width="wrap_content"
+    android:layout_height="17dp"
+    android:layout_marginLeft="80dp"
+    android:layout_marginTop="325dp"
+    android:layout_marginBottom="-1dp"
+    android:layout_gravity="top|left"
+    android:gravity="left|center_vertical"
+    android:includeFontPadding="false"
+    android:maxLines="1"
+    android:singleLine="true"
+    android:text="4 giờ trước"
+    android:textColor="#FF000000"
+    android:textSize="13dp" />
+</FrameLayout>

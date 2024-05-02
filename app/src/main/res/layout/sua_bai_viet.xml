@@ -1,0 +1,245 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<FrameLayout
+  xmlns:android="http://schemas.android.com/apk/res/android"
+  xmlns:app="http://schemas.android.com/apk/res-auto"
+  xmlns:tools="http://schemas.android.com/tools"
+  android:id="@+id/sua_bai_viet_container_edit_post"
+  android:layout_width="match_parent"
+  android:layout_height="807dp"
+  android:background="@drawable/sua_bai_viet_container_edit_post">
+  
+  <ImageView
+    android:id="@+id/sua_bai_viet_container_group"
+    android:layout_width="393dp"
+    android:layout_height="82dp"
+    android:layout_gravity="top|left"
+    android:scaleType="centerInside"
+    android:src="@drawable/sua_bai_viet_container_group" />
+  
+  <TextView
+    android:id="@+id/text_edit_title"
+    android:layout_width="wrap_content"
+    android:layout_height="32dp"
+    android:layout_marginTop="40dp"
+    android:layout_marginBottom="-1dp"
+    android:layout_gravity="center_horizontal"
+    android:gravity="center_horizontal|center_vertical"
+    android:includeFontPadding="false"
+    android:maxLines="1"
+    android:singleLine="true"
+    android:text="Chỉnh sửa bài viết"
+    android:textColor="#FFFFFFFF"
+    android:textSize="26dp" />
+  
+  <ImageView
+    android:id="@+id/sua_bai_viet_image_frame"
+    android:layout_width="27dp"
+    android:layout_height="25dp"
+    android:layout_marginLeft="27dp"
+    android:layout_marginTop="41dp"
+    android:layout_gravity="top|left"
+    android:scaleType="centerInside"
+    android:src="@drawable/sua_bai_viet_image_frame" />
+  
+  <FrameLayout
+    android:id="@+id/sua_bai_viet_container_group3"
+    android:layout_width="178dp"
+    android:layout_height="54.23dp"
+    android:layout_marginLeft="14dp"
+    android:layout_marginTop="107dp"
+    android:layout_gravity="top|left">
+    
+    <TextView
+      android:id="@+id/text_your_name"
+      android:layout_width="match_parent"
+      android:layout_height="25dp"
+      android:layout_marginLeft="65dp"
+      android:layout_marginTop="4dp"
+      android:layout_marginBottom="-2dp"
+      android:layout_gravity="top"
+      android:gravity="left|center_vertical"
+      android:includeFontPadding="false"
+      android:maxLines="1"
+      android:singleLine="true"
+      android:text="Your name"
+      android:textColor="#FF000000"
+      android:textSize="20dp" />
+    
+    <ImageView
+      android:id="@+id/sua_bai_viet_image_ellipse"
+      android:layout_width="58dp"
+      android:layout_height="54.23dp"
+      android:layout_marginTop="0dp"
+      android:layout_marginBottom="0dp"
+      android:layout_gravity="left"
+      android:scaleType="centerInside"
+      android:src="@drawable/sua_bai_viet_image_ellipse" />
+  </FrameLayout>
+  
+  <TextView
+    android:id="@+id/text_post_content"
+    android:layout_width="wrap_content"
+    android:layout_height="20dp"
+    android:layout_marginLeft="17dp"
+    android:layout_marginTop="171dp"
+    android:layout_marginBottom="-1dp"
+    android:layout_gravity="top|left"
+    android:gravity="left|center_vertical"
+    android:includeFontPadding="false"
+    android:maxLines="1"
+    android:singleLine="true"
+    android:text="Đây là nội dung của bài viết"
+    android:textColor="#FF000000"
+    android:textSize="15dp" />
+  
+  <ImageView
+    android:id="@+id/sua_bai_viet_image_rectangle"
+    android:layout_width="393dp"
+    android:layout_height="229dp"
+    android:layout_marginTop="207dp"
+    android:layout_gravity="top|left"
+    android:scaleType="centerInside"
+    android:src="@drawable/sua_bai_viet_image_rectangle" />
+
+  <ImageView
+      android:id="@+id/sua_bai_viet_container_line"
+      android:layout_width="340dp"
+      android:layout_height="1dp"
+      android:layout_gravity="top|left"
+      android:layout_marginLeft="22dp"
+      android:layout_marginTop="476dp"
+      android:background="#2196F3"
+      android:scaleType="centerInside"
+      android:src="@drawable/sua_bai_viet_container_line" />
+
+  <ImageView
+      android:id="@+id/sua_bai_viet_container_line1"
+      android:layout_width="340dp"
+      android:layout_height="1dp"
+      android:layout_gravity="top|left"
+      android:layout_marginLeft="22dp"
+      android:layout_marginTop="544dp"
+      android:background="#2196F3"
+      android:scaleType="centerInside"
+      android:src="@drawable/sua_bai_viet_container_line1" />
+
+  <ImageView
+      android:id="@+id/sua_bai_viet_container_line2"
+      android:layout_width="340dp"
+      android:layout_height="1dp"
+      android:layout_gravity="top|left"
+      android:layout_marginLeft="22dp"
+      android:layout_marginTop="604dp"
+      android:background="#2196F3"
+      android:scaleType="centerInside"
+      android:src="@drawable/sua_bai_viet_container_line2" />
+  
+  <ImageView
+    android:id="@+id/sua_bai_viet_image_rectangle1"
+    android:layout_width="367dp"
+    android:layout_height="51dp"
+    android:layout_marginLeft="12dp"
+    android:layout_marginTop="729dp"
+    android:layout_gravity="top|left"
+    android:background="@drawable/sua_bai_viet_image_rectangle1"
+    android:scaleType="centerInside" />
+  
+  <TextView
+    android:id="@+id/text_update_post"
+    android:layout_width="wrap_content"
+    android:layout_height="21dp"
+    android:layout_marginTop="744dp"
+    android:layout_marginBottom="-1dp"
+    android:layout_gravity="center_horizontal"
+    android:gravity="left|center_vertical"
+    android:includeFontPadding="false"
+    android:maxLines="1"
+    android:singleLine="true"
+    android:text="Cập nhật bài viết"
+    android:textColor="#FF000000"
+    android:textSize="16dp" />
+  
+  <FrameLayout
+    android:id="@+id/sua_bai_viet_container_group4"
+    android:layout_width="109.98dp"
+    android:layout_height="29.58dp"
+    android:layout_marginBottom="279.42dp"
+    android:layout_gravity="bottom">
+
+    <TextView
+      android:id="@+id/text_hinh_anh"
+      android:layout_width="match_parent"
+      android:layout_height="25.71dp"
+      android:layout_marginLeft="37.98dp"
+      android:layout_marginRight="0dp"
+      android:layout_gravity="top"
+      android:gravity="center_horizontal|center_vertical"
+      android:includeFontPadding="false"
+      android:maxLines="1"
+      android:singleLine="true"
+      android:text="Hình ảnh"
+      android:textColor="#FF000000"
+      android:textSize="18dp" />
+
+    <ImageView
+        android:id="@+id/sua_bai_viet_image_group"
+        android:layout_width="34.93dp"
+        android:layout_height="29.25dp"
+        android:layout_marginTop="0.32dp"
+        android:layout_marginRight="95dp"
+        android:layout_marginBottom="0dp"
+        android:scaleType="centerInside"
+        android:src="@drawable/sua_bai_viet_image_group" />
+  </FrameLayout>
+  
+  <TextView
+    android:id="@+id/sua_bai_viet_container_group1"
+    android:layout_width="72dp"
+    android:layout_height="25.71dp"
+    android:layout_marginLeft="52dp"
+    android:layout_marginTop="562dp"
+    android:layout_gravity="top|left"
+    android:gravity="center_horizontal|center_vertical"
+    android:includeFontPadding="false"
+    android:maxLines="1"
+    android:singleLine="true"
+    android:text="Video"
+    android:textColor="#FF000000"
+    android:textSize="18dp" />
+
+  <ImageView
+      android:id="@+id/sua_bai_viet_container_frame"
+      android:layout_width="28dp"
+      android:layout_height="26dp"
+      android:layout_gravity="top|left"
+      android:layout_marginLeft="21dp"
+      android:layout_marginTop="560dp"
+      android:scaleType="centerInside"
+      android:src="@drawable/sua_bai_viet_container_frame" />
+  
+  <TextView
+    android:id="@+id/sua_bai_viet_container_group5"
+    android:layout_width="170dp"
+    android:layout_height="26dp"
+    android:layout_marginLeft="56dp"
+    android:layout_marginTop="624dp"
+    android:layout_gravity="top|left"
+    android:gravity="center_horizontal|center_vertical"
+    android:includeFontPadding="false"
+    android:maxLines="1"
+    android:singleLine="true"
+    android:text="Biểu tượng cảm xúc"
+    android:textColor="#FF000000"
+    android:textSize="18dp" />
+  
+  <ImageView
+    android:id="@+id/sua_bai_viet_container_frame1"
+    android:layout_width="30dp"
+    android:layout_height="30dp"
+    android:layout_marginLeft="21dp"
+    android:layout_marginTop="620dp"
+    android:layout_gravity="top|left"
+    android:scaleType="centerInside"
+    android:src="@drawable/sua_bai_viet_container_frame1" />
+</FrameLayout>

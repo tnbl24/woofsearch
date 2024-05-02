@@ -1,0 +1,158 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<FrameLayout
+  xmlns:android="http://schemas.android.com/apk/res/android"
+  xmlns:app="http://schemas.android.com/apk/res-auto"
+  xmlns:tools="http://schemas.android.com/tools"
+  android:layout_width="match_parent"
+  android:layout_height="807dp"
+  android:background="@drawable/bai_viet_vi_pham_false_drawable_shape">
+  
+  <ImageView
+    android:id="@+id/bai_viet_vi_pham_false_container_group"
+    android:layout_width="393dp"
+    android:layout_height="82dp"
+    android:layout_gravity="top|left"
+    android:scaleType="centerInside"
+    android:src="@drawable/bai_viet_vi_pham_false_container_group" />
+  
+  <ImageView
+    android:id="@+id/bai_viet_vi_pham_false_layer_confirm_image"
+    android:layout_width="359dp"
+    android:layout_height="51dp"
+    android:layout_marginTop="735dp"
+    android:layout_gravity="top|center_horizontal"
+    android:background="@drawable/bai_viet_vi_pham_false_layer_confirm_image"
+    android:scaleType="centerInside" />
+  
+  <TextView
+    android:id="@+id/bai_viet_vi_pham_false_layer_confirm_ok_text"
+    android:layout_width="wrap_content"
+    android:layout_height="21dp"
+    android:layout_marginLeft="0.5dp"
+    android:layout_marginTop="750dp"
+    android:layout_marginBottom="-1dp"
+    android:layout_gravity="center_horizontal"
+    android:gravity="left|center_vertical"
+    android:includeFontPadding="false"
+    android:maxLines="1"
+    android:singleLine="true"
+    android:text="Ok"
+    android:textColor="#FF000000"
+    android:textSize="16dp" />
+  
+  <FrameLayout
+    android:id="@+id/bai_viet_vi_pham_false_container_group2"
+    android:layout_width="177.02dp"
+    android:layout_height="52.13dp"
+    android:layout_marginLeft="14.98dp"
+    android:layout_marginTop="201.05dp"
+    android:layout_gravity="top|left">
+    
+    <TextView
+      android:id="@+id/text_your_name"
+      android:layout_width="match_parent"
+      android:layout_height="25dp"
+      android:layout_marginLeft="64.02dp"
+      android:layout_marginRight="0dp"
+      android:layout_marginTop="2.95dp"
+      android:layout_marginBottom="-2dp"
+      android:layout_gravity="top"
+      android:gravity="left|center_vertical"
+      android:includeFontPadding="false"
+      android:maxLines="1"
+      android:singleLine="true"
+      android:text="Your name"
+      android:textColor="#FF000000"
+      android:textSize="20dp" />
+    
+    <TextView
+      android:id="@+id/text_time_ago"
+      android:layout_width="match_parent"
+      android:layout_height="15dp"
+      android:layout_marginLeft="64.02dp"
+      android:layout_marginRight="30dp"
+      android:layout_marginTop="26.95dp"
+      android:layout_marginBottom="10.18dp"
+      android:gravity="left|center_vertical"
+      android:includeFontPadding="false"
+      android:maxLines="1"
+      android:singleLine="true"
+      android:text="4 giờ trước"
+      android:textColor="#FF000000"
+      android:textSize="11dp" />
+    
+    <ImageView
+      android:id="@+id/bai_viet_vi_pham_false_image_ellipse"
+      android:layout_width="56.04dp"
+      android:layout_height="52.13dp"
+      android:layout_marginBottom="0dp"
+      android:layout_gravity="left"
+      android:scaleType="centerInside"
+      android:src="@drawable/bai_viet_vi_pham_false_image_ellipse" />
+  </FrameLayout>
+  
+  <TextView
+    android:id="@+id/bai_viet_vi_pham_false_layer_confirm_content_text"
+    android:layout_width="wrap_content"
+    android:layout_height="20dp"
+    android:layout_marginLeft="17dp"
+    android:layout_marginTop="264dp"
+    android:layout_marginBottom="-1dp"
+    android:layout_gravity="top|left"
+    android:gravity="left|center_vertical"
+    android:includeFontPadding="false"
+    android:maxLines="1"
+    android:singleLine="true"
+    android:text="Đây là nội dung của bài viết"
+    android:textColor="#FF000000"
+    android:textSize="15dp" />
+  
+  <TextView
+    android:id="@+id/bai_viet_vi_pham_false_layer_confirm_message_text"
+    android:layout_width="350dp"
+    android:layout_height="72dp"
+    android:layout_marginLeft="24dp"
+    android:layout_marginTop="87dp"
+    android:layout_gravity="top|left"
+    android:gravity="left|top"
+    android:includeFontPadding="false"
+    android:lineHeight="17.58dp"
+    android:text="Chúng tôi đã xác nhận lại bài viết của bạn và nhận thấy bài viết không vi phạm tiêu chuẩn cộng đồng của chúng tôi về spam . Do đó mọi người vẫn có thể nhìn thấy bài viết của bạn và tương tác với bài viết."
+    android:textColor="#FF000000"
+    android:textSize="15dp" />
+  
+  <ImageView
+    android:id="@+id/bai_viet_vi_pham_false_layer_confirm_decision_image"
+    android:layout_width="393dp"
+    android:layout_height="229dp"
+    android:layout_marginTop="300dp"
+    android:layout_gravity="top|left"
+    android:scaleType="centerInside"
+    android:src="@drawable/bai_viet_vi_pham_false_layer_confirm_decision_image" />
+  
+  <TextView
+    android:id="@+id/bai_viet_vi_pham_false_layer_confirm_decision_text"
+    android:layout_width="271dp"
+    android:layout_height="25dp"
+    android:layout_marginTop="40dp"
+    android:layout_marginBottom="-1dp"
+    android:layout_gravity="center_horizontal"
+    android:gravity="left|center_vertical"
+    android:includeFontPadding="false"
+    android:maxLines="1"
+    android:singleLine="true"
+    android:text="Xác nhận phản đối quyết định"
+    android:textColor="#FFFFFFFF"
+    android:textSize="20dp" />
+  
+  <ImageView
+    android:id="@+id/bai_viet_vi_pham_false_container_frame"
+    android:layout_width="27dp"
+    android:layout_height="25dp"
+    android:layout_marginLeft="10dp"
+    android:layout_marginTop="40dp"
+    android:layout_gravity="top|left"
+    android:scaleType="centerInside"
+    android:src="@drawable/bai_viet_vi_pham_false_container_frame" />
+</FrameLayout>

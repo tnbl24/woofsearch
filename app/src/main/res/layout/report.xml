@@ -1,0 +1,353 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<FrameLayout
+  xmlns:android="http://schemas.android.com/apk/res/android"
+  xmlns:app="http://schemas.android.com/apk/res-auto"
+  xmlns:tools="http://schemas.android.com/tools"
+  android:id="@+id/report_container_report"
+  android:layout_width="match_parent"
+  android:layout_height="807dp"
+  android:background="@drawable/report_container_report">
+  
+  <ImageView
+    android:id="@+id/report_container_group"
+    android:layout_width="393dp"
+    android:layout_height="82dp"
+    android:layout_gravity="top|left"
+    android:scaleType="centerInside"
+    android:src="@drawable/report_container_group" />
+  
+  <TextView
+    android:id="@+id/text_report_title"
+    android:layout_width="wrap_content"
+    android:layout_height="32dp"
+    android:layout_marginRight="0.5dp"
+    android:layout_marginTop="40dp"
+    android:layout_marginBottom="-1dp"
+    android:layout_gravity="center_horizontal"
+    android:gravity="center_horizontal|center_vertical"
+    android:includeFontPadding="false"
+    android:maxLines="1"
+    android:singleLine="true"
+    android:text="Báo cáo"
+    android:textColor="#FFFFFFFF"
+    android:textSize="26dp" />
+  
+  <ImageView
+    android:id="@+id/report_image_rectangle"
+    android:layout_width="355dp"
+    android:layout_height="51dp"
+    android:layout_marginLeft="14dp"
+    android:layout_marginTop="730dp"
+    android:layout_gravity="top|left"
+    android:background="@drawable/report_image_rectangle"
+    android:scaleType="centerInside" />
+  
+  <ImageView
+    android:id="@+id/report_container_frame"
+    android:layout_width="27dp"
+    android:layout_height="25dp"
+    android:layout_marginLeft="28dp"
+    android:layout_marginTop="41dp"
+    android:layout_gravity="top|left"
+    android:scaleType="centerInside"
+    android:src="@drawable/report_container_frame" />
+  
+  <TextView
+    android:id="@+id/text_spam"
+    android:layout_width="wrap_content"
+    android:layout_height="23dp"
+    android:layout_marginLeft="67dp"
+    android:layout_marginTop="167dp"
+    android:layout_marginBottom="-1dp"
+    android:layout_gravity="top|left"
+    android:gravity="center_horizontal|center_vertical"
+    android:includeFontPadding="false"
+    android:maxLines="1"
+    android:singleLine="true"
+    android:text="Spam"
+    android:textColor="#FF000000"
+    android:textSize="18dp" />
+  
+  <TextView
+    android:id="@+id/text_community_standards_violation"
+    android:layout_width="260dp"
+    android:layout_height="42dp"
+    android:layout_marginLeft="66dp"
+    android:layout_marginTop="313dp"
+    android:layout_gravity="top|left"
+    android:gravity="left|top"
+    android:includeFontPadding="false"
+    android:lineHeight="21.09dp"
+    android:text="Hình ảnh vi phạm tiêu chuẩn cộng đồng"
+    android:textColor="#FF000000"
+    android:textSize="18dp" />
+  
+  <TextView
+    android:id="@+id/text_animal_abuse"
+    android:layout_width="260dp"
+    android:layout_height="23dp"
+    android:layout_marginLeft="66dp"
+    android:layout_marginTop="377dp"
+    android:layout_marginBottom="-1dp"
+    android:layout_gravity="top|left"
+    android:gravity="left|center_vertical"
+    android:includeFontPadding="false"
+    android:maxLines="1"
+    android:singleLine="true"
+    android:text="Ngược đãi động vật"
+    android:textColor="#FF000000"
+    android:textSize="18dp" />
+  
+  <TextView
+    android:id="@+id/text_intellectual_property_rights"
+    android:layout_width="260dp"
+    android:layout_height="23dp"
+    android:layout_marginLeft="66dp"
+    android:layout_marginTop="432dp"
+    android:layout_marginBottom="-1dp"
+    android:layout_gravity="top|left"
+    android:gravity="left|center_vertical"
+    android:includeFontPadding="false"
+    android:maxLines="1"
+    android:singleLine="true"
+    android:text="Quyền sở hữu trí tuệ"
+    android:textColor="#FF000000"
+    android:textSize="18dp" />
+  
+  <TextView
+    android:id="@+id/text_other_issue"
+    android:layout_width="260dp"
+    android:layout_height="23dp"
+    android:layout_marginLeft="65dp"
+    android:layout_marginTop="493dp"
+    android:layout_marginBottom="-1dp"
+    android:layout_gravity="top|left"
+    android:gravity="left|center_vertical"
+    android:includeFontPadding="false"
+    android:maxLines="1"
+    android:singleLine="true"
+    android:text="Vấn đề khác"
+    android:textColor="#FF000000"
+    android:textSize="18dp" />
+  
+  <TextView
+    android:id="@+id/text_send"
+    android:layout_width="wrap_content"
+    android:layout_height="23dp"
+    android:layout_marginRight="0.5dp"
+    android:layout_marginTop="744dp"
+    android:layout_marginBottom="-1dp"
+    android:layout_gravity="center_horizontal"
+    android:gravity="center_horizontal|center_vertical"
+    android:includeFontPadding="false"
+    android:maxLines="1"
+    android:singleLine="true"
+    android:text="Gửi"
+    android:textColor="#FF000000"
+    android:textSize="18dp" />
+  
+  <TextView
+    android:id="@+id/text_select_report_issue"
+    android:layout_width="wrap_content"
+    android:layout_height="25dp"
+    android:layout_marginLeft="22dp"
+    android:layout_marginTop="112dp"
+    android:layout_marginBottom="-1dp"
+    android:layout_gravity="top|left"
+    android:gravity="center_horizontal|center_vertical"
+    android:includeFontPadding="false"
+    android:maxLines="1"
+    android:singleLine="true"
+    android:text="Hãy chọn một vấn đề để báo cáo"
+    android:textColor="#FF000000"
+    android:textSize="20dp" />
+  
+  <ImageView
+    android:id="@+id/report_image_frame"
+    android:layout_width="30dp"
+    android:layout_height="30dp"
+    android:layout_marginLeft="22dp"
+    android:layout_marginTop="163dp"
+    android:layout_gravity="top|left"
+    android:scaleType="centerInside"
+    android:src="@drawable/report_image_frame" />
+  
+  <ImageView
+    android:id="@+id/report_container_frame1"
+    android:layout_width="30dp"
+    android:layout_height="30dp"
+    android:layout_marginLeft="21dp"
+    android:layout_marginTop="313dp"
+    android:layout_gravity="top|left"
+    android:scaleType="centerInside"
+    android:src="@drawable/report_container_frame1" />
+  
+  <ImageView
+    android:id="@+id/report_image_frame1"
+    android:layout_width="30dp"
+    android:layout_height="30dp"
+    android:layout_marginLeft="20dp"
+    android:layout_marginTop="374dp"
+    android:layout_gravity="top|left"
+    android:scaleType="centerInside"
+    android:src="@drawable/report_image_frame1" />
+  
+  <ImageView
+    android:id="@+id/report_image_frame2"
+    android:layout_width="30dp"
+    android:layout_height="30dp"
+    android:layout_marginLeft="20dp"
+    android:layout_marginTop="429dp"
+    android:layout_gravity="top|left"
+    android:scaleType="centerInside"
+    android:src="@drawable/report_image_frame2" />
+  
+  <ImageView
+    android:id="@+id/report_image_frame3"
+    android:layout_width="30dp"
+    android:layout_height="30dp"
+    android:layout_marginLeft="19dp"
+    android:layout_marginTop="490dp"
+    android:layout_gravity="top|left"
+    android:scaleType="centerInside"
+    android:src="@drawable/report_image_frame3" />
+  
+  <ImageView
+    android:id="@+id/report_image_frame4"
+    android:layout_width="30dp"
+    android:layout_height="30dp"
+    android:layout_marginLeft="22dp"
+    android:layout_marginTop="215dp"
+    android:layout_gravity="top|left"
+    android:scaleType="centerInside"
+    android:src="@drawable/report_image_frame4" />
+  
+  <ImageView
+    android:layout_width="30dp"
+    android:layout_height="30dp"
+    android:layout_marginLeft="21dp"
+    android:layout_marginTop="267dp"
+    android:layout_gravity="top|left"
+    android:scaleType="centerInside"
+    android:src="@drawable/report_drawable_image" />
+  
+  <ImageView
+    android:id="@+id/report_container_line1"
+    android:layout_width="350dp"
+    android:layout_height="1dp"
+    android:layout_marginLeft="18dp"
+    android:layout_marginTop="363dp"
+    android:layout_gravity="top|left"
+    android:scaleType="centerInside"
+    android:src="@drawable/report_container_line1" />
+  
+  <ImageView
+    android:id="@+id/report_container_line2"
+    android:layout_width="350dp"
+    android:layout_height="1dp"
+    android:layout_marginLeft="19dp"
+    android:layout_marginTop="419dp"
+    android:layout_gravity="top|left"
+    android:scaleType="centerInside"
+    android:src="@drawable/report_container_line2" />
+  
+  <ImageView
+    android:id="@+id/report_container_line3"
+    android:layout_width="350dp"
+    android:layout_height="1dp"
+    android:layout_marginLeft="18dp"
+    android:layout_marginTop="472dp"
+    android:layout_gravity="top|left"
+    android:scaleType="centerInside"
+    android:src="@drawable/report_container_line3" />
+  
+  <ImageView
+    android:id="@+id/report_container_line4"
+    android:layout_width="350dp"
+    android:layout_height="1dp"
+    android:layout_marginLeft="17dp"
+    android:layout_marginTop="255.5dp"
+    android:layout_gravity="top|left"
+    android:scaleType="centerInside"
+    android:src="@drawable/report_container_line4" />
+  
+  <ImageView
+    android:id="@+id/report_container_line5"
+    android:layout_width="350dp"
+    android:layout_height="1dp"
+    android:layout_marginLeft="18dp"
+    android:layout_marginTop="203.5dp"
+    android:layout_gravity="top|left"
+    android:scaleType="centerInside"
+    android:src="@drawable/report_container_line5" />
+  
+  <ImageView
+    android:id="@+id/report_container_line6"
+    android:layout_width="350dp"
+    android:layout_height="1dp"
+    android:layout_marginLeft="17dp"
+    android:layout_marginTop="306dp"
+    android:layout_gravity="top|left"
+    android:scaleType="centerInside"
+    android:src="@drawable/report_container_line6" />
+  
+  <TextView
+    android:id="@+id/text_hate_speech"
+    android:layout_width="wrap_content"
+    android:layout_height="23dp"
+    android:layout_marginLeft="67dp"
+    android:layout_marginTop="219dp"
+    android:layout_marginBottom="-1dp"
+    android:layout_gravity="top|left"
+    android:gravity="center_horizontal|center_vertical"
+    android:includeFontPadding="false"
+    android:maxLines="1"
+    android:singleLine="true"
+    android:text="Ngôn từ gây thù ghét"
+    android:textColor="#FF000000"
+    android:textSize="18dp" />
+  
+  <TextView
+    android:id="@+id/text_misinformation"
+    android:layout_width="wrap_content"
+    android:layout_height="23dp"
+    android:layout_marginLeft="67dp"
+    android:layout_marginTop="271dp"
+    android:layout_marginBottom="-1dp"
+    android:layout_gravity="top|left"
+    android:gravity="center_horizontal|center_vertical"
+    android:includeFontPadding="false"
+    android:maxLines="1"
+    android:singleLine="true"
+    android:text="Thông tin sai sự thật"
+    android:textColor="#FF000000"
+    android:textSize="18dp" />
+  
+  <FrameLayout
+    android:id="@+id/report_container_frame2"
+    android:layout_width="355dp"
+    android:layout_height="168dp"
+    android:layout_marginLeft="14dp"
+    android:layout_marginTop="533dp"
+    android:layout_gravity="top|left"
+    android:alpha="0.6000000238418579"
+    android:background="@drawable/report_container_frame2">
+    
+    <TextView
+      android:id="@+id/text_input_issue"
+      android:layout_width="wrap_content"
+      android:layout_height="23dp"
+      android:layout_marginLeft="12dp"
+      android:layout_marginTop="13dp"
+      android:layout_marginBottom="-1dp"
+      android:layout_gravity="top|left"
+      android:gravity="left|center_vertical"
+      android:includeFontPadding="false"
+      android:maxLines="1"
+      android:singleLine="true"
+      android:text="Nhập vấn đề của bạn vào đây..."
+      android:textColor="#FF0680D4"
+      android:textSize="18dp" />
+  </FrameLayout>
+</FrameLayout>

@@ -1,0 +1,821 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<FrameLayout
+  xmlns:android="http://schemas.android.com/apk/res/android"
+  xmlns:app="http://schemas.android.com/apk/res-auto"
+  xmlns:tools="http://schemas.android.com/tools"
+  android:id="@+id/theo_doi_container_theo_doi"
+  android:layout_width="match_parent"
+  android:layout_height="807dp"
+  android:background="@drawable/theo_doi_container_theo_doi">
+  
+  <ImageView
+    android:id="@+id/theo_doi_iv_group"
+    android:layout_width="393dp"
+    android:layout_height="127dp"
+    android:layout_gravity="top|left"
+    android:scaleType="centerInside"
+    android:src="@drawable/theo_doi_iv_group" />
+  
+  <FrameLayout
+    android:id="@+id/theo_doi_container_group6"
+    android:layout_width="362dp"
+    android:layout_height="75dp"
+    android:layout_marginLeft="14dp"
+    android:layout_marginTop="467.36dp"
+    android:layout_gravity="top|left">
+    
+    <ImageView
+      android:id="@+id/theo_doi_container_line2"
+      android:layout_width="match_parent"
+      android:layout_height="match_parent"
+      android:layout_marginLeft="2dp"
+      android:layout_marginTop="75dp"
+      android:scaleType="centerCrop"
+      android:src="@drawable/theo_doi_container_line2" />
+    
+    <TextView
+      android:id="@+id/text_tran_huynh2"
+      android:layout_width="104dp"
+      android:layout_height="23dp"
+      android:layout_marginLeft="74dp"
+      android:layout_marginTop="23.64dp"
+      android:layout_marginBottom="-3dp"
+      android:layout_gravity="top|left"
+      android:gravity="left|center_vertical"
+      android:includeFontPadding="false"
+      android:maxLines="1"
+      android:singleLine="true"
+      android:text="Trần Huỳnh "
+      android:textColor="#FF000000"
+      android:textSize="18dp" />
+    
+    <ImageView
+      android:id="@+id/theo_doi_container_group21"
+      android:layout_width="59dp"
+      android:layout_height="60dp"
+      android:layout_marginTop="5.64dp"
+      android:layout_gravity="top|left"
+      android:scaleType="centerInside"
+      android:src="@drawable/theo_doi_container_group21" />
+    
+    <ImageView
+      android:id="@+id/theo_doi_image_image1"
+      android:layout_width="20dp"
+      android:layout_height="20dp"
+      android:layout_marginLeft="331dp"
+      android:layout_marginRight="11dp"
+      android:layout_gravity="top"
+      android:scaleType="centerInside"
+      android:src="@drawable/theo_doi_image_image1" />
+    
+    <FrameLayout
+      android:id="@+id/theo_doi_container_group31"
+      android:layout_width="match_parent"
+      android:layout_height="34dp"
+      android:layout_marginLeft="219dp"
+      android:layout_marginRight="33dp"
+      android:layout_marginTop="19.64dp"
+      android:layout_gravity="top"
+      android:background="@drawable/theo_doi_container_group31">
+      
+      <ImageView
+        android:id="@+id/theo_doi_image_rectangle"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:scaleType="centerCrop"
+        android:src="@drawable/theo_doi_image_rectangle" />
+
+      <TextView
+          android:id="@+id/text_follow_lai"
+          android:layout_width="match_parent"
+          android:layout_height="23dp"
+          android:layout_marginLeft="17dp"
+          android:layout_marginTop="6dp"
+          android:layout_marginRight="17dp"
+          android:layout_marginBottom="5dp"
+          android:gravity="left|center_vertical"
+          android:includeFontPadding="false"
+          android:maxLines="1"
+          android:singleLine="true"
+          android:text="Follow lại"
+          android:textColor="#FF000000"
+          android:textSize="16dp" />
+    </FrameLayout>
+  </FrameLayout>
+  
+  <FrameLayout
+    android:id="@+id/theo_doi_container_group4"
+    android:layout_width="362dp"
+    android:layout_height="75dp"
+    android:layout_marginLeft="14dp"
+    android:layout_marginTop="386dp"
+    android:layout_gravity="top|left">
+    
+    <ImageView
+      android:id="@+id/theo_doi_container_line1"
+      android:layout_width="match_parent"
+      android:layout_height="match_parent"
+      android:layout_marginLeft="2dp"
+      android:layout_marginTop="75dp"
+      android:scaleType="centerCrop"
+      android:src="@drawable/theo_doi_container_line1" />
+    
+    <TextView
+      android:id="@+id/text_tran_huynh1"
+      android:layout_width="104dp"
+      android:layout_height="23dp"
+      android:layout_marginLeft="74dp"
+      android:layout_marginTop="25dp"
+      android:layout_marginBottom="-3dp"
+      android:layout_gravity="top|left"
+      android:gravity="left|center_vertical"
+      android:includeFontPadding="false"
+      android:maxLines="1"
+      android:singleLine="true"
+      android:text="Trần Huỳnh "
+      android:textColor="#FF000000"
+      android:textSize="18dp" />
+    
+    <FrameLayout
+      android:id="@+id/theo_doi_container_group5"
+      android:layout_width="59dp"
+      android:layout_height="66.64dp"
+      android:layout_gravity="top|left">
+      
+      <ImageView
+        android:id="@+id/theo_doi_image_ellipse4"
+        android:layout_width="59dp"
+        android:layout_height="60dp"
+        android:layout_marginTop="6.64dp"
+        android:layout_marginBottom="0dp"
+        android:scaleType="centerInside"
+        android:src="@drawable/theo_doi_image_ellipse4" />
+      
+      <ImageView
+        android:id="@+id/theo_doi_image_ellipse5"
+        android:layout_width="16dp"
+        android:layout_height="16dp"
+        android:layout_marginLeft="37.09dp"
+        android:layout_marginRight="5.91dp"
+        android:layout_gravity="top"
+        android:background="@drawable/theo_doi_image_ellipse5"
+        android:scaleType="centerInside" />
+    </FrameLayout>
+    
+    <ImageView
+      android:id="@+id/theo_doi_image_image"
+      android:layout_width="20dp"
+      android:layout_height="20dp"
+      android:layout_marginLeft="331dp"
+      android:layout_marginRight="11dp"
+      android:layout_gravity="top"
+      android:scaleType="centerInside"
+      android:src="@drawable/theo_doi_image_image" />
+  </FrameLayout>
+  
+  <FrameLayout
+    android:id="@+id/theo_doi_container_group"
+    android:layout_width="362dp"
+    android:layout_height="75dp"
+    android:layout_marginLeft="14dp"
+    android:layout_marginTop="548dp"
+    android:layout_gravity="top|left">
+    
+    <ImageView
+      android:id="@+id/theo_doi_container_line"
+      android:layout_width="match_parent"
+      android:layout_height="match_parent"
+      android:layout_marginLeft="2dp"
+      android:layout_marginTop="75dp"
+      android:scaleType="centerCrop"
+      android:src="@drawable/theo_doi_container_line" />
+    
+    <TextView
+      android:id="@+id/text_tran_huynh"
+      android:layout_width="104dp"
+      android:layout_height="23dp"
+      android:layout_marginLeft="74dp"
+      android:layout_marginTop="25dp"
+      android:layout_marginBottom="-3dp"
+      android:layout_gravity="top|left"
+      android:gravity="left|center_vertical"
+      android:includeFontPadding="false"
+      android:maxLines="1"
+      android:singleLine="true"
+      android:text="Trần Huỳnh "
+      android:textColor="#FF000000"
+      android:textSize="18dp" />
+    
+    <FrameLayout
+      android:id="@+id/theo_doi_container_group1"
+      android:layout_width="59dp"
+      android:layout_height="66.64dp"
+      android:layout_gravity="top|left">
+      
+      <ImageView
+        android:id="@+id/theo_doi_image_ellipse"
+        android:layout_width="59dp"
+        android:layout_height="60dp"
+        android:layout_marginTop="6.64dp"
+        android:layout_marginBottom="0dp"
+        android:scaleType="centerInside"
+        android:src="@drawable/theo_doi_image_ellipse" />
+      
+      <ImageView
+        android:id="@+id/theo_doi_image_ellipse1"
+        android:layout_width="16dp"
+        android:layout_height="16dp"
+        android:layout_marginLeft="37.09dp"
+        android:layout_marginRight="5.91dp"
+        android:layout_gravity="top"
+        android:background="@drawable/theo_doi_image_ellipse1"
+        android:scaleType="centerInside" />
+    </FrameLayout>
+    
+    <ImageView
+      android:id="@+id/theo_doi_image_main"
+      android:layout_width="20dp"
+      android:layout_height="20dp"
+      android:layout_marginLeft="331dp"
+      android:layout_marginRight="11dp"
+      android:layout_gravity="top"
+      android:scaleType="centerInside"
+      android:src="@drawable/theo_doi_image_main" />
+  </FrameLayout>
+  
+  <FrameLayout
+    android:id="@+id/theo_doi_container_group2"
+    android:layout_width="362dp"
+    android:layout_height="75dp"
+    android:layout_marginLeft="14dp"
+    android:layout_marginTop="305dp"
+    android:layout_gravity="top|left">
+    
+    <ImageView
+      android:id="@+id/line"
+      android:layout_width="match_parent"
+      android:layout_height="match_parent"
+      android:layout_marginLeft="2dp"
+      android:layout_marginTop="75dp"
+      android:scaleType="centerCrop"
+      android:src="@drawable/line" />
+    
+    <TextView
+      android:id="@+id/text_minh"
+      android:layout_width="47dp"
+      android:layout_height="23dp"
+      android:layout_marginLeft="79dp"
+      android:layout_marginTop="25dp"
+      android:layout_marginBottom="-3dp"
+      android:layout_gravity="top|left"
+      android:gravity="left|center_vertical"
+      android:includeFontPadding="false"
+      android:maxLines="1"
+      android:singleLine="true"
+      android:text="Minh"
+      android:textColor="#FF000000"
+      android:textSize="18dp" />
+    
+    <ImageView
+      android:id="@+id/image"
+      android:layout_width="20dp"
+      android:layout_height="20dp"
+      android:layout_marginLeft="331dp"
+      android:layout_marginRight="11dp"
+      android:layout_gravity="top"
+      android:scaleType="centerInside"
+      android:src="@drawable/image" />
+    
+    <FrameLayout
+      android:id="@+id/theo_doi_container_group3"
+      android:layout_width="59dp"
+      android:layout_height="67dp"
+      android:layout_gravity="top|left">
+      
+      <ImageView
+        android:id="@+id/theo_doi_image_ellipse2"
+        android:layout_width="59dp"
+        android:layout_height="60dp"
+        android:layout_marginTop="7dp"
+        android:scaleType="centerInside"
+        android:src="@drawable/theo_doi_image_ellipse2" />
+      
+      <ImageView
+        android:id="@+id/theo_doi_image_ellipse3"
+        android:layout_width="16dp"
+        android:layout_height="16dp"
+        android:layout_marginLeft="39dp"
+        android:layout_marginRight="4dp"
+        android:layout_gravity="top"
+        android:background="@drawable/theo_doi_image_ellipse3"
+        android:scaleType="centerInside" />
+    </FrameLayout>
+  </FrameLayout>
+  
+  <FrameLayout
+    android:id="@+id/theo_doi_container_group12"
+    android:layout_width="362dp"
+    android:layout_height="75dp"
+    android:layout_marginLeft="14dp"
+    android:layout_marginTop="224dp"
+    android:layout_gravity="top|left">
+    
+    <ImageView
+      android:id="@+id/theo_doi_container_line3"
+      android:layout_width="match_parent"
+      android:layout_height="match_parent"
+      android:layout_marginLeft="2dp"
+      android:layout_marginTop="75dp"
+      android:scaleType="centerCrop"
+      android:src="@drawable/theo_doi_container_line3" />
+    
+    <TextView
+      android:id="@+id/text_tran_huynh4"
+      android:layout_width="104dp"
+      android:layout_height="23dp"
+      android:layout_marginLeft="74dp"
+      android:layout_marginTop="25dp"
+      android:layout_marginBottom="-3dp"
+      android:layout_gravity="top|left"
+      android:gravity="left|center_vertical"
+      android:includeFontPadding="false"
+      android:maxLines="1"
+      android:singleLine="true"
+      android:text="Trần Huỳnh "
+      android:textColor="#FF000000"
+      android:textSize="18dp" />
+    
+    <ImageView
+      android:id="@+id/theo_doi_image_default"
+      android:layout_width="20dp"
+      android:layout_height="20dp"
+      android:layout_marginLeft="331dp"
+      android:layout_marginRight="11dp"
+      android:layout_gravity="top"
+      android:scaleType="centerInside"
+      android:src="@drawable/theo_doi_image_default" />
+    
+    <ImageView
+      android:id="@+id/theo_doi_image_ellipse7"
+      android:layout_width="59dp"
+      android:layout_height="60dp"
+      android:layout_marginTop="8dp"
+      android:layout_marginBottom="7dp"
+      android:layout_gravity="left"
+      android:scaleType="centerInside"
+      android:src="@drawable/theo_doi_image_ellipse7" />
+    
+    <FrameLayout
+      android:id="@+id/theo_doi_container_group13"
+      android:layout_width="match_parent"
+      android:layout_height="34dp"
+      android:layout_marginLeft="219dp"
+      android:layout_marginRight="33dp"
+      android:layout_marginTop="20dp"
+      android:layout_gravity="top"
+      android:background="@drawable/theo_doi_container_group13">
+      
+      <ImageView
+        android:id="@+id/theo_doi_image_rectangle4"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:scaleType="centerCrop"
+        android:src="@drawable/theo_doi_image_rectangle4" />
+
+      <TextView
+          android:id="@+id/text_follow_lai2"
+          android:layout_width="match_parent"
+          android:layout_height="23dp"
+          android:layout_marginLeft="17dp"
+          android:layout_marginTop="6dp"
+          android:layout_marginRight="17dp"
+          android:layout_marginBottom="5dp"
+          android:gravity="left|center_vertical"
+          android:includeFontPadding="false"
+          android:maxLines="1"
+          android:singleLine="true"
+          android:text="Follow lại"
+          android:textColor="#FF000000"
+          android:textSize="16dp" />
+    </FrameLayout>
+  </FrameLayout>
+  
+  <FrameLayout
+    android:id="@+id/theo_doi_container_group7"
+    android:layout_width="362dp"
+    android:layout_height="75dp"
+    android:layout_marginLeft="14dp"
+    android:layout_marginTop="629dp"
+    android:layout_gravity="top|left">
+    
+    <ImageView
+      android:id="@+id/line1"
+      android:layout_width="match_parent"
+      android:layout_height="match_parent"
+      android:layout_marginLeft="2dp"
+      android:layout_marginTop="75dp"
+      android:scaleType="centerCrop"
+      android:src="@drawable/line1" />
+    
+    <TextView
+      android:id="@+id/text_tran_huynh3"
+      android:layout_width="104dp"
+      android:layout_height="23dp"
+      android:layout_marginLeft="74dp"
+      android:layout_marginTop="25dp"
+      android:layout_marginBottom="-3dp"
+      android:layout_gravity="top|left"
+      android:gravity="left|center_vertical"
+      android:includeFontPadding="false"
+      android:maxLines="1"
+      android:singleLine="true"
+      android:text="Trần Huỳnh "
+      android:textColor="#FF000000"
+      android:textSize="18dp" />
+    
+    <ImageView
+      android:id="@+id/image1"
+      android:layout_width="20dp"
+      android:layout_height="20dp"
+      android:layout_marginLeft="331dp"
+      android:layout_marginRight="11dp"
+      android:layout_gravity="top"
+      android:scaleType="centerInside"
+      android:src="@drawable/theo_doi_image1" />
+    
+    <ImageView
+      android:id="@+id/ellipse"
+      android:layout_width="59dp"
+      android:layout_height="60dp"
+      android:layout_marginTop="8dp"
+      android:layout_marginBottom="7dp"
+      android:layout_gravity="left"
+      android:scaleType="centerInside"
+      android:src="@drawable/ellipse" />
+    
+    <FrameLayout
+      android:id="@+id/theo_doi_container_group8"
+      android:layout_width="match_parent"
+      android:layout_height="34dp"
+      android:layout_marginLeft="219dp"
+      android:layout_marginRight="33dp"
+      android:layout_marginTop="20dp"
+      android:layout_gravity="top"
+      android:background="@drawable/theo_doi_container_group8">
+      
+      <ImageView
+        android:id="@+id/rectangle"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:scaleType="centerCrop"
+        android:src="@drawable/rectangle" />
+
+      <TextView
+          android:id="@+id/text_follow_lai1"
+          android:layout_width="match_parent"
+          android:layout_height="23dp"
+          android:layout_marginLeft="17dp"
+          android:layout_marginTop="6dp"
+          android:layout_marginRight="17dp"
+          android:layout_marginBottom="5dp"
+          android:gravity="left|center_vertical"
+          android:includeFontPadding="false"
+          android:maxLines="1"
+          android:singleLine="true"
+          android:text="Follow lại"
+          android:textColor="#FF000000"
+          android:textSize="16dp" />
+    </FrameLayout>
+  </FrameLayout>
+  
+  <FrameLayout
+    android:id="@+id/theo_doi_container_group14"
+    android:layout_width="361dp"
+    android:layout_height="76dp"
+    android:layout_marginLeft="15dp"
+    android:layout_marginTop="142dp"
+    android:layout_gravity="top|left">
+    
+    <ImageView
+      android:id="@+id/line2"
+      android:layout_width="match_parent"
+      android:layout_height="match_parent"
+      android:layout_marginLeft="1dp"
+      android:layout_marginTop="76dp"
+      android:scaleType="centerCrop"
+      android:src="@drawable/line2" />
+    
+    <TextView
+      android:id="@+id/text_tran_huynh5"
+      android:layout_width="104dp"
+      android:layout_height="23dp"
+      android:layout_marginLeft="73dp"
+      android:layout_marginTop="26dp"
+      android:layout_marginBottom="-3dp"
+      android:layout_gravity="top|left"
+      android:gravity="left|center_vertical"
+      android:includeFontPadding="false"
+      android:maxLines="1"
+      android:singleLine="true"
+      android:text="Trần Huỳnh "
+      android:textColor="#FF000000"
+      android:textSize="18dp" />
+    
+    <FrameLayout
+      android:id="@+id/theo_doi_container_group15"
+      android:layout_width="59dp"
+      android:layout_height="67.64dp"
+      android:layout_gravity="top|left">
+      
+      <ImageView
+        android:id="@+id/theo_doi_image_ellipse8"
+        android:layout_width="59dp"
+        android:layout_height="60dp"
+        android:layout_marginTop="7.64dp"
+        android:scaleType="centerInside"
+        android:src="@drawable/theo_doi_image_ellipse8" />
+      
+      <ImageView
+        android:id="@+id/theo_doi_image_ellipse9"
+        android:layout_width="16dp"
+        android:layout_height="16dp"
+        android:layout_marginLeft="37.09dp"
+        android:layout_marginRight="5.91dp"
+        android:layout_gravity="top"
+        android:background="@drawable/theo_doi_image_ellipse9"
+        android:scaleType="centerInside" />
+    </FrameLayout>
+    
+    <FrameLayout
+      android:id="@+id/theo_doi_container_group16"
+      android:layout_width="match_parent"
+      android:layout_height="match_parent"
+      android:layout_marginLeft="215dp"
+      android:layout_marginRight="36dp"
+      android:layout_marginTop="22dp"
+      android:layout_marginBottom="20dp"
+      android:background="@drawable/theo_doi_container_group16">
+      
+      <ImageView
+        android:id="@+id/theo_doi_image_rectangle5"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:scaleType="centerCrop"
+        android:src="@drawable/theo_doi_image_rectangle5" />
+      
+      <TextView
+        android:id="@+id/text_ban_be"
+        android:layout_width="wrap_content"
+        android:layout_height="23dp"
+        android:layout_marginLeft="26dp"
+        android:layout_marginTop="5dp"
+        android:layout_marginBottom="-1dp"
+        android:layout_gravity="top|left"
+        android:gravity="left|center_vertical"
+        android:includeFontPadding="false"
+        android:maxLines="1"
+        android:singleLine="true"
+        android:text="Bạn bè"
+        android:textColor="#FF000000"
+        android:textSize="18dp" />
+    </FrameLayout>
+    
+    <ImageView
+      android:id="@+id/image2"
+      android:layout_width="20dp"
+      android:layout_height="20dp"
+      android:layout_marginLeft="330dp"
+      android:layout_marginRight="11dp"
+      android:layout_gravity="top"
+      android:scaleType="centerInside"
+      android:src="@drawable/theo_doi_image2" />
+  </FrameLayout>
+  
+  <FrameLayout
+    android:id="@+id/theo_doi_container_group9"
+    android:layout_width="110dp"
+    android:layout_height="34dp"
+    android:layout_marginLeft="230dp"
+    android:layout_marginTop="406dp"
+    android:layout_gravity="top|left"
+    android:background="@drawable/theo_doi_container_group9">
+    
+    <ImageView
+      android:id="@+id/theo_doi_image_rectangle1"
+      android:layout_width="match_parent"
+      android:layout_height="match_parent"
+      android:scaleType="centerCrop"
+      android:src="@drawable/theo_doi_image_rectangle1" />
+    
+    <TextView
+      android:id="@+id/text_friends"
+      android:layout_width="wrap_content"
+      android:layout_height="23dp"
+      android:layout_marginLeft="26dp"
+      android:layout_marginTop="5dp"
+      android:layout_marginBottom="-1dp"
+      android:layout_gravity="top|left"
+      android:gravity="left|center_vertical"
+      android:includeFontPadding="false"
+      android:maxLines="1"
+      android:singleLine="true"
+      android:text="Bạn bè"
+      android:textColor="#FF000000"
+      android:textSize="18dp" />
+  </FrameLayout>
+  
+  <FrameLayout
+    android:id="@+id/theo_doi_container_group10"
+    android:layout_width="110dp"
+    android:layout_height="34dp"
+    android:layout_marginLeft="230dp"
+    android:layout_marginTop="325dp"
+    android:layout_gravity="top|left"
+    android:background="@drawable/theo_doi_container_group10">
+    
+    <ImageView
+      android:id="@+id/theo_doi_image_rectangle2"
+      android:layout_width="match_parent"
+      android:layout_height="match_parent"
+      android:scaleType="centerCrop"
+      android:src="@drawable/theo_doi_image_rectangle2" />
+    
+    <TextView
+      android:id="@+id/text_friends1"
+      android:layout_width="wrap_content"
+      android:layout_height="23dp"
+      android:layout_marginLeft="22dp"
+      android:layout_marginTop="5dp"
+      android:layout_marginBottom="-1dp"
+      android:layout_gravity="top|left"
+      android:gravity="left|center_vertical"
+      android:includeFontPadding="false"
+      android:maxLines="1"
+      android:singleLine="true"
+      android:text="Bạn bè"
+      android:textColor="#FF000000"
+      android:textSize="18dp" />
+  </FrameLayout>
+  
+  <FrameLayout
+    android:id="@+id/theo_doi_container_group11"
+    android:layout_width="110dp"
+    android:layout_height="34dp"
+    android:layout_marginLeft="230dp"
+    android:layout_marginTop="568dp"
+    android:layout_gravity="top|left"
+    android:background="@drawable/theo_doi_container_group11">
+    
+    <ImageView
+      android:id="@+id/theo_doi_image_rectangle3"
+      android:layout_width="match_parent"
+      android:layout_height="match_parent"
+      android:scaleType="centerCrop"
+      android:src="@drawable/theo_doi_image_rectangle3" />
+    
+    <TextView
+      android:id="@+id/text_friends2"
+      android:layout_width="wrap_content"
+      android:layout_height="23dp"
+      android:layout_marginLeft="26dp"
+      android:layout_marginTop="5dp"
+      android:layout_marginBottom="-1dp"
+      android:layout_gravity="top|left"
+      android:gravity="left|center_vertical"
+      android:includeFontPadding="false"
+      android:maxLines="1"
+      android:singleLine="true"
+      android:text="Bạn bè"
+      android:textColor="#FF000000"
+      android:textSize="18dp" />
+  </FrameLayout>
+  
+  <FrameLayout
+    android:id="@+id/theo_doi_container_group17"
+    android:layout_width="393dp"
+    android:layout_height="73dp"
+    android:layout_gravity="bottom">
+    
+    <ImageView
+      android:id="@+id/theo_doi_image_rectangle6"
+      android:layout_width="match_parent"
+      android:layout_height="match_parent"
+      android:background="@drawable/theo_doi_image_rectangle6"
+      android:scaleType="centerCrop" />
+    
+    <ImageView
+      android:id="@+id/theo_doi_image_frame"
+      android:layout_width="40dp"
+      android:layout_height="40dp"
+      android:layout_marginLeft="222dp"
+      android:layout_marginRight="131dp"
+      android:layout_marginTop="5dp"
+      android:layout_marginBottom="28dp"
+      android:scaleType="centerInside"
+      android:src="@drawable/theo_doi_image_frame" />
+    
+    <TextView
+      android:id="@+id/text_ban_be1"
+      android:layout_width="match_parent"
+      android:layout_height="21dp"
+      android:layout_marginLeft="218dp"
+      android:layout_marginRight="126dp"
+      android:layout_marginTop="48dp"
+      android:layout_marginBottom="4dp"
+      android:gravity="left|center_vertical"
+      android:includeFontPadding="false"
+      android:maxLines="1"
+      android:singleLine="true"
+      android:text="Bạn bè"
+      android:textColor="#FF73C6FF"
+      android:textSize="16dp" />
+    
+    <ImageView
+      android:id="@+id/theo_doi_image_frame1"
+      android:layout_width="40dp"
+      android:layout_height="40dp"
+      android:layout_marginLeft="316dp"
+      android:layout_marginRight="37dp"
+      android:layout_marginBottom="16dp"
+      android:layout_gravity="bottom"
+      android:scaleType="centerInside"
+      android:src="@drawable/theo_doi_image_frame1" />
+    
+    <ImageView
+      android:id="@+id/theo_doi_image_frame2"
+      android:layout_width="40dp"
+      android:layout_height="40dp"
+      android:layout_marginLeft="29dp"
+      android:layout_marginTop="16dp"
+      android:layout_marginBottom="17dp"
+      android:layout_gravity="left"
+      android:scaleType="centerInside"
+      android:src="@drawable/theo_doi_image_frame2" />
+    
+    <ImageView
+      android:id="@+id/theo_doi_container_group18"
+      android:layout_width="40dp"
+      android:layout_height="40dp"
+      android:layout_marginLeft="128dp"
+      android:layout_marginTop="16dp"
+      android:layout_marginBottom="17dp"
+      android:layout_gravity="left"
+      android:scaleType="centerInside"
+      android:src="@drawable/theo_doi_container_group18" />
+  </FrameLayout>
+  
+  <FrameLayout
+    android:id="@+id/theo_doi_container_group19"
+    android:layout_width="244dp"
+    android:layout_height="32dp"
+    android:layout_marginLeft="58dp"
+    android:layout_marginTop="46dp"
+    android:layout_gravity="top|left">
+    
+    <TextView
+      android:id="@+id/text_dang_follow"
+      android:layout_width="wrap_content"
+      android:layout_height="25.82dp"
+      android:layout_marginTop="4.49dp"
+      android:layout_marginBottom="1.68dp"
+      android:layout_gravity="left"
+      android:gravity="left|center_vertical"
+      android:includeFontPadding="false"
+      android:maxLines="1"
+      android:singleLine="true"
+      android:text="Đang Follow"
+      android:textColor="#FFD9D9D9"
+      android:textSize="20dp" />
+    
+    <FrameLayout
+      android:id="@+id/theo_doi_container_group20"
+      android:layout_width="match_parent"
+      android:layout_height="match_parent"
+      android:layout_marginLeft="164dp">
+      
+      <TextView
+        android:id="@+id/text_follow"
+        android:layout_width="match_parent"
+        android:layout_height="31.44dp"
+        android:layout_marginLeft="7dp"
+        android:layout_marginRight="2dp"
+        android:layout_gravity="top"
+        android:gravity="left|center_vertical"
+        android:includeFontPadding="false"
+        android:maxLines="1"
+        android:singleLine="true"
+        android:text="Follow"
+        android:textColor="#FFFFFFFF"
+        android:textSize="24dp" />
+      
+      <ImageView
+        android:id="@+id/theo_doi_image_line"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="32dp"
+        android:scaleType="centerCrop"
+        android:src="@drawable/theo_doi_image_line" />
+    </FrameLayout>
+  </FrameLayout>
+</FrameLayout>
