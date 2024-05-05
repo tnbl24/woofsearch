@@ -445,31 +445,23 @@
     android:text="&gt;"
     android:textColor="#FF000000"
     android:textSize="15dp" />
-  
-  <ImageView
-    android:layout_width="320dp"
-    android:layout_height="40dp"
-    android:layout_marginLeft="36dp"
-    android:layout_marginTop="718dp"
-    android:layout_gravity="top|left"
-    android:background="@drawable/drawable_shape_5"
-    android:scaleType="centerInside" />
-  
-  <TextView
-    android:layout_width="wrap_content"
-    android:layout_height="25dp"
-    android:layout_marginLeft="147dp"
-    android:layout_marginTop="725.5dp"
-    android:layout_marginBottom="-0.5dp"
-    android:layout_gravity="top|left"
-    android:gravity="left|center_vertical"
-    android:includeFontPadding="false"
-    android:maxLines="1"
-    android:singleLine="true"
-    android:text="Đăng xuất"
-    android:textColor="#FF000000"
-    android:textSize="20dp" />
-  
+
+  <Button
+      android:id="@+id/logoutButton"
+      android:layout_width="320dp"
+      android:layout_height="40dp"
+      android:layout_marginTop="718dp"
+      android:background="@drawable/main_button2"
+      android:text="Đăng xuất"
+      android:paddingTop="3dp"
+      android:textSize="18dp"
+      android:layout_gravity="top|center_horizontal"
+      app:backgroundTint="@null"
+      app:layout_constraintEnd_toEndOf="parent"
+      app:layout_constraintHorizontal_bias="0.498"
+      app:layout_constraintStart_toStartOf="parent"
+      app:layout_constraintTop_toTopOf="parent" />
+
   <ImageView
     android:id="@+id/ic_pencil_solid"
     android:layout_width="15dp"

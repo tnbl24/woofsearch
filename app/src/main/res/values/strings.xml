@@ -1,3 +1,8 @@
 <resources>
     <string name="app_name">WoofSearch</string>
+    <string name="HoTen">Họ và tên</string>
+    <string name="SDT">Số điện thoại</string>
+    <string name="Email">E-mail</string>
+    <string name="Passwd">Mật khẩu</string>
+    <string name="Rep">Trả lời...</string>
 </resources>

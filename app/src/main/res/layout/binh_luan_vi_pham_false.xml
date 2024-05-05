@@ -120,30 +120,22 @@
     android:text="Chúng tôi đã xác nhận lại bình luận của bạn và nhận thấy bình luận không vi phạm tiêu chuẩn cộng đồng của chúng tôi về spam . Do đó mọi người vẫn có thể nhìn thấy bình luận của bạn và tương tác với bình luận."
     android:textColor="#FF000000"
     android:textSize="15dp" />
-  
-  <ImageView
-    android:layout_width="352dp"
-    android:layout_height="51dp"
-    android:layout_marginLeft="0.5dp"
-    android:layout_marginTop="735dp"
-    android:layout_gravity="top|center_horizontal"
-    android:background="@drawable/binh_luan_vi_pham_false_drawable_shape_2"
-    android:scaleType="centerInside" />
-  
-  <TextView
-    android:layout_width="wrap_content"
-    android:layout_height="21dp"
-    android:layout_marginLeft="0.5dp"
-    android:layout_marginTop="750dp"
-    android:layout_marginBottom="-1dp"
-    android:layout_gravity="center_horizontal"
-    android:gravity="left|center_vertical"
-    android:includeFontPadding="false"
-    android:maxLines="1"
-    android:singleLine="true"
-    android:text="Ok"
-    android:textColor="#FF000000"
-    android:textSize="16dp" />
+
+  <Button
+      android:id="@+id/btnok"
+      android:layout_width="359dp"
+      android:layout_height="51dp"
+      android:layout_gravity="top|center_horizontal"
+      android:layout_alignParentStart="true"
+      android:layout_marginTop="736dp"
+      android:background="@drawable/button_background"
+      android:text="OK"
+      android:textColor="#020000"
+      app:backgroundTint="@null"
+      app:layout_constraintEnd_toEndOf="parent"
+      app:layout_constraintHorizontal_bias="0.498"
+      app:layout_constraintStart_toStartOf="parent"
+      app:layout_constraintTop_toTopOf="parent" />
   
   <TextView
     android:layout_width="wrap_content"

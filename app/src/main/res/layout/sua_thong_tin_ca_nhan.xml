@@ -408,30 +408,20 @@
     android:layout_gravity="top|left"
     android:background="@drawable/sua_thong_tin_ca_nhan_img_ellipse2"
     android:scaleType="centerInside" />
-  
-  <ImageView
-    android:id="@+id/sua_thong_tin_ca_nhan_img_rectangle3"
-    android:layout_width="320dp"
-    android:layout_height="40dp"
-    android:layout_marginLeft="37dp"
-    android:layout_marginTop="716dp"
-    android:layout_gravity="top|left"
-    android:scaleType="centerInside"
-    android:src="@drawable/sua_thong_tin_ca_nhan_img_rectangle3" />
-  
-  <TextView
-    android:id="@+id/text_save"
-    android:layout_width="wrap_content"
-    android:layout_height="25dp"
-    android:layout_marginLeft="178dp"
-    android:layout_marginTop="723.5dp"
-    android:layout_marginBottom="-0.5dp"
-    android:layout_gravity="top|left"
-    android:gravity="left|center_vertical"
-    android:includeFontPadding="false"
-    android:maxLines="1"
-    android:singleLine="true"
-    android:text="Lưu"
-    android:textColor="#FFFFFFFF"
-    android:textSize="20dp" />
+
+  <Button
+      android:id="@+id/saveButton"
+      android:layout_width="320dp"
+      android:layout_height="40dp"
+      android:layout_marginTop="716dp"
+      android:background="@drawable/main_button2"
+      android:text="Lưu"
+      android:paddingTop="3dp"
+      android:textSize="18dp"
+      android:layout_gravity="top|center_horizontal"
+      app:backgroundTint="@null"
+      app:layout_constraintEnd_toEndOf="parent"
+      app:layout_constraintHorizontal_bias="0.498"
+      app:layout_constraintStart_toStartOf="parent"
+      app:layout_constraintTop_toTopOf="parent" />
 </FrameLayout>

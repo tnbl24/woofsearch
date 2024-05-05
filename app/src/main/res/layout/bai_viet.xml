@@ -41,16 +41,43 @@
     android:layout_gravity="top|left"
     android:background="@drawable/bai_viet_image_rectangle"
     android:scaleType="centerInside" />
-  
-  <ImageView
-    android:id="@+id/bai_viet_image_rectangle1"
-    android:layout_width="53dp"
-    android:layout_height="51dp"
-    android:layout_marginLeft="327dp"
-    android:layout_marginTop="737dp"
-    android:layout_gravity="top|left"
-    android:background="@drawable/bai_viet_image_rectangle1"
-    android:scaleType="centerInside" />
+
+  <Button
+      android:id="@+id/btnsend"
+      android:layout_width="53dp"
+      android:layout_height="51dp"
+      android:layout_gravity="top|left"
+      android:layout_marginLeft="327dp"
+      android:layout_marginTop="737dp"
+      android:background="@drawable/button_background"
+      android:maxLines="1"
+      android:paddingLeft="3dp"
+      android:paddingRight="5dp"
+      android:text="Gửi"
+      android:textColor="#020000"
+      android:textSize="16dp"
+      app:backgroundTint="@null"
+      app:layout_constraintEnd_toEndOf="parent"
+      app:layout_constraintHorizontal_bias="0.498"
+      app:layout_constraintStart_toStartOf="parent"
+      app:layout_constraintTop_toTopOf="parent" />
+
+<!--  <TextView-->
+<!--      android:id="@+id/text_gui"-->
+<!--      android:layout_width="wrap_content"-->
+<!--      android:layout_height="wrap_content"-->
+<!--      android:layout_gravity="top|left"-->
+<!--      android:layout_marginLeft="339dp"-->
+<!--      android:layout_marginTop="752dp"-->
+<!--      android:layout_marginBottom="-1dp"-->
+<!--      android:gravity="left|center_vertical"-->
+<!--      android:includeFontPadding="false"-->
+<!--      android:maxLines="1"-->
+<!--      android:singleLine="true"-->
+<!--      android:text="Gửi"-->
+<!--      android:textColor="#FF000000"-->
+<!--      android:textSize="16dp" />-->
+
   
   <ImageView
     android:id="@+id/bai_viet_container_frame"
@@ -483,39 +510,21 @@
     android:text="500"
     android:textColor="#FF000000"
     android:textSize="13dp" />
-  
-  <TextView
-    android:id="@+id/text_tra_loi"
-    android:layout_width="wrap_content"
-    android:layout_height="21dp"
-    android:layout_marginLeft="28dp"
-    android:layout_marginTop="751dp"
-    android:layout_marginBottom="-1dp"
-    android:layout_gravity="top|left"
-    android:gravity="left|center_vertical"
-    android:includeFontPadding="false"
-    android:maxLines="1"
-    android:singleLine="true"
-    android:text="Trả lời..."
-    android:textColor="#FF0091F4"
-    android:textSize="16dp" />
-  
-  <TextView
-    android:id="@+id/text_gui"
-    android:layout_width="wrap_content"
-    android:layout_height="21dp"
-    android:layout_marginLeft="339dp"
-    android:layout_marginTop="752dp"
-    android:layout_marginBottom="-1dp"
-    android:layout_gravity="top|left"
-    android:gravity="left|center_vertical"
-    android:includeFontPadding="false"
-    android:maxLines="1"
-    android:singleLine="true"
-    android:text="Gửi"
-    android:textColor="#FF000000"
-    android:textSize="16dp" />
-  
+
+
+  <EditText
+      android:id="@+id/nameInput"
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content"
+      android:layout_marginLeft="28dp"
+      android:layout_marginTop="751dp"
+      android:background="@android:color/transparent"
+      android:ems="10"
+      android:hint="@string/Rep"
+      android:inputType="text"
+      android:textColor="#FF0091F4"
+      android:textSize="16dp" />
+
   <ImageView
     android:id="@+id/bai_viet_container_frame5"
     android:layout_width="30dp"

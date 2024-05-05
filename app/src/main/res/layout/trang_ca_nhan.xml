@@ -209,7 +209,7 @@
     android:layout_marginTop="294.5dp"
     android:layout_gravity="top|left"
     android:scaleType="centerInside"
-    android:src="@drawable/iv_img_rectangle1" />
+    android:src="@drawable/trang_ca_nhan_khac_iv_rectangle1" />
   
   <ImageView
     android:id="@+id/iv_rectangle2"
@@ -219,7 +219,7 @@
     android:layout_marginTop="294.5dp"
     android:layout_gravity="top|left"
     android:scaleType="centerInside"
-    android:src="@drawable/iv_img_rectangle2" />
+    android:src="@drawable/trang_ca_nhan_khac_iv_rectangle2" />
   
   <ImageView
     android:id="@+id/iv_rectangle3"
@@ -229,7 +229,7 @@
     android:layout_marginTop="294.5dp"
     android:layout_gravity="top|left"
     android:scaleType="centerInside"
-    android:src="@drawable/iv_img_rectangle3" />
+    android:src="@drawable/trang_ca_nhan_khac_iv_rectangle3" />
   
   <ImageView
     android:id="@+id/image_mars_solid"

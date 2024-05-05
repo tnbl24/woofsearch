@@ -1,6 +1,8 @@
 <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="393dp"
     android:layout_height="325dp"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
     android:background="@drawable/popup_background"
     android:layout_marginTop="500dp"
     android:layout_centerInParent="true">
@@ -40,61 +42,81 @@
         android:textSize="18sp"
         android:textColor="#000000" />
 
-    <TextView
-        android:id="@+id/txt_delete_notification"
-        android:layout_width="162.66dp"
-        android:layout_height="23dp"
-        android:layout_marginLeft="63.32dp"
-        android:layout_marginTop="183dp"
-        android:layout_marginBottom="119dp"
-        android:layout_gravity="left"
-        android:gravity="center_horizontal|center_vertical"
-        android:includeFontPadding="false"
-        android:maxLines="1"
-        android:singleLine="true"
-        android:text="Xóa thông báo này"
-        android:textStyle="bold"
-        android:textColor="#FF000000"
-        android:textSize="18dp" />
-
-    <TextView
-        android:id="@+id/txt_delete_notification2"
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:id="@+id/xoa_thong_bao"
         android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginLeft="67dp"
-        android:layout_marginTop="235dp"
-        android:layout_marginBottom="119dp"
-        android:layout_gravity="left"
-        android:gravity="center_horizontal|center_vertical"
-        android:includeFontPadding="false"
-        android:maxLines="1"
-        android:singleLine="true"
-        android:text="Tắt thông báo về Trần Huỳnh"
-        android:textStyle="bold"
-        android:textColor="#FF000000"
-        android:textSize="18dp" />
+        android:layout_height="30dp"
+        android:layout_gravity="top|center_horizontal"
+        android:layout_marginLeft="25dp"
+        android:layout_marginTop="190dp">
 
-    <ImageView
-        android:id="@+id/img_frame"
-        android:layout_width="28dp"
-        android:layout_height="28dp"
-        android:layout_marginLeft="22dp"
-        android:layout_marginTop="181dp"
-        android:layout_marginBottom="116dp"
-        android:layout_gravity="left"
-        android:scaleType="centerInside"
-        android:src="@drawable/img_thungrac" />
+        <TextView
+            android:id="@+id/txt_xoathongbao"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="top|left"
+            android:layout_marginBottom="6dp"
+            android:gravity="left|center_vertical"
+            android:maxLines="1"
+            android:singleLine="true"
+            android:text="Xóa thông báo này"
+            android:textColor="#FF000000"
+            android:textSize="18dp"
+            android:textStyle="bold"
+            app:layout_constraintEnd_toEndOf="parent"
+            tools:ignore="MissingConstraints" />
 
-    <ImageView
-        android:id="@+id/img_person_delete_filled"
-        android:layout_width="32dp"
-        android:layout_height="32dp"
-        android:layout_marginLeft="22dp"
-        android:layout_marginTop="235dp"
-        android:layout_marginBottom="58dp"
-        android:layout_gravity="left"
-        android:scaleType="centerInside"
-        android:src="@drawable/img_unfriend" />
+
+        <ImageView
+            android:id="@+id/img_delete"
+            android:layout_width="28dp"
+            android:layout_height="28dp"
+            android:layout_gravity="left"
+            android:layout_marginEnd="10dp"
+            android:scaleType="centerInside"
+            android:src="@drawable/img_thungrac"
+            app:layout_constraintEnd_toStartOf="@+id/txt_xoathongbao"
+            tools:ignore="MissingConstraints" />
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:id="@+id/tat_thong_bao"
+        android:layout_width="wrap_content"
+        android:layout_height="30dp"
+        android:layout_gravity="top|center_horizontal"
+        android:layout_marginLeft="25dp"
+        android:layout_marginTop="250dp">
+
+        <TextView
+            android:id="@+id/txt_tatthongbao"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="top|left"
+            android:layout_marginBottom="6dp"
+            android:gravity="left|center_vertical"
+            android:maxLines="1"
+            android:singleLine="true"
+            android:text="Tắt thông báo về Trần Huỳnh"
+            android:textColor="#FF000000"
+            android:textSize="18dp"
+            android:textStyle="bold"
+            app:layout_constraintEnd_toEndOf="parent"
+            tools:ignore="MissingConstraints" />
+
+
+        <ImageView
+            android:id="@+id/img_tatthongbao"
+            android:layout_width="28dp"
+            android:layout_height="28dp"
+            android:layout_gravity="left"
+            android:layout_marginEnd="10dp"
+            android:scaleType="centerInside"
+            android:src="@drawable/img_unfriend"
+            app:layout_constraintEnd_toStartOf="@+id/txt_tatthongbao"
+            tools:ignore="MissingConstraints" />
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
 
 
 </RelativeLayout>

@@ -1,6 +1,8 @@
 <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="393dp"
     android:layout_height="178dp"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
     android:background="@drawable/popup_background"
     android:layout_marginTop="640dp"
     android:layout_centerInParent="true">
@@ -20,75 +22,91 @@
         android:scaleType="centerInside"
         android:src="@drawable/item_popup" />
 
-
-    <TextView
-        android:id="@+id/txt_delete_notification"
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:id="@+id/tat_thong_bao_bai_viet"
         android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginLeft="65dp"
-        android:layout_marginTop="40dp"
-        android:layout_marginBottom="119dp"
-        android:layout_gravity="left"
-        android:gravity="center_horizontal|center_vertical"
-        android:includeFontPadding="false"
-        android:maxLines="1"
-        android:singleLine="true"
-        android:text="Tắt thông báo bài viết này"
-        android:textStyle="bold"
-        android:textColor="#FF000000"
-        android:textSize="18dp" />
+        android:layout_height="30dp"
+        android:layout_gravity="top|center_horizontal"
+        android:layout_marginLeft="25dp"
+        android:layout_marginTop="40dp">
 
-    <TextView
-        android:id="@+id/txt_delete_notification2"
+        <TextView
+            android:id="@+id/txt_tatthongbaobaiviet"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="top|left"
+            android:layout_marginBottom="6dp"
+            android:gravity="left|center_vertical"
+            android:maxLines="1"
+            android:singleLine="true"
+            android:text="Tắt thông báo bài viết này"
+            android:textColor="#FF000000"
+            android:textSize="18dp"
+            android:textStyle="bold"
+            app:layout_constraintEnd_toEndOf="parent"
+            tools:ignore="MissingConstraints" />
+
+
+        <ImageView
+            android:id="@+id/img_unalert"
+            android:layout_width="28dp"
+            android:layout_height="28dp"
+            android:layout_gravity="left"
+            android:layout_marginEnd="10dp"
+            android:scaleType="centerInside"
+            android:src="@drawable/popup_unalert"
+            app:layout_constraintEnd_toStartOf="@+id/txt_tatthongbaobaiviet"
+            tools:ignore="MissingConstraints" />
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:id="@+id/bao_cao_bai_viet"
         android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginLeft="67dp"
-        android:layout_marginTop="80dp"
-        android:layout_marginBottom="119dp"
-        android:layout_gravity="left"
-        android:gravity="center_horizontal|center_vertical"
-        android:includeFontPadding="false"
-        android:maxLines="1"
-        android:singleLine="true"
-        android:text="Báo cáo bài viết"
-        android:textStyle="bold"
-        android:textColor="#FF000000"
-        android:textSize="18dp" />
+        android:layout_height="60dp"
+        android:layout_gravity="top|center_horizontal"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="90dp">
 
-    <TextView
-        android:id="@+id/txt_delete_notification3"
-        android:layout_width="290dp"
-        android:layout_height="wrap_content"
-        android:layout_marginLeft="67dp"
-        android:layout_marginTop="105dp"
-        android:layout_marginBottom="119dp"
-        android:includeFontPadding="false"
-        android:text="Chúng tôi sẽ không cho Name biết ai đã báo cáo"
-        android:textColor="#FF000000"
-        android:textSize="16dp" />
+        <TextView
+            android:id="@+id/txt_baocaobaiviet"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="top|left"
+            android:layout_marginBottom="6dp"
+            android:gravity="left|center_vertical"
+            android:maxLines="1"
+            android:singleLine="true"
+            android:text="Báo cáo bài viết"
+            android:textColor="#FF000000"
+            android:textSize="18dp"
+            android:textStyle="bold"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toEndOf="@id/txt_baocaobaiviet"
+            tools:ignore="MissingConstraints" />
+
+        <TextView
+            android:id="@+id/textView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Chúng tôi sẽ không cho Name biết\nai đã báo cáo"
+            app:layout_constraintTop_toBottomOf="@id/txt_baocaobaiviet"
+            tools:layout_editor_absoluteX="20dp"
+            tools:ignore="MissingConstraints" />
 
 
-    <ImageView
-        android:id="@+id/img_frame"
-        android:layout_width="28dp"
-        android:layout_height="28dp"
-        android:layout_marginLeft="22dp"
-        android:layout_marginTop="40dp"
-        android:layout_marginBottom="116dp"
-        android:layout_gravity="left"
-        android:scaleType="centerInside"
-        android:src="@drawable/popup_unalert" />
+        <ImageView
+            android:id="@+id/img_report"
+            android:layout_width="28dp"
+            android:layout_height="28dp"
+            android:layout_gravity="left"
+            android:layout_marginEnd="10dp"
+            android:scaleType="centerInside"
+            android:src="@drawable/popup_report"
+            app:layout_constraintEnd_toStartOf="@+id/txt_baocaobaiviet"
+            tools:ignore="MissingConstraints" />
 
-    <ImageView
-        android:id="@+id/img_person_delete_filled"
-        android:layout_width="32dp"
-        android:layout_height="32dp"
-        android:layout_marginLeft="22dp"
-        android:layout_marginTop="75dp"
-        android:layout_marginBottom="58dp"
-        android:layout_gravity="left"
-        android:scaleType="centerInside"
-        android:src="@drawable/popup_report" />
+    </androidx.constraintlayout.widget.ConstraintLayout>
 
 
 </RelativeLayout>

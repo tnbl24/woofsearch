@@ -1,967 +1,1095 @@
 <?xml version="1.0" encoding="utf-8"?>
 
-<FrameLayout
-  xmlns:android="http://schemas.android.com/apk/res/android"
-  xmlns:app="http://schemas.android.com/apk/res-auto"
-  xmlns:tools="http://schemas.android.com/tools"
-  android:id="@+id/dien_dan_container_forum"
-  android:layout_width="match_parent"
-  android:layout_height="1507dp"
-  android:background="@drawable/dien_dan_container_forum">
-  
-  <ImageView
-    android:id="@+id/dien_dan_img_rectangle1"
-    android:layout_width="393dp"
-    android:layout_height="1475dp"
-    android:layout_marginTop="34dp"
-    android:layout_gravity="top|left"
-    android:background="@drawable/dien_dan_img_rectangle1"
-    android:scaleType="centerInside" />
-  
-  <ImageView
-    android:id="@+id/dien_dan_img_rectangle2"
-    android:layout_width="393dp"
-    android:layout_height="401dp"
-    android:layout_marginTop="201dp"
-    android:layout_gravity="top|left"
-    android:background="@drawable/dien_dan_img_rectangle2"
-    android:scaleType="centerInside" />
-  
-  <ImageView
-    android:id="@+id/dien_dan_img_rectangle3"
-    android:layout_width="393dp"
-    android:layout_height="401dp"
-    android:layout_marginTop="610dp"
-    android:layout_gravity="top|left"
-    android:background="@drawable/dien_dan_img_rectangle3"
-    android:scaleType="centerInside" />
-  
-  <ImageView
-    android:id="@+id/dien_dan_img_rectangle4"
-    android:layout_width="393dp"
-    android:layout_height="401dp"
-    android:layout_marginTop="1021dp"
-    android:layout_gravity="top|left"
-    android:background="@drawable/dien_dan_img_rectangle4"
-    android:scaleType="centerInside" />
-  
-  <FrameLayout
-    android:id="@+id/dien_dan_container_group1"
-    android:layout_width="178dp"
-    android:layout_height="54.23dp"
-    android:layout_marginLeft="10dp"
-    android:layout_marginTop="212dp"
-    android:layout_gravity="top|left">
-    
-    <ImageView
-      android:id="@+id/dien_dan_img_snapedit"
-      android:layout_width="49dp"
-      android:layout_height="41dp"
-      android:layout_marginLeft="3dp"
-      android:layout_gravity="top|left"
-      android:scaleType="centerInside"
-      android:src="@drawable/dien_dan_img_snapedit" />
-    
-    <TextView
-      android:id="@+id/tv_name"
-      android:layout_width="match_parent"
-      android:layout_height="25dp"
-      android:layout_marginLeft="65dp"
-      android:layout_marginTop="4dp"
-      android:layout_marginBottom="-2dp"
-      android:layout_gravity="top"
-      android:gravity="left|center_vertical"
-      android:includeFontPadding="false"
-      android:maxLines="1"
-      android:singleLine="true"
-      android:text="Name"
-      android:textColor="#FF000000"
-      android:textSize="20dp" />
-    
-    <TextView
-      android:id="@+id/tv_time"
-      android:layout_width="match_parent"
-      android:layout_height="15dp"
-      android:layout_marginLeft="65dp"
-      android:layout_marginRight="30dp"
-      android:layout_marginTop="28dp"
-      android:layout_marginBottom="11.23dp"
-      android:gravity="left|center_vertical"
-      android:includeFontPadding="false"
-      android:maxLines="1"
-      android:singleLine="true"
-      android:text="4 giờ trước"
-      android:textColor="#FF000000"
-      android:textSize="11dp" />
-    
-    <ImageView
-      android:id="@+id/dien_dan_img_ellipse"
-      android:layout_width="58dp"
-      android:layout_height="54.23dp"
-      android:layout_marginTop="0dp"
-      android:layout_marginBottom="0dp"
-      android:layout_gravity="left"
-      android:scaleType="centerInside"
-      android:src="@drawable/dien_dan_img_ellipse" />
-  </FrameLayout>
-  
-  <FrameLayout
-    android:id="@+id/dien_dan_container_group3"
-    android:layout_width="178dp"
-    android:layout_height="54.23dp"
-    android:layout_marginLeft="10dp"
-    android:layout_marginTop="621dp"
-    android:layout_gravity="top|left">
-    
-    <ImageView
-      android:id="@+id/dien_dan_image_snapedit"
-      android:layout_width="49dp"
-      android:layout_height="41dp"
-      android:layout_marginLeft="3dp"
-      android:layout_gravity="top|left"
-      android:scaleType="centerInside"
-      android:src="@drawable/dien_dan_image_snapedit" />
-    
-    <TextView
-      android:id="@+id/text_name"
-      android:layout_width="match_parent"
-      android:layout_height="25dp"
-      android:layout_marginLeft="65dp"
-      android:layout_marginTop="4dp"
-      android:layout_marginBottom="-2dp"
-      android:layout_gravity="top"
-      android:gravity="left|center_vertical"
-      android:includeFontPadding="false"
-      android:maxLines="1"
-      android:singleLine="true"
-      android:text="Name"
-      android:textColor="#FF000000"
-      android:textSize="20dp" />
-    
-    <TextView
-      android:id="@+id/text_time"
-      android:layout_width="match_parent"
-      android:layout_height="15dp"
-      android:layout_marginLeft="65dp"
-      android:layout_marginRight="30dp"
-      android:layout_marginTop="28dp"
-      android:layout_marginBottom="11.23dp"
-      android:gravity="left|center_vertical"
-      android:includeFontPadding="false"
-      android:maxLines="1"
-      android:singleLine="true"
-      android:text="4 giờ trước"
-      android:textColor="#FF000000"
-      android:textSize="11dp" />
-    
-    <ImageView
-      android:id="@+id/dien_dan_image_ellipse"
-      android:layout_width="58dp"
-      android:layout_height="54.23dp"
-      android:layout_marginTop="0dp"
-      android:layout_marginBottom="0dp"
-      android:layout_gravity="left"
-      android:scaleType="centerInside"
-      android:src="@drawable/dien_dan_image_ellipse" />
-  </FrameLayout>
-  
-  <FrameLayout
-    android:id="@+id/dien_dan_container_group5"
-    android:layout_width="178dp"
-    android:layout_height="54.23dp"
-    android:layout_marginLeft="7dp"
-    android:layout_marginTop="1032dp"
-    android:layout_gravity="top|left">
-    
-    <ImageView
-      android:id="@+id/dien_dan_image_snapedit1"
-      android:layout_width="49dp"
-      android:layout_height="41dp"
-      android:layout_marginLeft="3dp"
-      android:layout_gravity="top|left"
-      android:scaleType="centerInside"
-      android:src="@drawable/dien_dan_image_snapedit1" />
-    
-    <TextView
-      android:id="@+id/text_name1"
-      android:layout_width="match_parent"
-      android:layout_height="25dp"
-      android:layout_marginLeft="65dp"
-      android:layout_marginTop="4dp"
-      android:layout_marginBottom="-2dp"
-      android:layout_gravity="top"
-      android:gravity="left|center_vertical"
-      android:includeFontPadding="false"
-      android:maxLines="1"
-      android:singleLine="true"
-      android:text="Name"
-      android:textColor="#FF000000"
-      android:textSize="20dp" />
-    
-    <TextView
-      android:id="@+id/text_time1"
-      android:layout_width="match_parent"
-      android:layout_height="15dp"
-      android:layout_marginLeft="65dp"
-      android:layout_marginRight="30dp"
-      android:layout_marginTop="28dp"
-      android:layout_marginBottom="11.23dp"
-      android:gravity="left|center_vertical"
-      android:includeFontPadding="false"
-      android:maxLines="1"
-      android:singleLine="true"
-      android:text="4 giờ trước"
-      android:textColor="#FF000000"
-      android:textSize="11dp" />
-    
-    <ImageView
-      android:id="@+id/dien_dan_image_ellipse1"
-      android:layout_width="58dp"
-      android:layout_height="54.23dp"
-      android:layout_marginTop="0dp"
-      android:layout_marginBottom="0dp"
-      android:layout_gravity="left"
-      android:scaleType="centerInside"
-      android:src="@drawable/dien_dan_image_ellipse1" />
-  </FrameLayout>
-  
-  <TextView
-    android:id="@+id/text_content"
-    android:layout_width="wrap_content"
-    android:layout_height="20dp"
-    android:layout_marginLeft="13dp"
-    android:layout_marginTop="276dp"
-    android:layout_marginBottom="-1dp"
-    android:layout_gravity="top|left"
-    android:gravity="left|center_vertical"
-    android:includeFontPadding="false"
-    android:maxLines="1"
-    android:singleLine="true"
-    android:text="Đây là nội dung của bài viết"
-    android:textColor="#FF000000"
-    android:textSize="15dp" />
-  
-  <TextView
-    android:id="@+id/text_content1"
-    android:layout_width="wrap_content"
-    android:layout_height="20dp"
-    android:layout_marginLeft="13dp"
-    android:layout_marginTop="685dp"
-    android:layout_marginBottom="-1dp"
-    android:layout_gravity="top|left"
-    android:gravity="left|center_vertical"
-    android:includeFontPadding="false"
-    android:maxLines="1"
-    android:singleLine="true"
-    android:text="Đây là nội dung của bài viết"
-    android:textColor="#FF000000"
-    android:textSize="15dp" />
-  
-  <TextView
-    android:id="@+id/text_content2"
-    android:layout_width="wrap_content"
-    android:layout_height="20dp"
-    android:layout_marginLeft="10dp"
-    android:layout_marginTop="1096dp"
-    android:layout_marginBottom="-1dp"
-    android:layout_gravity="top|left"
-    android:gravity="left|center_vertical"
-    android:includeFontPadding="false"
-    android:maxLines="1"
-    android:singleLine="true"
-    android:text="Đây là nội dung của bài viết"
-    android:textColor="#FF000000"
-    android:textSize="15dp" />
-  
-  <ImageView
-    android:id="@+id/dien_dan_img_rectangle5"
-    android:layout_width="360dp"
-    android:layout_height="229dp"
-    android:layout_marginLeft="-4dp"
-    android:layout_marginTop="312dp"
-    android:layout_gravity="top|left"
-    android:background="@drawable/dien_dan_img_rectangle5"
-    android:scaleType="centerInside" />
-  
-  <ImageView
-    android:id="@+id/dien_dan_img_rectangle6"
-    android:layout_width="192dp"
-    android:layout_height="110dp"
-    android:layout_marginLeft="1dp"
-    android:layout_marginTop="719dp"
-    android:layout_gravity="top|left"
-    android:scaleType="centerInside"
-    android:src="@drawable/dien_dan_img_rectangle6" />
-  
-  <ImageView
-    android:id="@+id/dien_dan_container_frame"
-    android:layout_width="23dp"
-    android:layout_height="21dp"
-    android:layout_marginLeft="17dp"
-    android:layout_marginTop="565dp"
-    android:layout_gravity="top|left"
-    android:scaleType="centerInside"
-    android:src="@drawable/dien_dan_container_frame" />
-  
-  <ImageView
-    android:id="@+id/dien_dan_container_frame1"
-    android:layout_width="23dp"
-    android:layout_height="21dp"
-    android:layout_marginLeft="17dp"
-    android:layout_marginTop="976dp"
-    android:layout_gravity="top|left"
-    android:scaleType="centerInside"
-    android:src="@drawable/dien_dan_container_frame1" />
-  
-  <ImageView
-    android:id="@+id/dien_dan_container_frame2"
-    android:layout_width="23dp"
-    android:layout_height="21dp"
-    android:layout_marginLeft="17dp"
-    android:layout_marginTop="1382dp"
-    android:layout_gravity="top|left"
-    android:scaleType="centerInside"
-    android:src="@drawable/dien_dan_container_frame2" />
-  
-  <TextView
-    android:id="@+id/text_like"
-    android:layout_width="wrap_content"
-    android:layout_height="17dp"
-    android:layout_marginLeft="45dp"
-    android:layout_marginTop="568dp"
-    android:layout_marginBottom="-1dp"
-    android:layout_gravity="top|left"
-    android:gravity="left|center_vertical"
-    android:includeFontPadding="false"
-    android:maxLines="1"
-    android:singleLine="true"
-    android:text="Thích"
-    android:textColor="#FF000000"
-    android:textSize="13dp" />
-  
-  <TextView
-    android:id="@+id/text_like1"
-    android:layout_width="wrap_content"
-    android:layout_height="17dp"
-    android:layout_marginLeft="45dp"
-    android:layout_marginTop="979dp"
-    android:layout_marginBottom="-1dp"
-    android:layout_gravity="top|left"
-    android:gravity="left|center_vertical"
-    android:includeFontPadding="false"
-    android:maxLines="1"
-    android:singleLine="true"
-    android:text="Thích"
-    android:textColor="#FF000000"
-    android:textSize="13dp" />
-  
-  <TextView
-    android:id="@+id/text_like2"
-    android:layout_width="wrap_content"
-    android:layout_height="17dp"
-    android:layout_marginLeft="45dp"
-    android:layout_marginTop="1385dp"
-    android:layout_marginBottom="-1dp"
-    android:layout_gravity="top|left"
-    android:gravity="left|center_vertical"
-    android:includeFontPadding="false"
-    android:maxLines="1"
-    android:singleLine="true"
-    android:text="Thích"
-    android:textColor="#FF000000"
-    android:textSize="13dp" />
-  
-  <ImageView
-    android:id="@+id/dien_dan_image_frame"
-    android:layout_width="23dp"
-    android:layout_height="21dp"
-    android:layout_marginLeft="136dp"
-    android:layout_marginTop="565dp"
-    android:layout_gravity="top|left"
-    android:scaleType="centerInside"
-    android:src="@drawable/dien_dan_image_frame" />
-  
-  <ImageView
-    android:id="@+id/dien_dan_container_frame3"
-    android:layout_width="23dp"
-    android:layout_height="21dp"
-    android:layout_marginLeft="151dp"
-    android:layout_marginTop="975dp"
-    android:layout_gravity="top|left"
-    android:scaleType="centerInside"
-    android:src="@drawable/dien_dan_container_frame3" />
-  
-  <ImageView
-    android:id="@+id/dien_dan_image_frame1"
-    android:layout_width="23dp"
-    android:layout_height="21dp"
-    android:layout_marginLeft="148dp"
-    android:layout_marginTop="1382dp"
-    android:layout_gravity="top|left"
-    android:scaleType="centerInside"
-    android:src="@drawable/dien_dan_image_frame1" />
-  
-  <TextView
-    android:id="@+id/text_comment"
-    android:layout_width="wrap_content"
-    android:layout_height="17dp"
-    android:layout_marginLeft="164dp"
-    android:layout_marginTop="567dp"
-    android:layout_marginBottom="-1dp"
-    android:layout_gravity="top|left"
-    android:gravity="left|center_vertical"
-    android:includeFontPadding="false"
-    android:maxLines="1"
-    android:singleLine="true"
-    android:text="Bình luận"
-    android:textColor="#FF000000"
-    android:textSize="13dp" />
-  
-  <TextView
-    android:id="@+id/text_comment1"
-    android:layout_width="wrap_content"
-    android:layout_height="17dp"
-    android:layout_marginLeft="179dp"
-    android:layout_marginTop="977dp"
-    android:layout_marginBottom="-1dp"
-    android:layout_gravity="top|left"
-    android:gravity="left|center_vertical"
-    android:includeFontPadding="false"
-    android:maxLines="1"
-    android:singleLine="true"
-    android:text="Bình luận"
-    android:textColor="#FF000000"
-    android:textSize="13dp" />
-  
-  <TextView
-    android:id="@+id/text_comment2"
-    android:layout_width="wrap_content"
-    android:layout_height="17dp"
-    android:layout_marginLeft="176dp"
-    android:layout_marginTop="1384dp"
-    android:layout_marginBottom="-1dp"
-    android:layout_gravity="top|left"
-    android:gravity="left|center_vertical"
-    android:includeFontPadding="false"
-    android:maxLines="1"
-    android:singleLine="true"
-    android:text="Bình luận"
-    android:textColor="#FF000000"
-    android:textSize="13dp" />
-  
-  <TextView
-    android:id="@+id/text_comment3"
-    android:layout_width="wrap_content"
-    android:layout_height="17dp"
-    android:layout_marginLeft="164dp"
-    android:layout_marginTop="567dp"
-    android:layout_marginBottom="-1dp"
-    android:layout_gravity="top|left"
-    android:gravity="left|center_vertical"
-    android:includeFontPadding="false"
-    android:maxLines="1"
-    android:singleLine="true"
-    android:text="Bình luận"
-    android:textColor="#FF000000"
-    android:textSize="13dp" />
-  
-  <TextView
-    android:id="@+id/text_comment4"
-    android:layout_width="wrap_content"
-    android:layout_height="17dp"
-    android:layout_marginLeft="179dp"
-    android:layout_marginTop="977dp"
-    android:layout_marginBottom="-1dp"
-    android:layout_gravity="top|left"
-    android:gravity="left|center_vertical"
-    android:includeFontPadding="false"
-    android:maxLines="1"
-    android:singleLine="true"
-    android:text="Bình luận"
-    android:textColor="#FF000000"
-    android:textSize="13dp" />
-  
-  <TextView
-    android:id="@+id/text_comment5"
-    android:layout_width="wrap_content"
-    android:layout_height="17dp"
-    android:layout_marginLeft="176dp"
-    android:layout_marginTop="1384dp"
-    android:layout_marginBottom="-1dp"
-    android:layout_gravity="top|left"
-    android:gravity="left|center_vertical"
-    android:includeFontPadding="false"
-    android:maxLines="1"
-    android:singleLine="true"
-    android:text="Bình luận"
-    android:textColor="#FF000000"
-    android:textSize="13dp" />
-  
-  <TextView
-    android:id="@+id/text_number"
-    android:layout_width="wrap_content"
-    android:layout_height="14dp"
-    android:layout_marginLeft="351dp"
-    android:layout_marginTop="570dp"
-    android:layout_marginBottom="-1dp"
-    android:layout_gravity="top|left"
-    android:gravity="left|center_vertical"
-    android:includeFontPadding="false"
-    android:maxLines="1"
-    android:singleLine="true"
-    android:text="1.500"
-    android:textColor="#FF000000"
-    android:textSize="10dp" />
-  
-  <TextView
-    android:id="@+id/text_number1"
-    android:layout_width="wrap_content"
-    android:layout_height="14dp"
-    android:layout_marginLeft="351dp"
-    android:layout_marginTop="981dp"
-    android:layout_marginBottom="-1dp"
-    android:layout_gravity="top|left"
-    android:gravity="left|center_vertical"
-    android:includeFontPadding="false"
-    android:maxLines="1"
-    android:singleLine="true"
-    android:text="1.500"
-    android:textColor="#FF000000"
-    android:textSize="10dp" />
-  
-  <TextView
-    android:id="@+id/text_number2"
-    android:layout_width="wrap_content"
-    android:layout_height="14dp"
-    android:layout_marginLeft="351dp"
-    android:layout_marginTop="1386dp"
-    android:layout_marginBottom="-1dp"
-    android:layout_gravity="top|left"
-    android:gravity="left|center_vertical"
-    android:includeFontPadding="false"
-    android:maxLines="1"
-    android:singleLine="true"
-    android:text="1.500"
-    android:textColor="#FF000000"
-    android:textSize="10dp" />
-  
-  <TextView
-    android:id="@+id/text_number3"
-    android:layout_width="wrap_content"
-    android:layout_height="14dp"
-    android:layout_marginLeft="351dp"
-    android:layout_marginTop="570dp"
-    android:layout_marginBottom="-1dp"
-    android:layout_gravity="top|left"
-    android:gravity="left|center_vertical"
-    android:includeFontPadding="false"
-    android:maxLines="1"
-    android:singleLine="true"
-    android:text="1.500"
-    android:textColor="#FF000000"
-    android:textSize="10dp" />
-  
-  <TextView
-    android:id="@+id/text_number4"
-    android:layout_width="wrap_content"
-    android:layout_height="14dp"
-    android:layout_marginLeft="351dp"
-    android:layout_marginTop="981dp"
-    android:layout_marginBottom="-1dp"
-    android:layout_gravity="top|left"
-    android:gravity="left|center_vertical"
-    android:includeFontPadding="false"
-    android:maxLines="1"
-    android:singleLine="true"
-    android:text="1.500"
-    android:textColor="#FF000000"
-    android:textSize="10dp" />
-  
-  <TextView
-    android:id="@+id/text_number5"
-    android:layout_width="wrap_content"
-    android:layout_height="14dp"
-    android:layout_marginLeft="351dp"
-    android:layout_marginTop="1386dp"
-    android:layout_marginBottom="-1dp"
-    android:layout_gravity="top|left"
-    android:gravity="left|center_vertical"
-    android:includeFontPadding="false"
-    android:maxLines="1"
-    android:singleLine="true"
-    android:text="1.500"
-    android:textColor="#FF000000"
-    android:textSize="10dp" />
-  
-  <ImageView
-    android:id="@+id/dien_dan_img_rectangle7"
-    android:layout_width="192dp"
-    android:layout_height="110dp"
-    android:layout_marginLeft="198dp"
-    android:layout_marginTop="833dp"
-    android:layout_gravity="top|left"
-    android:scaleType="centerInside"
-    android:src="@drawable/dien_dan_img_rectangle7" />
-  
-  <TextView
-    android:id="@+id/text_number6"
-    android:layout_width="wrap_content"
-    android:layout_height="14dp"
-    android:layout_marginLeft="293dp"
-    android:layout_marginTop="570dp"
-    android:layout_marginBottom="-1dp"
-    android:layout_gravity="top|left"
-    android:gravity="left|center_vertical"
-    android:includeFontPadding="false"
-    android:maxLines="1"
-    android:singleLine="true"
-    android:text="1.500"
-    android:textColor="#FF000000"
-    android:textSize="10dp" />
-  
-  <TextView
-    android:id="@+id/text_number7"
-    android:layout_width="wrap_content"
-    android:layout_height="14dp"
-    android:layout_marginLeft="293dp"
-    android:layout_marginTop="981dp"
-    android:layout_marginBottom="-1dp"
-    android:layout_gravity="top|left"
-    android:gravity="left|center_vertical"
-    android:includeFontPadding="false"
-    android:maxLines="1"
-    android:singleLine="true"
-    android:text="1.500"
-    android:textColor="#FF000000"
-    android:textSize="10dp" />
-  
-  <TextView
-    android:id="@+id/text_number8"
-    android:layout_width="wrap_content"
-    android:layout_height="14dp"
-    android:layout_marginLeft="293dp"
-    android:layout_marginTop="1386dp"
-    android:layout_marginBottom="-1dp"
-    android:layout_gravity="top|left"
-    android:gravity="left|center_vertical"
-    android:includeFontPadding="false"
-    android:maxLines="1"
-    android:singleLine="true"
-    android:text="1.500"
-    android:textColor="#FF000000"
-    android:textSize="10dp" />
-  
-  <TextView
-    android:id="@+id/text_number9"
-    android:layout_width="wrap_content"
-    android:layout_height="14dp"
-    android:layout_marginLeft="293dp"
-    android:layout_marginTop="570dp"
-    android:layout_marginBottom="-1dp"
-    android:layout_gravity="top|left"
-    android:gravity="left|center_vertical"
-    android:includeFontPadding="false"
-    android:maxLines="1"
-    android:singleLine="true"
-    android:text="1.500"
-    android:textColor="#FF000000"
-    android:textSize="10dp" />
-  
-  <TextView
-    android:id="@+id/text_number10"
-    android:layout_width="wrap_content"
-    android:layout_height="14dp"
-    android:layout_marginLeft="293dp"
-    android:layout_marginTop="981dp"
-    android:layout_marginBottom="-1dp"
-    android:layout_gravity="top|left"
-    android:gravity="left|center_vertical"
-    android:includeFontPadding="false"
-    android:maxLines="1"
-    android:singleLine="true"
-    android:text="1.500"
-    android:textColor="#FF000000"
-    android:textSize="10dp" />
-  
-  <TextView
-    android:id="@+id/text_number11"
-    android:layout_width="wrap_content"
-    android:layout_height="14dp"
-    android:layout_marginLeft="293dp"
-    android:layout_marginTop="1386dp"
-    android:layout_marginBottom="-1dp"
-    android:layout_gravity="top|left"
-    android:gravity="left|center_vertical"
-    android:includeFontPadding="false"
-    android:maxLines="1"
-    android:singleLine="true"
-    android:text="1.500"
-    android:textColor="#FF000000"
-    android:textSize="10dp" />
-  
-  <ImageView
-    android:id="@+id/dien_dan_image_frame2"
-    android:layout_width="12dp"
-    android:layout_height="12dp"
-    android:layout_marginLeft="337dp"
-    android:layout_marginTop="570dp"
-    android:layout_gravity="top|left"
-    android:alpha="0.6000000238418579"
-    android:scaleType="centerInside"
-    android:src="@drawable/dien_dan_image_frame2" />
-  
-  <ImageView
-    android:id="@+id/dien_dan_container_frame4"
-    android:layout_width="12dp"
-    android:layout_height="12dp"
-    android:layout_marginLeft="337dp"
-    android:layout_marginTop="981dp"
-    android:layout_gravity="top|left"
-    android:alpha="0.6000000238418579"
-    android:scaleType="centerInside"
-    android:src="@drawable/dien_dan_container_frame4" />
-  
-  <ImageView
-    android:id="@+id/dien_dan_container_frame5"
-    android:layout_width="12dp"
-    android:layout_height="12dp"
-    android:layout_marginLeft="337dp"
-    android:layout_marginTop="1386dp"
-    android:layout_gravity="top|left"
-    android:alpha="0.6000000238418579"
-    android:scaleType="centerInside"
-    android:src="@drawable/dien_dan_container_frame5" />
-  
-  <ImageView
-    android:id="@+id/dien_dan_container_frame6"
-    android:layout_width="12dp"
-    android:layout_height="12dp"
-    android:layout_marginLeft="337dp"
-    android:layout_marginTop="570dp"
-    android:layout_gravity="top|left"
-    android:scaleType="centerInside"
-    android:src="@drawable/dien_dan_container_frame6" />
-  
-  <ImageView
-    android:id="@+id/dien_dan_image_frame3"
-    android:layout_width="12dp"
-    android:layout_height="12dp"
-    android:layout_marginLeft="337dp"
-    android:layout_marginTop="981dp"
-    android:layout_gravity="top|left"
-    android:scaleType="centerInside"
-    android:src="@drawable/dien_dan_image_frame3" />
-  
-  <ImageView
-    android:id="@+id/dien_dan_image_frame4"
-    android:layout_width="12dp"
-    android:layout_height="12dp"
-    android:layout_marginLeft="337dp"
-    android:layout_marginTop="1386dp"
-    android:layout_gravity="top|left"
-    android:scaleType="centerInside"
-    android:src="@drawable/dien_dan_image_frame4" />
-  
-  <ImageView
-    android:id="@+id/dien_dan_image_frame5"
-    android:layout_width="11dp"
-    android:layout_height="10dp"
-    android:layout_marginLeft="282dp"
-    android:layout_marginTop="571dp"
-    android:layout_gravity="top|left"
-    android:alpha="0.6000000238418579"
-    android:scaleType="centerInside"
-    android:src="@drawable/dien_dan_image_frame5" />
-  
-  <ImageView
-    android:id="@+id/dien_dan_image_frame6"
-    android:layout_width="11dp"
-    android:layout_height="10dp"
-    android:layout_marginLeft="282dp"
-    android:layout_marginTop="982dp"
-    android:layout_gravity="top|left"
-    android:alpha="0.6000000238418579"
-    android:scaleType="centerInside"
-    android:src="@drawable/dien_dan_image_frame6" />
-  
-  <ImageView
-    android:layout_width="11dp"
-    android:layout_height="10dp"
-    android:layout_marginLeft="282dp"
-    android:layout_marginTop="1387dp"
-    android:layout_gravity="top|left"
-    android:alpha="0.6000000238418579"
-    android:scaleType="centerInside"
-    android:src="@drawable/dien_dan_drawable_image" />
-  
-  <ImageView
-    android:id="@+id/dien_dan_image_frame7"
-    android:layout_width="11dp"
-    android:layout_height="10dp"
-    android:layout_marginLeft="282dp"
-    android:layout_marginTop="571dp"
-    android:layout_gravity="top|left"
-    android:scaleType="centerInside"
-    android:src="@drawable/dien_dan_image_frame7" />
-  
-  <ImageView
-    android:id="@+id/dien_dan_image_frame8"
-    android:layout_width="11dp"
-    android:layout_height="10dp"
-    android:layout_marginLeft="282dp"
-    android:layout_marginTop="982dp"
-    android:layout_gravity="top|left"
-    android:scaleType="centerInside"
-    android:src="@drawable/dien_dan_image_frame8" />
-  
-  <ImageView
-    android:id="@+id/dien_dan_container_frame7"
-    android:layout_width="11dp"
-    android:layout_height="10dp"
-    android:layout_marginLeft="282dp"
-    android:layout_marginTop="1387dp"
-    android:layout_gravity="top|left"
-    android:scaleType="centerInside"
-    android:src="@drawable/dien_dan_container_frame7" />
-  
-  <ImageView
-    android:id="@+id/dien_dan_img_rectangle8"
-    android:layout_width="393dp"
-    android:layout_height="96dp"
-    android:layout_marginTop="97dp"
-    android:layout_gravity="top|left"
-    android:background="@drawable/dien_dan_img_rectangle8"
-    android:scaleType="centerInside" />
-  
-  <ImageView
-    android:id="@+id/dien_dan_img_rectangle9"
-    android:layout_width="192dp"
-    android:layout_height="110dp"
-    android:layout_marginLeft="198dp"
-    android:layout_marginTop="719dp"
-    android:layout_gravity="top|left"
-    android:scaleType="centerInside"
-    android:src="@drawable/dien_dan_img_rectangle9" />
-  
-  <ImageView
-    android:id="@+id/dien_dan_img_rectangle10"
-    android:layout_width="192dp"
-    android:layout_height="110dp"
-    android:layout_marginLeft="1dp"
-    android:layout_marginTop="833dp"
-    android:layout_gravity="top|left"
-    android:scaleType="centerInside"
-    android:src="@drawable/dien_dan_img_rectangle10" />
-  
-  <ImageView
-    android:id="@+id/dien_dan_img_rectangle11"
-    android:layout_width="192dp"
-    android:layout_height="110dp"
-    android:layout_marginLeft="198dp"
-    android:layout_marginTop="833dp"
-    android:layout_gravity="top|left"
-    android:background="@drawable/dien_dan_img_rectangle11"
-    android:scaleType="centerInside" />
-  
-  <ImageView
-    android:id="@+id/dien_dan_container_line"
-    android:layout_width="360dp"
-    android:layout_height="0.54dp"
-    android:layout_marginLeft="0.5dp"
-    android:layout_marginTop="555.96dp"
-    android:layout_gravity="top|center_horizontal"
-    android:scaleType="centerInside"
-    android:src="@drawable/dien_dan_container_line" />
-  
-  <ImageView
-    android:id="@+id/dien_dan_container_line1"
-    android:layout_width="360dp"
-    android:layout_height="0.54dp"
-    android:layout_marginLeft="0.5dp"
-    android:layout_marginTop="967.96dp"
-    android:layout_gravity="top|center_horizontal"
-    android:scaleType="centerInside"
-    android:src="@drawable/dien_dan_container_line1" />
-  
-  <ImageView
-    android:id="@+id/dien_dan_container_line2"
-    android:layout_width="360dp"
-    android:layout_height="0.54dp"
-    android:layout_marginLeft="0.5dp"
-    android:layout_marginTop="1369.96dp"
-    android:layout_gravity="top|center_horizontal"
-    android:scaleType="centerInside"
-    android:src="@drawable/dien_dan_container_line2" />
-  
-  <TextView
-    android:id="@+id/text_plus"
-    android:layout_width="40dp"
-    android:layout_height="21dp"
-    android:layout_marginLeft="277dp"
-    android:layout_marginTop="878dp"
-    android:layout_marginBottom="-1dp"
-    android:layout_gravity="top|left"
-    android:gravity="left|center_vertical"
-    android:includeFontPadding="false"
-    android:maxLines="1"
-    android:singleLine="true"
-    android:text="999+"
-    android:textColor="#FFFFFFFF"
-    android:textSize="16dp" />
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/dien_dan_container_forum"
+    android:layout_width="match_parent"
+    android:layout_height="1507dp"
+    android:background="@drawable/dien_dan_container_forum">
 
   <ImageView
-    android:id="@+id/dien_dan_img_rectangle12"
-    android:layout_width="393dp"
-    android:layout_height="230dp"
-    android:layout_marginTop="312dp"
-    android:layout_gravity="top|left"
-    android:scaleType="centerInside"
-    android:src="@drawable/dien_dan_img_rectangle12" />
+      android:id="@+id/dien_dan_img_rectangle1"
+      android:layout_width="393dp"
+      android:layout_height="1475dp"
+      android:layout_gravity="top|left"
+      android:layout_marginTop="34dp"
+      android:background="@drawable/dien_dan_img_rectangle1"
+      android:fadeScrollbars="false"
+      android:overScrollMode="always"
+      android:scaleType="centerInside" />
 
   <ImageView
-    android:id="@+id/dien_dan_img_rectangle13"
-    android:layout_width="393dp"
-    android:layout_height="229dp"
-    android:layout_marginTop="1126dp"
-    android:layout_gravity="top|left"
-    android:scaleType="centerInside"
-    android:src="@drawable/dien_dan_img_rectangle13" />
-  
+      android:id="@+id/dien_dan_img_rectangle2"
+      android:layout_width="393dp"
+      android:layout_height="401dp"
+      android:layout_gravity="top|left"
+      android:layout_marginTop="201dp"
+      android:background="@drawable/dien_dan_img_rectangle2"
+      android:fadeScrollbars="false"
+      android:overScrollMode="always"
+      android:scaleType="centerInside" />
+
   <ImageView
-    android:id="@+id/dien_dan_img_rectangle14"
-    android:layout_width="393dp"
-    android:layout_height="231dp"
-    android:layout_marginTop="1124dp"
-    android:layout_gravity="top|left"
-    android:background="@drawable/dien_dan_img_rectangle14"
-    android:scaleType="centerInside" />
-  
+      android:id="@+id/dien_dan_img_rectangle3"
+      android:layout_width="393dp"
+      android:layout_height="401dp"
+      android:layout_gravity="top|left"
+      android:layout_marginTop="610dp"
+      android:background="@drawable/dien_dan_img_rectangle3"
+      android:fadeScrollbars="false"
+      android:overScrollMode="always"
+      android:scaleType="centerInside" />
+
   <ImageView
-    android:id="@+id/dien_dan_container_frame8"
-    android:layout_width="50dp"
-    android:layout_height="50dp"
-    android:layout_marginLeft="155dp"
-    android:layout_marginTop="1215dp"
-    android:layout_gravity="top|left"
-    android:alpha="0.5"
-    android:scaleType="centerInside"
-    android:src="@drawable/dien_dan_container_frame8" />
-  
+      android:id="@+id/dien_dan_img_rectangle4"
+      android:layout_width="393dp"
+      android:layout_height="401dp"
+      android:layout_gravity="top|left"
+      android:layout_marginTop="1021dp"
+      android:background="@drawable/dien_dan_img_rectangle4"
+      android:fadeScrollbars="false"
+      android:overScrollMode="always"
+      android:scaleType="centerInside" />
+
+  <FrameLayout
+      android:id="@+id/dien_dan_container_group1"
+      android:layout_width="178dp"
+      android:layout_height="54.23dp"
+      android:layout_gravity="top|left"
+      android:layout_marginLeft="10dp"
+      android:layout_marginTop="212dp">
+
+    <ImageView
+        android:id="@+id/dien_dan_img_snapedit"
+        android:layout_width="49dp"
+        android:layout_height="41dp"
+        android:layout_gravity="top|left"
+        android:layout_marginLeft="3dp"
+        android:fadeScrollbars="false"
+        android:overScrollMode="always"
+        android:scaleType="centerInside"
+        android:src="@drawable/dien_dan_img_snapedit" />
+
+    <TextView
+        android:id="@+id/tv_name"
+        android:layout_width="match_parent"
+        android:layout_height="25dp"
+        android:layout_gravity="top"
+        android:layout_marginLeft="65dp"
+        android:layout_marginTop="4dp"
+        android:layout_marginBottom="-2dp"
+        android:fadeScrollbars="false"
+        android:gravity="left|center_vertical"
+        android:includeFontPadding="false"
+        android:maxLines="1"
+        android:overScrollMode="always"
+        android:singleLine="true"
+        android:text="Name"
+        android:textColor="#FF000000"
+        android:textSize="20dp" />
+
+    <TextView
+        android:id="@+id/tv_time"
+        android:layout_width="match_parent"
+        android:layout_height="15dp"
+        android:layout_marginLeft="65dp"
+        android:layout_marginTop="28dp"
+        android:layout_marginRight="30dp"
+        android:layout_marginBottom="11.23dp"
+        android:fadeScrollbars="false"
+        android:gravity="left|center_vertical"
+        android:includeFontPadding="false"
+        android:maxLines="1"
+        android:overScrollMode="always"
+        android:singleLine="true"
+        android:text="4 giờ trước"
+        android:textColor="#FF000000"
+        android:textSize="11dp" />
+
+    <ImageView
+        android:id="@+id/dien_dan_img_ellipse"
+        android:layout_width="58dp"
+        android:layout_height="54.23dp"
+        android:layout_gravity="left"
+        android:layout_marginTop="0dp"
+        android:layout_marginBottom="0dp"
+        android:fadeScrollbars="false"
+        android:overScrollMode="always"
+        android:scaleType="centerInside"
+        android:src="@drawable/dien_dan_img_ellipse" />
+  </FrameLayout>
+
+  <FrameLayout
+      android:id="@+id/dien_dan_container_group3"
+      android:layout_width="178dp"
+      android:layout_height="54.23dp"
+      android:layout_gravity="top|left"
+      android:layout_marginLeft="10dp"
+      android:layout_marginTop="621dp">
+
+    <ImageView
+        android:id="@+id/dien_dan_image_snapedit"
+        android:layout_width="49dp"
+        android:layout_height="41dp"
+        android:layout_gravity="top|left"
+        android:layout_marginLeft="3dp"
+        android:fadeScrollbars="false"
+        android:overScrollMode="always"
+        android:scaleType="centerInside"
+        android:src="@drawable/dien_dan_image_snapedit" />
+
+    <TextView
+        android:id="@+id/text_name"
+        android:layout_width="match_parent"
+        android:layout_height="25dp"
+        android:layout_gravity="top"
+        android:layout_marginLeft="65dp"
+        android:layout_marginTop="4dp"
+        android:layout_marginBottom="-2dp"
+        android:fadeScrollbars="false"
+        android:gravity="left|center_vertical"
+        android:includeFontPadding="false"
+        android:maxLines="1"
+        android:overScrollMode="always"
+        android:singleLine="true"
+        android:text="Name"
+        android:textColor="#FF000000"
+        android:textSize="20dp" />
+
+    <TextView
+        android:id="@+id/text_time"
+        android:layout_width="match_parent"
+        android:layout_height="15dp"
+        android:layout_marginLeft="65dp"
+        android:layout_marginTop="28dp"
+        android:layout_marginRight="30dp"
+        android:layout_marginBottom="11.23dp"
+        android:fadeScrollbars="false"
+        android:gravity="left|center_vertical"
+        android:includeFontPadding="false"
+        android:maxLines="1"
+        android:overScrollMode="always"
+        android:singleLine="true"
+        android:text="4 giờ trước"
+        android:textColor="#FF000000"
+        android:textSize="11dp" />
+
+    <ImageView
+        android:id="@+id/dien_dan_image_ellipse"
+        android:layout_width="58dp"
+        android:layout_height="54.23dp"
+        android:layout_gravity="left"
+        android:layout_marginTop="0dp"
+        android:layout_marginBottom="0dp"
+        android:fadeScrollbars="false"
+        android:overScrollMode="always"
+        android:scaleType="centerInside"
+        android:src="@drawable/dien_dan_image_ellipse" />
+  </FrameLayout>
+
+  <FrameLayout
+      android:id="@+id/dien_dan_container_group5"
+      android:layout_width="178dp"
+      android:layout_height="54.23dp"
+      android:layout_gravity="top|left"
+      android:layout_marginLeft="7dp"
+      android:layout_marginTop="1032dp">
+
+    <ImageView
+        android:id="@+id/dien_dan_image_snapedit1"
+        android:layout_width="49dp"
+        android:layout_height="41dp"
+        android:layout_gravity="top|left"
+        android:layout_marginLeft="3dp"
+        android:fadeScrollbars="false"
+        android:overScrollMode="always"
+        android:scaleType="centerInside"
+        android:src="@drawable/dien_dan_image_snapedit1" />
+
+    <TextView
+        android:id="@+id/text_name1"
+        android:layout_width="match_parent"
+        android:layout_height="25dp"
+        android:layout_gravity="top"
+        android:layout_marginLeft="65dp"
+        android:layout_marginTop="4dp"
+        android:layout_marginBottom="-2dp"
+        android:fadeScrollbars="false"
+        android:gravity="left|center_vertical"
+        android:includeFontPadding="false"
+        android:maxLines="1"
+        android:overScrollMode="always"
+        android:singleLine="true"
+        android:text="Name"
+        android:textColor="#FF000000"
+        android:textSize="20dp" />
+
+    <TextView
+        android:id="@+id/text_time1"
+        android:layout_width="match_parent"
+        android:layout_height="15dp"
+        android:layout_marginLeft="65dp"
+        android:layout_marginTop="28dp"
+        android:layout_marginRight="30dp"
+        android:layout_marginBottom="11.23dp"
+        android:fadeScrollbars="false"
+        android:gravity="left|center_vertical"
+        android:includeFontPadding="false"
+        android:maxLines="1"
+        android:singleLine="true"
+        android:text="4 giờ trước"
+        android:textColor="#FF000000"
+        android:textSize="11dp" />
+
+    <ImageView
+        android:id="@+id/dien_dan_image_ellipse1"
+        android:layout_width="58dp"
+        android:layout_height="54.23dp"
+        android:layout_gravity="left"
+        android:layout_marginTop="0dp"
+        android:layout_marginBottom="0dp"
+        android:fadeScrollbars="false"
+        android:overScrollMode="always"
+        android:scaleType="centerInside"
+        android:src="@drawable/dien_dan_image_ellipse1" />
+  </FrameLayout>
+
   <TextView
-    android:id="@+id/text_status"
-    android:layout_width="wrap_content"
-    android:layout_height="20dp"
-    android:layout_marginLeft="78dp"
-    android:layout_marginTop="121dp"
-    android:layout_marginBottom="-1dp"
-    android:layout_gravity="top|left"
-    android:gravity="left|center_vertical"
-    android:includeFontPadding="false"
-    android:maxLines="1"
-    android:singleLine="true"
-    android:text="Hôm nay bạn thế nào?"
-    android:textColor="#FF000000"
-    android:textSize="15dp" />
+      android:id="@+id/text_content"
+      android:layout_width="wrap_content"
+      android:layout_height="20dp"
+      android:layout_gravity="top|left"
+      android:layout_marginLeft="13dp"
+      android:layout_marginTop="276dp"
+      android:layout_marginBottom="-1dp"
+      android:fadeScrollbars="false"
+      android:gravity="left|center_vertical"
+      android:includeFontPadding="false"
+      android:maxLines="1"
+      android:overScrollMode="always"
+      android:singleLine="true"
+      android:text="Đây là nội dung của bài viết"
+      android:textColor="#FF000000"
+      android:textSize="15dp" />
+
+  <TextView
+      android:id="@+id/text_content1"
+      android:layout_width="wrap_content"
+      android:layout_height="20dp"
+      android:layout_gravity="top|left"
+      android:layout_marginLeft="13dp"
+      android:layout_marginTop="685dp"
+      android:layout_marginBottom="-1dp"
+      android:fadeScrollbars="false"
+      android:gravity="left|center_vertical"
+      android:includeFontPadding="false"
+      android:maxLines="1"
+      android:overScrollMode="always"
+      android:singleLine="true"
+      android:text="Đây là nội dung của bài viết"
+      android:textColor="#FF000000"
+      android:textSize="15dp" />
+
+  <TextView
+      android:id="@+id/text_content2"
+      android:layout_width="wrap_content"
+      android:layout_height="20dp"
+      android:layout_gravity="top|left"
+      android:layout_marginLeft="10dp"
+      android:layout_marginTop="1096dp"
+      android:layout_marginBottom="-1dp"
+      android:fadeScrollbars="false"
+      android:gravity="left|center_vertical"
+      android:includeFontPadding="false"
+      android:maxLines="1"
+      android:singleLine="true"
+      android:text="Đây là nội dung của bài viết"
+      android:textColor="#FF000000"
+      android:textSize="15dp" />
+
+  <ImageView
+      android:id="@+id/dien_dan_img_rectangle5"
+      android:layout_width="360dp"
+      android:layout_height="229dp"
+      android:layout_gravity="top|left"
+      android:layout_marginLeft="-4dp"
+      android:layout_marginTop="312dp"
+      android:background="@drawable/dien_dan_img_rectangle5"
+      android:fadeScrollbars="false"
+      android:overScrollMode="always"
+      android:scaleType="centerInside" />
+
+  <ImageView
+      android:id="@+id/dien_dan_img_rectangle6"
+      android:layout_width="192dp"
+      android:layout_height="110dp"
+      android:layout_gravity="top|left"
+      android:layout_marginLeft="1dp"
+      android:layout_marginTop="719dp"
+      android:fadeScrollbars="false"
+      android:overScrollMode="always"
+      android:scaleType="centerInside"
+      android:src="@drawable/dien_dan_img_rectangle6" />
+
+  <ImageView
+      android:id="@+id/dien_dan_container_frame"
+      android:layout_width="23dp"
+      android:layout_height="21dp"
+      android:layout_gravity="top|left"
+      android:layout_marginLeft="17dp"
+      android:layout_marginTop="565dp"
+      android:fadeScrollbars="false"
+      android:overScrollMode="always"
+      android:scaleType="centerInside"
+      android:src="@drawable/dien_dan_container_frame" />
+
+  <ImageView
+      android:id="@+id/dien_dan_container_frame1"
+      android:layout_width="23dp"
+      android:layout_height="21dp"
+      android:layout_gravity="top|left"
+      android:layout_marginLeft="17dp"
+      android:layout_marginTop="976dp"
+      android:fadeScrollbars="false"
+      android:overScrollMode="always"
+      android:scaleType="centerInside"
+      android:src="@drawable/dien_dan_container_frame1" />
+
+  <ImageView
+      android:id="@+id/dien_dan_container_frame2"
+      android:layout_width="23dp"
+      android:layout_height="21dp"
+      android:layout_gravity="top|left"
+      android:layout_marginLeft="17dp"
+      android:layout_marginTop="1382dp"
+      android:fadeScrollbars="false"
+      android:scaleType="centerInside"
+      android:src="@drawable/dien_dan_container_frame2" />
+
+  <TextView
+      android:id="@+id/text_like"
+      android:layout_width="wrap_content"
+      android:layout_height="17dp"
+      android:layout_gravity="top|left"
+      android:layout_marginLeft="45dp"
+      android:layout_marginTop="568dp"
+      android:layout_marginBottom="-1dp"
+      android:fadeScrollbars="false"
+      android:gravity="left|center_vertical"
+      android:includeFontPadding="false"
+      android:maxLines="1"
+      android:overScrollMode="always"
+      android:singleLine="true"
+      android:text="Thích"
+      android:textColor="#FF000000"
+      android:textSize="13dp" />
+
+  <TextView
+      android:id="@+id/text_like1"
+      android:layout_width="wrap_content"
+      android:layout_height="17dp"
+      android:layout_gravity="top|left"
+      android:layout_marginLeft="45dp"
+      android:layout_marginTop="979dp"
+      android:layout_marginBottom="-1dp"
+      android:fadeScrollbars="false"
+      android:gravity="left|center_vertical"
+      android:includeFontPadding="false"
+      android:maxLines="1"
+      android:overScrollMode="always"
+      android:singleLine="true"
+      android:text="Thích"
+      android:textColor="#FF000000"
+      android:textSize="13dp" />
+
+  <TextView
+      android:id="@+id/text_like2"
+      android:layout_width="wrap_content"
+      android:layout_height="17dp"
+      android:layout_gravity="top|left"
+      android:layout_marginLeft="45dp"
+      android:layout_marginTop="1385dp"
+      android:layout_marginBottom="-1dp"
+      android:fadeScrollbars="false"
+      android:gravity="left|center_vertical"
+      android:includeFontPadding="false"
+      android:maxLines="1"
+      android:singleLine="true"
+      android:text="Thích"
+      android:textColor="#FF000000"
+      android:textSize="13dp" />
+
+  <ImageView
+      android:id="@+id/dien_dan_image_frame"
+      android:layout_width="23dp"
+      android:layout_height="21dp"
+      android:layout_gravity="top|left"
+      android:layout_marginLeft="136dp"
+      android:layout_marginTop="565dp"
+      android:fadeScrollbars="false"
+      android:overScrollMode="always"
+      android:scaleType="centerInside"
+      android:src="@drawable/dien_dan_image_frame" />
+
+  <ImageView
+      android:id="@+id/dien_dan_container_frame3"
+      android:layout_width="23dp"
+      android:layout_height="21dp"
+      android:layout_gravity="top|left"
+      android:layout_marginLeft="151dp"
+      android:layout_marginTop="975dp"
+      android:fadeScrollbars="false"
+      android:overScrollMode="always"
+      android:scaleType="centerInside"
+      android:src="@drawable/dien_dan_container_frame3" />
+
+  <ImageView
+      android:id="@+id/dien_dan_image_frame1"
+      android:layout_width="23dp"
+      android:layout_height="21dp"
+      android:layout_gravity="top|left"
+      android:layout_marginLeft="148dp"
+      android:layout_marginTop="1382dp"
+      android:fadeScrollbars="false"
+      android:scaleType="centerInside"
+      android:src="@drawable/dien_dan_image_frame1" />
+
+  <TextView
+      android:id="@+id/text_comment"
+      android:layout_width="wrap_content"
+      android:layout_height="17dp"
+      android:layout_gravity="top|left"
+      android:layout_marginLeft="164dp"
+      android:layout_marginTop="567dp"
+      android:layout_marginBottom="-1dp"
+      android:fadeScrollbars="false"
+      android:gravity="left|center_vertical"
+      android:includeFontPadding="false"
+      android:maxLines="1"
+      android:overScrollMode="always"
+      android:singleLine="true"
+      android:text="Bình luận"
+      android:textColor="#FF000000"
+      android:textSize="13dp" />
+
+  <TextView
+      android:id="@+id/text_comment1"
+      android:layout_width="wrap_content"
+      android:layout_height="17dp"
+      android:layout_gravity="top|left"
+      android:layout_marginLeft="179dp"
+      android:layout_marginTop="977dp"
+      android:layout_marginBottom="-1dp"
+      android:fadeScrollbars="false"
+      android:gravity="left|center_vertical"
+      android:includeFontPadding="false"
+      android:maxLines="1"
+      android:overScrollMode="always"
+      android:singleLine="true"
+      android:text="Bình luận"
+      android:textColor="#FF000000"
+      android:textSize="13dp" />
+
+  <TextView
+      android:id="@+id/text_comment2"
+      android:layout_width="wrap_content"
+      android:layout_height="17dp"
+      android:layout_gravity="top|left"
+      android:layout_marginLeft="176dp"
+      android:layout_marginTop="1384dp"
+      android:layout_marginBottom="-1dp"
+      android:fadeScrollbars="false"
+      android:gravity="left|center_vertical"
+      android:includeFontPadding="false"
+      android:maxLines="1"
+      android:singleLine="true"
+      android:text="Bình luận"
+      android:textColor="#FF000000"
+      android:textSize="13dp" />
+
+  <TextView
+      android:id="@+id/text_comment3"
+      android:layout_width="wrap_content"
+      android:layout_height="17dp"
+      android:layout_gravity="top|left"
+      android:layout_marginLeft="164dp"
+      android:layout_marginTop="567dp"
+      android:layout_marginBottom="-1dp"
+      android:fadeScrollbars="false"
+      android:gravity="left|center_vertical"
+      android:includeFontPadding="false"
+      android:maxLines="1"
+      android:overScrollMode="always"
+      android:singleLine="true"
+      android:text="Bình luận"
+      android:textColor="#FF000000"
+      android:textSize="13dp" />
+
+  <TextView
+      android:id="@+id/text_comment4"
+      android:layout_width="wrap_content"
+      android:layout_height="17dp"
+      android:layout_gravity="top|left"
+      android:layout_marginLeft="179dp"
+      android:layout_marginTop="977dp"
+      android:layout_marginBottom="-1dp"
+      android:fadeScrollbars="false"
+      android:gravity="left|center_vertical"
+      android:includeFontPadding="false"
+      android:maxLines="1"
+      android:overScrollMode="always"
+      android:singleLine="true"
+      android:text="Bình luận"
+      android:textColor="#FF000000"
+      android:textSize="13dp" />
+
+  <TextView
+      android:id="@+id/text_comment5"
+      android:layout_width="wrap_content"
+      android:layout_height="17dp"
+      android:layout_gravity="top|left"
+      android:layout_marginLeft="176dp"
+      android:layout_marginTop="1384dp"
+      android:layout_marginBottom="-1dp"
+      android:fadeScrollbars="false"
+      android:gravity="left|center_vertical"
+      android:includeFontPadding="false"
+      android:maxLines="1"
+      android:singleLine="true"
+      android:text="Bình luận"
+      android:textColor="#FF000000"
+      android:textSize="13dp" />
+
+  <TextView
+      android:id="@+id/text_number"
+      android:layout_width="wrap_content"
+      android:layout_height="14dp"
+      android:layout_gravity="top|left"
+      android:layout_marginLeft="351dp"
+      android:layout_marginTop="570dp"
+      android:layout_marginBottom="-1dp"
+      android:fadeScrollbars="false"
+      android:gravity="left|center_vertical"
+      android:includeFontPadding="false"
+      android:maxLines="1"
+      android:overScrollMode="always"
+      android:singleLine="true"
+      android:text="1.500"
+      android:textColor="#FF000000"
+      android:textSize="10dp" />
+
+  <TextView
+      android:id="@+id/text_number1"
+      android:layout_width="wrap_content"
+      android:layout_height="14dp"
+      android:layout_gravity="top|left"
+      android:layout_marginLeft="351dp"
+      android:layout_marginTop="981dp"
+      android:layout_marginBottom="-1dp"
+      android:fadeScrollbars="false"
+      android:gravity="left|center_vertical"
+      android:includeFontPadding="false"
+      android:maxLines="1"
+      android:overScrollMode="always"
+      android:singleLine="true"
+      android:text="1.500"
+      android:textColor="#FF000000"
+      android:textSize="10dp" />
+
+  <TextView
+      android:id="@+id/text_number2"
+      android:layout_width="wrap_content"
+      android:layout_height="14dp"
+      android:layout_gravity="top|left"
+      android:layout_marginLeft="351dp"
+      android:layout_marginTop="1386dp"
+      android:layout_marginBottom="-1dp"
+      android:fadeScrollbars="false"
+      android:gravity="left|center_vertical"
+      android:includeFontPadding="false"
+      android:maxLines="1"
+      android:singleLine="true"
+      android:text="1.500"
+      android:textColor="#FF000000"
+      android:textSize="10dp" />
+
+  <TextView
+      android:id="@+id/text_number3"
+      android:layout_width="wrap_content"
+      android:layout_height="14dp"
+      android:layout_gravity="top|left"
+      android:layout_marginLeft="351dp"
+      android:layout_marginTop="570dp"
+      android:layout_marginBottom="-1dp"
+      android:fadeScrollbars="false"
+      android:gravity="left|center_vertical"
+      android:includeFontPadding="false"
+      android:maxLines="1"
+      android:overScrollMode="always"
+      android:singleLine="true"
+      android:text="1.500"
+      android:textColor="#FF000000"
+      android:textSize="10dp" />
+
+  <TextView
+      android:id="@+id/text_number4"
+      android:layout_width="wrap_content"
+      android:layout_height="14dp"
+      android:layout_gravity="top|left"
+      android:layout_marginLeft="351dp"
+      android:layout_marginTop="981dp"
+      android:layout_marginBottom="-1dp"
+      android:fadeScrollbars="false"
+      android:gravity="left|center_vertical"
+      android:includeFontPadding="false"
+      android:maxLines="1"
+      android:overScrollMode="always"
+      android:singleLine="true"
+      android:text="1.500"
+      android:textColor="#FF000000"
+      android:textSize="10dp" />
+
+  <TextView
+      android:id="@+id/text_number5"
+      android:layout_width="wrap_content"
+      android:layout_height="14dp"
+      android:layout_gravity="top|left"
+      android:layout_marginLeft="351dp"
+      android:layout_marginTop="1386dp"
+      android:layout_marginBottom="-1dp"
+      android:fadeScrollbars="false"
+      android:gravity="left|center_vertical"
+      android:includeFontPadding="false"
+      android:maxLines="1"
+      android:singleLine="true"
+      android:text="1.500"
+      android:textColor="#FF000000"
+      android:textSize="10dp" />
+
+  <ImageView
+      android:id="@+id/dien_dan_img_rectangle7"
+      android:layout_width="192dp"
+      android:layout_height="110dp"
+      android:layout_gravity="top|left"
+      android:layout_marginLeft="198dp"
+      android:layout_marginTop="833dp"
+      android:fadeScrollbars="false"
+      android:overScrollMode="always"
+      android:scaleType="centerInside"
+      android:src="@drawable/dien_dan_img_rectangle7" />
+
+  <TextView
+      android:id="@+id/text_number6"
+      android:layout_width="wrap_content"
+      android:layout_height="14dp"
+      android:layout_gravity="top|left"
+      android:layout_marginLeft="293dp"
+      android:layout_marginTop="570dp"
+      android:layout_marginBottom="-1dp"
+      android:fadeScrollbars="false"
+      android:gravity="left|center_vertical"
+      android:includeFontPadding="false"
+      android:maxLines="1"
+      android:overScrollMode="always"
+      android:singleLine="true"
+      android:text="1.500"
+      android:textColor="#FF000000"
+      android:textSize="10dp" />
+
+  <TextView
+      android:id="@+id/text_number7"
+      android:layout_width="wrap_content"
+      android:layout_height="14dp"
+      android:layout_gravity="top|left"
+      android:layout_marginLeft="293dp"
+      android:layout_marginTop="981dp"
+      android:layout_marginBottom="-1dp"
+      android:fadeScrollbars="false"
+      android:gravity="left|center_vertical"
+      android:includeFontPadding="false"
+      android:maxLines="1"
+      android:overScrollMode="always"
+      android:singleLine="true"
+      android:text="1.500"
+      android:textColor="#FF000000"
+      android:textSize="10dp" />
+
+  <TextView
+      android:id="@+id/text_number8"
+      android:layout_width="wrap_content"
+      android:layout_height="14dp"
+      android:layout_gravity="top|left"
+      android:layout_marginLeft="293dp"
+      android:layout_marginTop="1386dp"
+      android:layout_marginBottom="-1dp"
+      android:fadeScrollbars="false"
+      android:gravity="left|center_vertical"
+      android:includeFontPadding="false"
+      android:maxLines="1"
+      android:singleLine="true"
+      android:text="1.500"
+      android:textColor="#FF000000"
+      android:textSize="10dp" />
+
+  <TextView
+      android:id="@+id/text_number9"
+      android:layout_width="wrap_content"
+      android:layout_height="14dp"
+      android:layout_gravity="top|left"
+      android:layout_marginLeft="293dp"
+      android:layout_marginTop="570dp"
+      android:layout_marginBottom="-1dp"
+      android:fadeScrollbars="false"
+      android:gravity="left|center_vertical"
+      android:includeFontPadding="false"
+      android:maxLines="1"
+      android:overScrollMode="always"
+      android:singleLine="true"
+      android:text="1.500"
+      android:textColor="#FF000000"
+      android:textSize="10dp" />
+
+  <TextView
+      android:id="@+id/text_number10"
+      android:layout_width="wrap_content"
+      android:layout_height="14dp"
+      android:layout_gravity="top|left"
+      android:layout_marginLeft="293dp"
+      android:layout_marginTop="981dp"
+      android:layout_marginBottom="-1dp"
+      android:fadeScrollbars="false"
+      android:gravity="left|center_vertical"
+      android:includeFontPadding="false"
+      android:maxLines="1"
+      android:overScrollMode="always"
+      android:singleLine="true"
+      android:text="1.500"
+      android:textColor="#FF000000"
+      android:textSize="10dp" />
+
+  <TextView
+      android:id="@+id/text_number11"
+      android:layout_width="wrap_content"
+      android:layout_height="14dp"
+      android:layout_gravity="top|left"
+      android:layout_marginLeft="293dp"
+      android:layout_marginTop="1386dp"
+      android:layout_marginBottom="-1dp"
+      android:fadeScrollbars="false"
+      android:gravity="left|center_vertical"
+      android:includeFontPadding="false"
+      android:maxLines="1"
+      android:singleLine="true"
+      android:text="1.500"
+      android:textColor="#FF000000"
+      android:textSize="10dp" />
+
+  <ImageView
+      android:id="@+id/dien_dan_image_frame2"
+      android:layout_width="12dp"
+      android:layout_height="12dp"
+      android:layout_gravity="top|left"
+      android:layout_marginLeft="337dp"
+      android:layout_marginTop="570dp"
+      android:alpha="0.6000000238418579"
+      android:fadeScrollbars="false"
+      android:overScrollMode="always"
+      android:scaleType="centerInside"
+      android:src="@drawable/dien_dan_image_frame2" />
+
+  <ImageView
+      android:id="@+id/dien_dan_container_frame4"
+      android:layout_width="12dp"
+      android:layout_height="12dp"
+      android:layout_gravity="top|left"
+      android:layout_marginLeft="337dp"
+      android:layout_marginTop="981dp"
+      android:alpha="0.6000000238418579"
+      android:fadeScrollbars="false"
+      android:overScrollMode="always"
+      android:scaleType="centerInside"
+      android:src="@drawable/dien_dan_container_frame4" />
+
+  <ImageView
+      android:id="@+id/dien_dan_container_frame5"
+      android:layout_width="12dp"
+      android:layout_height="12dp"
+      android:layout_gravity="top|left"
+      android:layout_marginLeft="337dp"
+      android:layout_marginTop="1386dp"
+      android:alpha="0.6000000238418579"
+      android:fadeScrollbars="false"
+      android:scaleType="centerInside"
+      android:src="@drawable/dien_dan_container_frame5" />
+
+  <ImageView
+      android:id="@+id/dien_dan_container_frame6"
+      android:layout_width="12dp"
+      android:layout_height="12dp"
+      android:layout_gravity="top|left"
+      android:layout_marginLeft="337dp"
+      android:layout_marginTop="570dp"
+      android:fadeScrollbars="false"
+      android:overScrollMode="always"
+      android:scaleType="centerInside"
+      android:src="@drawable/dien_dan_container_frame6" />
+
+  <ImageView
+      android:id="@+id/dien_dan_image_frame3"
+      android:layout_width="12dp"
+      android:layout_height="12dp"
+      android:layout_gravity="top|left"
+      android:layout_marginLeft="337dp"
+      android:layout_marginTop="981dp"
+      android:fadeScrollbars="false"
+      android:overScrollMode="always"
+      android:scaleType="centerInside"
+      android:src="@drawable/dien_dan_image_frame3" />
+
+  <ImageView
+      android:id="@+id/dien_dan_image_frame4"
+      android:layout_width="12dp"
+      android:layout_height="12dp"
+      android:layout_gravity="top|left"
+      android:layout_marginLeft="337dp"
+      android:layout_marginTop="1386dp"
+      android:fadeScrollbars="false"
+      android:scaleType="centerInside"
+      android:src="@drawable/dien_dan_image_frame4" />
+
+  <ImageView
+      android:id="@+id/dien_dan_image_frame5"
+      android:layout_width="11dp"
+      android:layout_height="10dp"
+      android:layout_gravity="top|left"
+      android:layout_marginLeft="282dp"
+      android:layout_marginTop="571dp"
+      android:alpha="0.6000000238418579"
+      android:fadeScrollbars="false"
+      android:overScrollMode="always"
+      android:scaleType="centerInside"
+      android:src="@drawable/dien_dan_image_frame5" />
+
+  <ImageView
+      android:id="@+id/dien_dan_image_frame6"
+      android:layout_width="11dp"
+      android:layout_height="10dp"
+      android:layout_gravity="top|left"
+      android:layout_marginLeft="282dp"
+      android:layout_marginTop="982dp"
+      android:alpha="0.6000000238418579"
+      android:fadeScrollbars="false"
+      android:overScrollMode="always"
+      android:scaleType="centerInside"
+      android:src="@drawable/dien_dan_image_frame6" />
+
+  <ImageView
+      android:layout_width="11dp"
+      android:layout_height="10dp"
+      android:layout_gravity="top|left"
+      android:layout_marginLeft="282dp"
+      android:layout_marginTop="1387dp"
+      android:alpha="0.6000000238418579"
+      android:fadeScrollbars="false"
+      android:scaleType="centerInside"
+      android:src="@drawable/dien_dan_drawable_image" />
+
+  <ImageView
+      android:id="@+id/dien_dan_image_frame7"
+      android:layout_width="11dp"
+      android:layout_height="10dp"
+      android:layout_gravity="top|left"
+      android:layout_marginLeft="282dp"
+      android:layout_marginTop="571dp"
+      android:fadeScrollbars="false"
+      android:overScrollMode="always"
+      android:scaleType="centerInside"
+      android:src="@drawable/dien_dan_image_frame7" />
+
+  <ImageView
+      android:id="@+id/dien_dan_image_frame8"
+      android:layout_width="11dp"
+      android:layout_height="10dp"
+      android:layout_gravity="top|left"
+      android:layout_marginLeft="282dp"
+      android:layout_marginTop="982dp"
+      android:fadeScrollbars="false"
+      android:overScrollMode="always"
+      android:scaleType="centerInside"
+      android:src="@drawable/dien_dan_image_frame8" />
+
+  <ImageView
+      android:id="@+id/dien_dan_container_frame7"
+      android:layout_width="11dp"
+      android:layout_height="10dp"
+      android:layout_gravity="top|left"
+      android:layout_marginLeft="282dp"
+      android:layout_marginTop="1387dp"
+      android:fadeScrollbars="false"
+      android:scaleType="centerInside"
+      android:src="@drawable/dien_dan_container_frame7" />
+
+  <ImageView
+      android:id="@+id/dien_dan_img_rectangle8"
+      android:layout_width="393dp"
+      android:layout_height="96dp"
+      android:layout_gravity="top|left"
+      android:layout_marginTop="97dp"
+      android:background="@drawable/dien_dan_img_rectangle8"
+      android:fadeScrollbars="false"
+      android:overScrollMode="always"
+      android:scaleType="centerInside" />
+
+  <ImageView
+      android:id="@+id/dien_dan_img_rectangle9"
+      android:layout_width="192dp"
+      android:layout_height="110dp"
+      android:layout_gravity="top|left"
+      android:layout_marginLeft="198dp"
+      android:layout_marginTop="719dp"
+      android:fadeScrollbars="false"
+      android:overScrollMode="always"
+      android:scaleType="centerInside"
+      android:src="@drawable/dien_dan_img_rectangle9" />
+
+  <ImageView
+      android:id="@+id/dien_dan_img_rectangle10"
+      android:layout_width="192dp"
+      android:layout_height="110dp"
+      android:layout_gravity="top|left"
+      android:layout_marginLeft="1dp"
+      android:layout_marginTop="833dp"
+      android:fadeScrollbars="false"
+      android:overScrollMode="always"
+      android:scaleType="centerInside"
+      android:src="@drawable/dien_dan_img_rectangle10" />
+
+  <ImageView
+      android:id="@+id/dien_dan_img_rectangle11"
+      android:layout_width="192dp"
+      android:layout_height="110dp"
+      android:layout_gravity="top|left"
+      android:layout_marginLeft="198dp"
+      android:layout_marginTop="833dp"
+      android:background="@drawable/dien_dan_img_rectangle11"
+      android:fadeScrollbars="false"
+      android:overScrollMode="always"
+      android:scaleType="centerInside" />
+
+  <ImageView
+      android:id="@+id/dien_dan_container_line"
+      android:layout_width="360dp"
+      android:layout_height="0.54dp"
+      android:layout_gravity="top|center_horizontal"
+      android:layout_marginLeft="0.5dp"
+      android:layout_marginTop="555.96dp"
+      android:fadeScrollbars="false"
+      android:overScrollMode="always"
+      android:scaleType="centerInside"
+      android:src="@drawable/dien_dan_container_line" />
+
+  <ImageView
+      android:id="@+id/dien_dan_container_line1"
+      android:layout_width="360dp"
+      android:layout_height="0.54dp"
+      android:layout_gravity="top|center_horizontal"
+      android:layout_marginLeft="0.5dp"
+      android:layout_marginTop="967.96dp"
+      android:fadeScrollbars="false"
+      android:overScrollMode="always"
+      android:scaleType="centerInside"
+      android:src="@drawable/dien_dan_container_line1" />
+
+  <ImageView
+      android:id="@+id/dien_dan_container_line2"
+      android:layout_width="360dp"
+      android:layout_height="0.54dp"
+      android:layout_gravity="top|center_horizontal"
+      android:layout_marginLeft="0.5dp"
+      android:layout_marginTop="1369.96dp"
+      android:fadeScrollbars="false"
+      android:scaleType="centerInside"
+      android:src="@drawable/dien_dan_container_line2" />
+
+  <TextView
+      android:id="@+id/text_plus"
+      android:layout_width="40dp"
+      android:layout_height="21dp"
+      android:layout_gravity="top|left"
+      android:layout_marginLeft="277dp"
+      android:layout_marginTop="878dp"
+      android:layout_marginBottom="-1dp"
+      android:fadeScrollbars="false"
+      android:gravity="left|center_vertical"
+      android:includeFontPadding="false"
+      android:maxLines="1"
+      android:overScrollMode="always"
+      android:singleLine="true"
+      android:text="999+"
+      android:textColor="#FFFFFFFF"
+      android:textSize="16dp" />
+
+  <ImageView
+      android:id="@+id/dien_dan_img_rectangle12"
+      android:layout_width="393dp"
+      android:layout_height="230dp"
+      android:layout_gravity="top|left"
+      android:layout_marginTop="312dp"
+      android:fadeScrollbars="false"
+      android:overScrollMode="always"
+      android:scaleType="centerInside"
+      android:src="@drawable/dien_dan_img_rectangle12" />
+
+  <ImageView
+      android:id="@+id/dien_dan_img_rectangle13"
+      android:layout_width="393dp"
+      android:layout_height="229dp"
+      android:layout_gravity="top|left"
+      android:layout_marginTop="1126dp"
+      android:fadeScrollbars="false"
+      android:scaleType="centerInside"
+      android:src="@drawable/dien_dan_img_rectangle13" />
+
+  <ImageView
+      android:id="@+id/dien_dan_img_rectangle14"
+      android:layout_width="393dp"
+      android:layout_height="231dp"
+      android:layout_gravity="top|left"
+      android:layout_marginTop="1124dp"
+      android:background="@drawable/dien_dan_img_rectangle14"
+      android:fadeScrollbars="false"
+      android:scaleType="centerInside" />
+
+  <ImageView
+      android:id="@+id/dien_dan_container_frame8"
+      android:layout_width="50dp"
+      android:layout_height="50dp"
+      android:layout_gravity="top|left"
+      android:layout_marginLeft="155dp"
+      android:layout_marginTop="1215dp"
+      android:alpha="0.5"
+      android:fadeScrollbars="false"
+      android:scaleType="centerInside"
+      android:src="@drawable/dien_dan_container_frame8" />
+
+  <TextView
+      android:id="@+id/text_status"
+      android:layout_width="wrap_content"
+      android:layout_height="20dp"
+      android:layout_gravity="top|left"
+      android:layout_marginLeft="78dp"
+      android:layout_marginTop="121dp"
+      android:layout_marginBottom="-1dp"
+      android:fadeScrollbars="false"
+      android:gravity="left|center_vertical"
+      android:includeFontPadding="false"
+      android:maxLines="1"
+      android:overScrollMode="always"
+      android:singleLine="true"
+      android:text="Hôm nay bạn thế nào?"
+      android:textColor="#FF000000"
+      android:textSize="15dp" />
 
   <ImageView
       android:id="@+id/dien_dan_img_rectangle15"
@@ -971,6 +1099,8 @@
       android:layout_marginLeft="66dp"
       android:layout_marginTop="154dp"
       android:background="@drawable/dien_dan_img_rectangle15"
+      android:fadeScrollbars="false"
+      android:overScrollMode="always"
       android:scaleType="centerInside" />
 
   <ImageView
@@ -978,9 +1108,11 @@
       android:layout_width="21.83dp"
       android:layout_height="20dp"
       android:layout_marginLeft="83dp"
-      android:layout_marginRight="34.56dp"
       android:layout_marginTop="157dp"
+      android:layout_marginRight="34.56dp"
       android:layout_marginBottom="3dp"
+      android:fadeScrollbars="false"
+      android:overScrollMode="always"
       android:scaleType="centerInside"
       android:src="@drawable/dien_dan_image_group" />
 
@@ -988,13 +1120,15 @@
       android:id="@+id/text_video"
       android:layout_width="wrap_content"
       android:layout_height="20dp"
+      android:layout_gravity="top|left"
       android:layout_marginLeft="110dp"
       android:layout_marginTop="157dp"
       android:layout_marginBottom="-1dp"
-      android:layout_gravity="top|left"
+      android:fadeScrollbars="false"
       android:gravity="left|center_vertical"
       android:includeFontPadding="false"
       android:maxLines="1"
+      android:overScrollMode="always"
       android:singleLine="true"
       android:text="Ảnh"
       android:textColor="#FF000000"
@@ -1004,9 +1138,11 @@
       android:id="@+id/dien_dan_container_frame9"
       android:layout_width="20dp"
       android:layout_height="20dp"
+      android:layout_gravity="top|left"
       android:layout_marginLeft="164dp"
       android:layout_marginTop="157dp"
-      android:layout_gravity="top|left"
+      android:fadeScrollbars="false"
+      android:overScrollMode="always"
       android:scaleType="centerInside"
       android:src="@drawable/dien_dan_container_frame9" />
 
@@ -1018,248 +1154,286 @@
       android:layout_marginLeft="153dp"
       android:layout_marginTop="154dp"
       android:background="@drawable/dien_dan_img_rectangle15"
+      android:fadeScrollbars="false"
+      android:overScrollMode="always"
       android:scaleType="centerInside" />
 
   <TextView
-    android:id="@+id/text_video"
-    android:layout_width="wrap_content"
-    android:layout_height="20dp"
-    android:layout_marginLeft="189dp"
-    android:layout_marginTop="157dp"
-    android:layout_marginBottom="-1dp"
-    android:layout_gravity="top|left"
-    android:gravity="left|center_vertical"
-    android:includeFontPadding="false"
-    android:maxLines="1"
-    android:singleLine="true"
-    android:text="Video"
-    android:textColor="#FF000000"
-    android:textSize="15dp" />
-  
-  <ImageView
-    android:id="@+id/dien_dan_container_frame9"
-    android:layout_width="20dp"
-    android:layout_height="20dp"
-    android:layout_marginLeft="164dp"
-    android:layout_marginTop="157dp"
-    android:layout_gravity="top|left"
-    android:scaleType="centerInside"
-    android:src="@drawable/dien_dan_container_frame9" />
-  
-  <ImageView
-    android:id="@+id/dien_dan_img_rectangle16"
-    android:layout_width="106dp"
-    android:layout_height="26dp"
-    android:layout_marginLeft="239dp"
-    android:layout_marginTop="154dp"
-    android:layout_gravity="top|left"
-    android:background="@drawable/dien_dan_img_rectangle16"
-    android:scaleType="centerInside" />
-  
-  <TextView
-    android:id="@+id/text_feeling"
-    android:layout_width="wrap_content"
-    android:layout_height="20dp"
-    android:layout_marginLeft="273dp"
-    android:layout_marginTop="157dp"
-    android:layout_marginBottom="-1dp"
-    android:layout_gravity="top|left"
-    android:gravity="left|center_vertical"
-    android:includeFontPadding="false"
-    android:maxLines="1"
-    android:singleLine="true"
-    android:text="Cảm xúc"
-    android:textColor="#FF000000"
-    android:textSize="15dp" />
-  
-  <ImageView
-    android:id="@+id/dien_dan_container_frame10"
-    android:layout_width="20dp"
-    android:layout_height="20dp"
-    android:layout_marginLeft="249dp"
-    android:layout_marginTop="157dp"
-    android:layout_gravity="top|left"
-    android:scaleType="centerInside"
-    android:src="@drawable/dien_dan_container_frame10" />
-  
-  <ImageView
-    android:id="@+id/dien_dan_container_group7"
-    android:layout_width="60dp"
-    android:layout_height="60dp"
-    android:layout_marginLeft="4dp"
-    android:layout_marginTop="103dp"
-    android:layout_gravity="top|left"
-    android:scaleType="centerInside"
-    android:src="@drawable/dien_dan_container_group7" />
-  
-  <ImageView
-    android:id="@+id/dien_dan_container_frame11"
-    android:layout_width="30dp"
-    android:layout_height="30dp"
-    android:layout_marginLeft="345dp"
-    android:layout_marginTop="218dp"
-    android:layout_gravity="top|left"
-    android:alpha="0.4000000059604645"
-    android:scaleType="centerInside"
-    android:src="@drawable/dien_dan_container_frame11" />
-  
-  <ImageView
-    android:id="@+id/dien_dan_image_frame9"
-    android:layout_width="30dp"
-    android:layout_height="30dp"
-    android:layout_marginLeft="345dp"
-    android:layout_marginTop="630dp"
-    android:layout_gravity="top|left"
-    android:alpha="0.4000000059604645"
-    android:scaleType="centerInside"
-    android:src="@drawable/dien_dan_image_frame9" />
-  
-  <ImageView
-    android:id="@+id/dien_dan_container_frame12"
-    android:layout_width="30dp"
-    android:layout_height="30dp"
-    android:layout_marginLeft="345dp"
-    android:layout_marginTop="1038dp"
-    android:layout_gravity="top|left"
-    android:alpha="0.4000000059604645"
-    android:scaleType="centerInside"
-    android:src="@drawable/dien_dan_container_frame12" />
-  
-  <ImageView
-    android:id="@+id/dien_dan_img_rectangle17"
-    android:layout_width="393dp"
-    android:layout_height="82dp"
-    android:layout_gravity="top|left"
-    android:scaleType="centerInside"
-    android:src="@drawable/dien_dan_img_rectangle17" />
-  
-  <ImageView
-    android:id="@+id/dien_dan_img_rectangle18"
-    android:layout_width="182dp"
-    android:layout_height="32dp"
-    android:layout_marginLeft="14dp"
-    android:layout_marginTop="42dp"
-    android:layout_gravity="top|left"
-    android:background="@drawable/dien_dan_img_rectangle18"
-    android:scaleType="centerInside" />
-  
-  <ImageView
-    android:id="@+id/dien_dan_image_frame10"
-    android:layout_width="20dp"
-    android:layout_height="20dp"
-    android:layout_marginLeft="20dp"
-    android:layout_marginTop="48dp"
-    android:layout_gravity="top|left"
-    android:scaleType="centerInside"
-    android:src="@drawable/dien_dan_image_frame10" />
-  
-  <TextView
-    android:id="@+id/text_search"
-    android:layout_width="wrap_content"
-    android:layout_height="21dp"
-    android:layout_marginLeft="47dp"
-    android:layout_marginTop="48dp"
-    android:layout_marginBottom="-1dp"
-    android:layout_gravity="top|left"
-    android:gravity="left|center_vertical"
-    android:includeFontPadding="false"
-    android:maxLines="1"
-    android:singleLine="true"
-    android:text="Tìm kiếm"
-    android:textColor="#FF000000"
-    android:textSize="16dp" />
-  
-  <ImageView
-    android:id="@+id/dien_dan_container_frame13"
-    android:layout_width="30dp"
-    android:layout_height="30dp"
-    android:layout_marginLeft="338dp"
-    android:layout_marginTop="38dp"
-    android:layout_gravity="top|left"
-    android:scaleType="centerInside"
-    android:src="@drawable/dien_dan_container_frame13" />
-  
-  <ImageView
-    android:id="@+id/dien_dan_container_frame14"
-    android:layout_width="30dp"
-    android:layout_height="30dp"
-    android:layout_marginLeft="297dp"
-    android:layout_marginTop="38dp"
-    android:layout_gravity="top|left"
-    android:scaleType="centerInside"
-    android:src="@drawable/dien_dan_container_frame14" />
-  
-  <FrameLayout
-    android:id="@+id/dien_dan_container_group8"
-    android:layout_width="393dp"
-    android:layout_height="73dp"
-    android:layout_gravity="bottom|left">
-    
-    <ImageView
-      android:id="@+id/dien_dan_img_rectangle"
-      android:layout_width="match_parent"
-      android:layout_height="match_parent"
-      android:background="@drawable/dien_dan_img_rectangle"
-      android:scaleType="centerCrop" />
-    
-    <TextView
-      android:id="@+id/txt_forum"
-      android:layout_width="68.78dp"
-      android:layout_height="21dp"
-      android:layout_marginLeft="20.74dp"
-      android:layout_marginTop="-1dp"
-      android:layout_marginBottom="2dp"
-      android:layout_gravity="bottom|left"
+      android:id="@+id/text_video"
+      android:layout_width="wrap_content"
+      android:layout_height="20dp"
+      android:layout_gravity="top|left"
+      android:layout_marginLeft="189dp"
+      android:layout_marginTop="157dp"
+      android:layout_marginBottom="-1dp"
+      android:fadeScrollbars="false"
       android:gravity="left|center_vertical"
       android:includeFontPadding="false"
       android:maxLines="1"
+      android:overScrollMode="always"
       android:singleLine="true"
-      android:text="Diễn đàn"
-      android:textColor="#FF44AFF8"
+      android:text="Video"
+      android:textColor="#FF000000"
+      android:textSize="15dp" />
+
+  <ImageView
+      android:id="@+id/dien_dan_container_frame9"
+      android:layout_width="20dp"
+      android:layout_height="20dp"
+      android:layout_gravity="top|left"
+      android:layout_marginLeft="164dp"
+      android:layout_marginTop="157dp"
+      android:fadeScrollbars="false"
+      android:overScrollMode="always"
+      android:scaleType="centerInside"
+      android:src="@drawable/dien_dan_container_frame9" />
+
+  <ImageView
+      android:id="@+id/dien_dan_img_rectangle16"
+      android:layout_width="106dp"
+      android:layout_height="26dp"
+      android:layout_gravity="top|left"
+      android:layout_marginLeft="239dp"
+      android:layout_marginTop="154dp"
+      android:background="@drawable/dien_dan_img_rectangle16"
+      android:fadeScrollbars="false"
+      android:overScrollMode="always"
+      android:scaleType="centerInside" />
+
+  <TextView
+      android:id="@+id/text_feeling"
+      android:layout_width="wrap_content"
+      android:layout_height="20dp"
+      android:layout_gravity="top|left"
+      android:layout_marginLeft="273dp"
+      android:layout_marginTop="157dp"
+      android:layout_marginBottom="-1dp"
+      android:fadeScrollbars="false"
+      android:gravity="left|center_vertical"
+      android:includeFontPadding="false"
+      android:maxLines="1"
+      android:overScrollMode="always"
+      android:singleLine="true"
+      android:text="Cảm xúc"
+      android:textColor="#FF000000"
+      android:textSize="15dp" />
+
+  <ImageView
+      android:id="@+id/dien_dan_container_frame10"
+      android:layout_width="20dp"
+      android:layout_height="20dp"
+      android:layout_gravity="top|left"
+      android:layout_marginLeft="249dp"
+      android:layout_marginTop="157dp"
+      android:fadeScrollbars="false"
+      android:overScrollMode="always"
+      android:scaleType="centerInside"
+      android:src="@drawable/dien_dan_container_frame10" />
+
+  <ImageView
+      android:id="@+id/dien_dan_container_group7"
+      android:layout_width="60dp"
+      android:layout_height="60dp"
+      android:layout_gravity="top|left"
+      android:layout_marginLeft="4dp"
+      android:layout_marginTop="103dp"
+      android:fadeScrollbars="false"
+      android:overScrollMode="always"
+      android:scaleType="centerInside"
+      android:src="@drawable/dien_dan_container_group7" />
+
+  <ImageView
+      android:id="@+id/dien_dan_container_frame11"
+      android:layout_width="30dp"
+      android:layout_height="30dp"
+      android:layout_gravity="top|left"
+      android:layout_marginLeft="345dp"
+      android:layout_marginTop="218dp"
+      android:alpha="0.4000000059604645"
+      android:fadeScrollbars="false"
+      android:overScrollMode="always"
+      android:scaleType="centerInside"
+      android:src="@drawable/dien_dan_container_frame11" />
+
+  <ImageView
+      android:id="@+id/dien_dan_image_frame9"
+      android:layout_width="30dp"
+      android:layout_height="30dp"
+      android:layout_gravity="top|left"
+      android:layout_marginLeft="345dp"
+      android:layout_marginTop="630dp"
+      android:alpha="0.4000000059604645"
+      android:fadeScrollbars="false"
+      android:overScrollMode="always"
+      android:scaleType="centerInside"
+      android:src="@drawable/dien_dan_image_frame9" />
+
+  <ImageView
+      android:id="@+id/dien_dan_container_frame12"
+      android:layout_width="30dp"
+      android:layout_height="30dp"
+      android:layout_gravity="top|left"
+      android:layout_marginLeft="345dp"
+      android:layout_marginTop="1038dp"
+      android:alpha="0.4000000059604645"
+      android:fadeScrollbars="false"
+      android:overScrollMode="always"
+      android:scaleType="centerInside"
+      android:src="@drawable/dien_dan_container_frame12" />
+
+  <ImageView
+      android:id="@+id/dien_dan_img_rectangle17"
+      android:layout_width="393dp"
+      android:layout_height="82dp"
+      android:layout_gravity="top|left"
+      android:fadeScrollbars="false"
+      android:overScrollMode="always"
+      android:scaleType="centerInside"
+      android:src="@drawable/dien_dan_img_rectangle17" />
+
+  <ImageView
+      android:id="@+id/dien_dan_img_rectangle18"
+      android:layout_width="182dp"
+      android:layout_height="32dp"
+      android:layout_gravity="top|left"
+      android:layout_marginLeft="14dp"
+      android:layout_marginTop="42dp"
+      android:background="@drawable/dien_dan_img_rectangle18"
+      android:fadeScrollbars="false"
+      android:overScrollMode="always"
+      android:scaleType="centerInside" />
+
+  <ImageView
+      android:id="@+id/dien_dan_image_frame10"
+      android:layout_width="20dp"
+      android:layout_height="20dp"
+      android:layout_gravity="top|left"
+      android:layout_marginLeft="20dp"
+      android:layout_marginTop="48dp"
+      android:fadeScrollbars="false"
+      android:overScrollMode="always"
+      android:scaleType="centerInside"
+      android:src="@drawable/dien_dan_image_frame10" />
+
+  <TextView
+      android:id="@+id/text_search"
+      android:layout_width="wrap_content"
+      android:layout_height="21dp"
+      android:layout_gravity="top|left"
+      android:layout_marginLeft="47dp"
+      android:layout_marginTop="48dp"
+      android:layout_marginBottom="-1dp"
+      android:fadeScrollbars="false"
+      android:gravity="left|center_vertical"
+      android:includeFontPadding="false"
+      android:maxLines="1"
+      android:overScrollMode="always"
+      android:singleLine="true"
+      android:text="Tìm kiếm"
+      android:textColor="#FF000000"
       android:textSize="16dp" />
-    
-    <ImageView
-      android:id="@+id/dien_dan_img_frame1"
-      android:layout_width="38.21dp"
-      android:layout_height="35dp"
-      android:layout_marginLeft="128.82dp"
-      android:layout_marginTop="19dp"
-      android:layout_marginBottom="19dp"
-      android:layout_gravity="left"
+
+  <ImageView
+      android:id="@+id/dien_dan_container_frame13"
+      android:layout_width="30dp"
+      android:layout_height="30dp"
+      android:layout_gravity="top|left"
+      android:layout_marginLeft="338dp"
+      android:layout_marginTop="38dp"
+      android:fadeScrollbars="false"
+      android:overScrollMode="always"
       android:scaleType="centerInside"
-      android:src="@drawable/dien_dan_img_frame1" />
-    
-    <ImageView
-      android:id="@+id/dien_dan_img_frame2"
-      android:layout_width="38.21dp"
-      android:layout_height="35dp"
-      android:layout_marginLeft="230.34dp"
-      android:layout_marginRight="124.45dp"
-      android:layout_marginTop="18dp"
-      android:layout_marginBottom="20dp"
+      android:src="@drawable/dien_dan_container_frame13" />
+
+  <ImageView
+      android:id="@+id/dien_dan_container_frame14"
+      android:layout_width="30dp"
+      android:layout_height="30dp"
+      android:layout_gravity="top|left"
+      android:layout_marginLeft="297dp"
+      android:layout_marginTop="38dp"
+      android:fadeScrollbars="false"
+      android:overScrollMode="always"
       android:scaleType="centerInside"
-      android:src="@drawable/dien_dan_img_frame2" />
-    
+      android:src="@drawable/dien_dan_container_frame14" />
+
+  <FrameLayout
+      android:id="@+id/dien_dan_container_group8"
+      android:layout_width="393dp"
+      android:layout_height="73dp"
+      android:layout_gravity="bottom|left">
+
     <ImageView
-      android:id="@+id/dien_dan_img_frame3"
-      android:layout_width="38.21dp"
-      android:layout_height="35dp"
-      android:layout_marginLeft="334.05dp"
-      android:layout_marginRight="20.74dp"
-      android:layout_marginTop="19dp"
-      android:layout_marginBottom="19dp"
-      android:scaleType="centerInside"
-      android:src="@drawable/dien_dan_img_frame3" />
-    
+        android:id="@+id/dien_dan_img_rectangle"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@drawable/dien_dan_img_rectangle"
+        android:fadeScrollbars="false"
+        android:scaleType="centerCrop" />
+
+    <TextView
+        android:id="@+id/txt_forum"
+        android:layout_width="68.78dp"
+        android:layout_height="21dp"
+        android:layout_gravity="bottom|left"
+        android:layout_marginLeft="20.74dp"
+        android:layout_marginTop="-1dp"
+        android:layout_marginBottom="2dp"
+        android:fadeScrollbars="false"
+        android:gravity="left|center_vertical"
+        android:includeFontPadding="false"
+        android:maxLines="1"
+        android:singleLine="true"
+        android:text="Diễn đàn"
+        android:textColor="#FF44AFF8"
+        android:textSize="16dp" />
+
     <ImageView
-      android:id="@+id/dien_dan_img_frame4"
-      android:layout_width="38.21dp"
-      android:layout_height="35dp"
-      android:layout_marginLeft="32.75dp"
-      android:layout_marginTop="15dp"
-      android:layout_marginBottom="23dp"
-      android:layout_gravity="left"
-      android:scaleType="centerInside"
-      android:src="@drawable/dien_dan_img_frame4" />
+        android:id="@+id/dien_dan_img_frame1"
+        android:layout_width="38.21dp"
+        android:layout_height="35dp"
+        android:layout_gravity="left"
+        android:layout_marginLeft="128.82dp"
+        android:layout_marginTop="19dp"
+        android:layout_marginBottom="19dp"
+        android:fadeScrollbars="false"
+        android:scaleType="centerInside"
+        android:src="@drawable/dien_dan_img_frame1" />
+
+    <ImageView
+        android:id="@+id/dien_dan_img_frame2"
+        android:layout_width="38.21dp"
+        android:layout_height="35dp"
+        android:layout_marginLeft="230.34dp"
+        android:layout_marginTop="18dp"
+        android:layout_marginRight="124.45dp"
+        android:layout_marginBottom="20dp"
+        android:fadeScrollbars="false"
+        android:scaleType="centerInside"
+        android:src="@drawable/dien_dan_img_frame2" />
+
+    <ImageView
+        android:id="@+id/dien_dan_img_frame3"
+        android:layout_width="38.21dp"
+        android:layout_height="35dp"
+        android:layout_marginLeft="334.05dp"
+        android:layout_marginTop="19dp"
+        android:layout_marginRight="20.74dp"
+        android:layout_marginBottom="19dp"
+        android:fadeScrollbars="false"
+        android:scaleType="centerInside"
+        android:src="@drawable/dien_dan_img_frame3" />
+
+    <ImageView
+        android:id="@+id/dien_dan_img_frame4"
+        android:layout_width="38.21dp"
+        android:layout_height="35dp"
+        android:layout_gravity="left"
+        android:layout_marginLeft="32.75dp"
+        android:layout_marginTop="15dp"
+        android:layout_marginBottom="23dp"
+        android:fadeScrollbars="false"
+        android:scaleType="centerInside"
+        android:src="@drawable/dien_dan_img_frame4" />
   </FrameLayout>
 </FrameLayout>

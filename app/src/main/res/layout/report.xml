@@ -32,17 +32,23 @@
     android:text="Báo cáo"
     android:textColor="#FFFFFFFF"
     android:textSize="26dp" />
-  
-  <ImageView
-    android:id="@+id/report_image_rectangle"
-    android:layout_width="355dp"
-    android:layout_height="51dp"
-    android:layout_marginLeft="14dp"
-    android:layout_marginTop="730dp"
-    android:layout_gravity="top|left"
-    android:background="@drawable/report_image_rectangle"
-    android:scaleType="centerInside" />
-  
+
+  <Button
+      android:id="@+id/btnsend"
+      android:layout_width="359dp"
+      android:layout_height="51dp"
+      android:layout_gravity="top|center_horizontal"
+      android:layout_alignParentStart="true"
+      android:layout_marginTop="736dp"
+      android:background="@drawable/button_background"
+      android:text="Gửi"
+      android:textColor="#020000"
+      app:backgroundTint="@null"
+      app:layout_constraintEnd_toEndOf="parent"
+      app:layout_constraintHorizontal_bias="0.498"
+      app:layout_constraintStart_toStartOf="parent"
+      app:layout_constraintTop_toTopOf="parent" />
+
   <ImageView
     android:id="@+id/report_container_frame"
     android:layout_width="27dp"
@@ -128,22 +134,6 @@
     android:maxLines="1"
     android:singleLine="true"
     android:text="Vấn đề khác"
-    android:textColor="#FF000000"
-    android:textSize="18dp" />
-  
-  <TextView
-    android:id="@+id/text_send"
-    android:layout_width="wrap_content"
-    android:layout_height="23dp"
-    android:layout_marginRight="0.5dp"
-    android:layout_marginTop="744dp"
-    android:layout_marginBottom="-1dp"
-    android:layout_gravity="center_horizontal"
-    android:gravity="center_horizontal|center_vertical"
-    android:includeFontPadding="false"
-    android:maxLines="1"
-    android:singleLine="true"
-    android:text="Gửi"
     android:textColor="#FF000000"
     android:textSize="18dp" />
   
@@ -333,21 +323,18 @@
     android:layout_gravity="top|left"
     android:alpha="0.6000000238418579"
     android:background="@drawable/report_container_frame2">
-    
-    <TextView
-      android:id="@+id/text_input_issue"
-      android:layout_width="wrap_content"
-      android:layout_height="23dp"
-      android:layout_marginLeft="12dp"
-      android:layout_marginTop="13dp"
-      android:layout_marginBottom="-1dp"
-      android:layout_gravity="top|left"
-      android:gravity="left|center_vertical"
-      android:includeFontPadding="false"
-      android:maxLines="1"
-      android:singleLine="true"
-      android:text="Nhập vấn đề của bạn vào đây..."
-      android:textColor="#FF0680D4"
-      android:textSize="18dp" />
+
+    <EditText
+        android:id="@+id/nameInput"
+        android:layout_width="315dp"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="12dp"
+        android:layout_marginTop="13dp"
+        android:background="@android:color/transparent"
+        android:ems="10"
+        android:hint="Nhập vấn đề của bạn vào đây..."
+        android:inputType="text"
+        android:textColor="#FF0091F4"
+        android:textSize="18dp" />
   </FrameLayout>
 </FrameLayout>
