@@ -69,7 +69,7 @@
       android:ems="10"
       android:hint="Số điện thoại"
       android:inputType="text"
-      android:textColor="#FFDFDFDF"
+      android:textColor="#000000"
       android:textSize="20dp" />
 
   <EditText
@@ -82,7 +82,7 @@
       android:ems="10"
       android:hint="Mật khẩu"
       android:inputType="text"
-      android:textColor="#FFDFDFDF"
+      android:textColor="#000000"
       android:textSize="20dp" />
 
   <RelativeLayout

@@ -522,7 +522,7 @@
       android:ems="10"
       android:hint="@string/Rep"
       android:inputType="text"
-      android:textColor="#FF0091F4"
+      android:textColor="#000000"
       android:textSize="16dp" />
 
   <ImageView

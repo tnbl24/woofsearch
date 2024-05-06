@@ -325,7 +325,7 @@
     android:background="@drawable/report_container_frame2">
 
     <EditText
-        android:id="@+id/nameInput"
+        android:id="@+id/reportInput"
         android:layout_width="315dp"
         android:layout_height="wrap_content"
         android:layout_marginLeft="12dp"
@@ -334,7 +334,7 @@
         android:ems="10"
         android:hint="Nhập vấn đề của bạn vào đây..."
         android:inputType="text"
-        android:textColor="#FF0091F4"
+        android:textColor="#000000"
         android:textSize="18dp" />
   </FrameLayout>
 </FrameLayout>

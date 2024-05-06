@@ -72,19 +72,17 @@
       android:background="@drawable/tao_bai_viet_drawable_shape_2"
       android:scaleType="centerInside" />
 
-  <TextView
-      android:layout_width="wrap_content"
-      android:layout_height="23dp"
-      android:layout_gravity="top|left"
+  <EditText
+      android:id="@+id/passwdInput"
+      android:layout_width="329dp"
+      android:layout_height="wrap_content"
       android:layout_marginLeft="32dp"
       android:layout_marginTop="138dp"
-      android:layout_marginBottom="-1dp"
-      android:gravity="center_horizontal|center_vertical"
-      android:includeFontPadding="false"
-      android:maxLines="1"
-      android:singleLine="true"
-      android:text="Bạn viết gì đi ...."
-      android:textColor="#FF0091F4"
+      android:background="@android:color/transparent"
+      android:ems="10"
+      android:hint="Bạn viết gì đi ..."
+      android:inputType="text"
+      android:textColor="#000000"
       android:textSize="18dp" />
 
   <FrameLayout
