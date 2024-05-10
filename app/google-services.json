@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "844904062204",
+    "project_id": "woofsearch-fb69e",
+    "storage_bucket": "woofsearch-fb69e.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:844904062204:android:0336f6eea2b51331ef0b79",
+        "android_client_info": {
+          "package_name": "com.example.woofsearch"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAxdioHP-mLYPnSo4dp2XmF1N-X2bDneKk"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
