@@ -1,15 +1,12 @@
 package com.example.woofsearch;
 
-<<<<<<< HEAD
-import android.annotation.SuppressLint;
-=======
+
 import android.content.BroadcastReceiver;
 import android.content.Context;
 import android.content.Intent;
 import android.content.IntentFilter;
 import android.net.ConnectivityManager;
 import android.net.NetworkInfo;
->>>>>>> 32bffdf245ec5d47a6f6bf5b34fbb6c305170a00
 import android.os.Bundle;
 import android.view.View;
 import android.widget.Button;
@@ -31,23 +28,13 @@ public class MainActivity extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         EdgeToEdge.enable(this);
-<<<<<<< HEAD
-        setContentView(R.layout.dien_dan);
-        ViewCompat.setOnApplyWindowInsetsListener(findViewById(android.R.id.content), (v, insets) -> {
-            Insets systemBars = insets.getInsets(WindowInsetsCompat.Type.systemBars());
-            v.setPadding(systemBars.left, systemBars.top, systemBars.right, systemBars.bottom);
-            return insets;
-        });
-
-
-
-=======
 
         IntentFilter intentFilter = new IntentFilter(Intent.ACTION_AIRPLANE_MODE_CHANGED);
         registerReceiver(airplaneModeReceiver, intentFilter);
 
         if (connect()) {
-            setContentView(R.layout.sign_up);
+
+            setContentView(R.layout.dien_dan);
             ViewCompat.setOnApplyWindowInsetsListener(findViewById(android.R.id.content), (v, insets) -> {
                 Insets systemBars = insets.getInsets(WindowInsetsCompat.Type.systemBars());
                 v.setPadding(systemBars.left, systemBars.top, systemBars.right, systemBars.bottom);
@@ -101,6 +88,6 @@ public class MainActivity extends AppCompatActivity {
         ConnectivityManager connectivityManager = (ConnectivityManager) getSystemService(Context.CONNECTIVITY_SERVICE);
         NetworkInfo networkInfo = connectivityManager.getActiveNetworkInfo();
         return networkInfo != null && networkInfo.isConnected();
->>>>>>> 32bffdf245ec5d47a6f6bf5b34fbb6c305170a00
+
     }
 }
