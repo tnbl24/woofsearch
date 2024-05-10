@@ -1,5 +1,6 @@
 package com.example.woofsearch;
 
+import android.annotation.SuppressLint;
 import android.os.Bundle;
 import android.view.View;
 import android.widget.Button;
@@ -14,21 +15,21 @@ import androidx.core.view.WindowInsetsCompat;
 
 public class MainActivity extends AppCompatActivity {
 
-    Button signupButton;
-    EditText nameInput;
-    EditText phoneInput;
-    EditText emailInput;
-    EditText passwdInput;
+    Button signupButton, loginButton;
+    EditText nameInput, phoneInput, emailInput, passwdInput;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         EdgeToEdge.enable(this);
-        setContentView(R.layout.sign_up);
+        setContentView(R.layout.dien_dan);
         ViewCompat.setOnApplyWindowInsetsListener(findViewById(android.R.id.content), (v, insets) -> {
             Insets systemBars = insets.getInsets(WindowInsetsCompat.Type.systemBars());
             v.setPadding(systemBars.left, systemBars.top, systemBars.right, systemBars.bottom);
             return insets;
         });
+
+
+
     }
 }

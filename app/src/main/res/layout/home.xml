@@ -17,58 +17,37 @@
     android:layout_gravity="top|left"
     android:scaleType="centerInside"
     android:src="@drawable/home_snapedit" />
-  
-  <ImageView
-    android:id="@+id/home_rectangle1"
-    android:layout_width="300dp"
-    android:layout_height="70dp"
-    android:layout_marginLeft="46dp"
-    android:layout_marginTop="485dp"
-    android:layout_gravity="top|left"
-    android:scaleType="centerInside"
-    android:src="@drawable/home_rectangle1" />
-  
-  <ImageView
-    android:id="@+id/home_rectangle2"
-    android:layout_width="300dp"
-    android:layout_height="70dp"
-    android:layout_marginLeft="45dp"
-    android:layout_marginTop="577dp"
-    android:layout_gravity="top|left"
-    android:scaleType="centerInside"
-    android:src="@drawable/home_rectangle2" />
-  
-  <TextView
-    android:id="@+id/home_dang_nhap"
-    android:layout_width="wrap_content"
-    android:layout_height="25dp"
-    android:layout_marginLeft="142dp"
-    android:layout_marginTop="507.5dp"
-    android:layout_marginBottom="-0.5dp"
-    android:layout_gravity="top|left"
-    android:gravity="left|center_vertical"
-    android:includeFontPadding="false"
-    android:maxLines="1"
-    android:singleLine="true"
-    android:text="Đăng Nhập"
-    android:textColor="#FFFFFFFF"
-    android:textSize="20dp" />
-  
-  <TextView
-    android:id="@+id/home_dang_ky"
-    android:layout_width="wrap_content"
-    android:layout_height="25dp"
-    android:layout_marginLeft="156dp"
-    android:layout_marginTop="599.5dp"
-    android:layout_marginBottom="-0.5dp"
-    android:layout_gravity="top|left"
-    android:gravity="left|center_vertical"
-    android:includeFontPadding="false"
-    android:maxLines="1"
-    android:singleLine="true"
-    android:text="Đăng Ký"
-    android:textColor="#FF000000"
-    android:textSize="20dp" />
+
+  <Button
+      android:id="@+id/loginButton2"
+      android:layout_width="300dp"
+      android:layout_height="70dp"
+      android:layout_marginLeft="46dp"
+      android:layout_marginTop="485dp"
+      android:background="@drawable/main_button"
+      android:text="Đăng Nhập"
+      android:textSize="20dp"
+      app:backgroundTint="@null"
+      app:layout_constraintEnd_toEndOf="parent"
+      app:layout_constraintHorizontal_bias="0.498"
+      app:layout_constraintStart_toStartOf="parent"
+      app:layout_constraintTop_toTopOf="parent" />
+
+  <Button
+      android:id="@+id/signupButton2"
+      android:layout_width="300dp"
+      android:layout_height="70dp"
+      android:layout_marginLeft="46dp"
+      android:layout_marginTop="577dp"
+      android:background="@drawable/main_button3"
+      android:text="Đăng Ký"
+      android:textColor="#000000"
+      android:textSize="20dp"
+      app:backgroundTint="@null"
+      app:layout_constraintEnd_toEndOf="parent"
+      app:layout_constraintHorizontal_bias="0.498"
+      app:layout_constraintStart_toStartOf="parent"
+      app:layout_constraintTop_toTopOf="parent" />
 
   <TextView
       android:id="@+id/home_cho_la_ban"
