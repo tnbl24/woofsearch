@@ -7,7 +7,12 @@ import android.net.NetworkCapabilities;
 import android.net.NetworkInfo;
 import android.os.Build;
 
+import androidx.recyclerview.widget.RecyclerView;
+import androidx.swiperefreshlayout.widget.SwipeRefreshLayout;
+
 public class AppUtil {
+    private RecyclerView rdvData;
+    private SwipeRefreshLayout swipeRefreshLayout;
     public static boolean checkconnect(Context context){
         if(context == null){
             return false;

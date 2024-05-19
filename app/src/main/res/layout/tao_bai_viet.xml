@@ -8,7 +8,7 @@
     android:background="@drawable/tao_bai_viet_drawable_shape">
 
   <Button
-      android:id="@+id/btnok"
+      android:id="@+id/add_post_btn"
       android:layout_width="370dp"
       android:layout_height="51dp"
       android:layout_gravity="top|center_horizontal"
@@ -73,7 +73,7 @@
       android:scaleType="centerInside" />
 
   <EditText
-      android:id="@+id/passwdInput"
+      android:id="@+id/tao_bai_viet_noi_dung"
       android:layout_width="329dp"
       android:layout_height="wrap_content"
       android:layout_marginLeft="32dp"
@@ -86,7 +86,7 @@
       android:textSize="18dp" />
 
   <FrameLayout
-      android:id="@+id/tao_bai_viet_container_group1"
+      android:id="@+id/add_post_image"
       android:layout_width="370dp"
       android:layout_height="60dp"
       android:layout_gravity="top|left"
@@ -129,7 +129,7 @@
   </FrameLayout>
 
   <FrameLayout
-      android:id="@+id/tao_bai_viet_container_group3"
+      android:id="@+id/add_post_video"
       android:layout_width="370dp"
       android:layout_height="60dp"
       android:layout_gravity="top|left"
@@ -138,7 +138,7 @@
       android:background="@drawable/tao_bai_viet_container_group3">
 
     <ImageView
-        android:id="@+id/tao_bai_viet_image_rectangle2"
+        android:id="@+id/add_video_icon"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
         android:background="@drawable/tao_bai_viet_image_rectangle2"
@@ -162,7 +162,7 @@
   </FrameLayout>
 
   <FrameLayout
-      android:id="@+id/tao_bai_viet_container_group2"
+      android:id="@+id/add_post_icon"
       android:layout_width="370dp"
       android:layout_height="60dp"
       android:layout_gravity="top|left"
@@ -190,7 +190,7 @@
         android:maxLines="1"
         android:singleLine="true"
         android:text="Biểu tượng cảm xúc"
-        android:textColor="#FF73C6FF"
+        android:textColor="#000000"
         android:textSize="18dp" />
   </FrameLayout>
 
