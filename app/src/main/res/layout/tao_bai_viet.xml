@@ -5,7 +5,8 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="807dp"
-    android:background="@drawable/tao_bai_viet_drawable_shape">
+    android:background="@drawable/tao_bai_viet_drawable_shape"
+    android:id="@+id/add_post_layout">
 
   <Button
       android:id="@+id/add_post_btn"
@@ -63,28 +64,31 @@
       android:textColor="#FFFFFFFF"
       android:textSize="26dp" />
 
-  <ImageView
+
+
+  <FrameLayout
+      android:id="@+id/add_post_noi_dung"
       android:layout_width="370dp"
       android:layout_height="257dp"
       android:layout_gravity="top|left"
       android:layout_marginLeft="11dp"
       android:layout_marginTop="123dp"
       android:background="@drawable/tao_bai_viet_drawable_shape_2"
-      android:scaleType="centerInside" />
-
-  <EditText
-      android:id="@+id/tao_bai_viet_noi_dung"
-      android:layout_width="329dp"
-      android:layout_height="wrap_content"
-      android:layout_marginLeft="32dp"
-      android:layout_marginTop="138dp"
-      android:background="@android:color/transparent"
-      android:ems="10"
-      android:hint="Bạn viết gì đi ..."
-      android:inputType="text"
-      android:textColor="#000000"
-      android:textSize="18dp" />
-
+      android:scaleType="centerInside">
+    <EditText
+        android:id="@+id/tao_bai_viet_noi_dung"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:paddingLeft="15dp"
+        android:layout_marginTop="13dp"
+        android:background="@android:color/transparent"
+        android:ems="10"
+        android:hint="Bạn viết gì đi ..."
+        android:inputType="text"
+        android:textColor="#000000"
+        android:textSize="18dp"
+        android:gravity="top"/>
+  </FrameLayout>
   <FrameLayout
       android:id="@+id/add_post_image"
       android:layout_width="370dp"
