@@ -31,7 +31,7 @@ public class MainActivity extends AppCompatActivity {
 
     private void loadData(){
         if(AppUtil.checkconnect(this)){
-            setContentView(R.layout.dien_dan);
+            setContentView(R.layout.tao_bai_viet);
             ViewCompat.setOnApplyWindowInsetsListener(findViewById(android.R.id.content), (v, insets) -> {
                 Insets systemBars = insets.getInsets(WindowInsetsCompat.Type.systemBars());
                 v.setPadding(systemBars.left, systemBars.top, systemBars.right, systemBars.bottom);
