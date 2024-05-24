@@ -41,6 +41,7 @@ public class AddPost extends AppCompatActivity {
     private FrameLayout addImage;
     private FrameLayout addVideo;
     private FrameLayout addIcon;
+    private ImageView addVideo2, back;
     private Button submitbtn;
     private Uri imageUri;
     private Uri videoUri;
@@ -57,17 +58,27 @@ public class AddPost extends AppCompatActivity {
         addImage = findViewById(R.id.add_post_image);
         addVideo = findViewById(R.id.add_post_video);
         addIcon = findViewById(R.id.add_post_icon);
+        addVideo2 = findViewById(R.id.add_video_icon);
         submitbtn = findViewById(R.id.add_post_btn);
+        back = findViewById(R.id.add_post_back);
 
         databaseReference = FirebaseDatabase.getInstance().getReference("posts");
-
+        back.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Toast.makeText(AddPost.this,"hello",Toast.LENGTH_SHORT).show();
+                Intent intent = new Intent(AddPost.this, MainActivity.class);
+                startActivity(intent);
+                finish();
+            }
+        });
         addImage.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
                 openImagePicker();
             }
         });
-        addVideo.setOnClickListener(new View.OnClickListener() {
+        addVideo2.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
                 openVideoPicker();
@@ -83,8 +94,7 @@ public class AddPost extends AppCompatActivity {
             @Override
             public void onClick(View v) {
                 String noi_dung = tao_bai_viet_noi_dung.getText().toString();
-
-
+                Toast.makeText(AddPost.this,"hello",Toast.LENGTH_SHORT).show();
                 if (!TextUtils.isEmpty(noi_dung)) {
                     String currentUserPhoneNumber = FirebaseAuth.getInstance().getCurrentUser().getPhoneNumber();
                     String postId = databaseReference.child("posts").push().getKey();

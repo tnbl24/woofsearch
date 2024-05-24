@@ -19,13 +19,7 @@
       android:textColor="#020000"
       app:backgroundTint="@null"/>
 
-  <ImageView
-      android:layout_width="393dp"
-      android:layout_height="591dp"
-      android:layout_gravity="top|left"
-      android:layout_marginTop="104dp"
-      android:background="@drawable/tao_bai_viet_drawable_layer"
-      android:scaleType="centerInside" />
+
 
   <ImageView
       android:id="@+id/tao_bai_viet_container_group"
@@ -36,13 +30,14 @@
       android:src="@drawable/tao_bai_viet_container_group" />
 
   <ImageView
-      android:id="@+id/tao_bai_viet_container_frame"
+      android:id="@+id/add_post_back"
       android:layout_width="27dp"
       android:layout_height="25dp"
       android:layout_gravity="top|left"
       android:layout_marginLeft="25dp"
       android:layout_marginTop="48dp"
       android:scaleType="centerInside"
+      android:clickable="true"
       android:src="@drawable/tao_bai_viet_container_frame" />
 
   <TextView
@@ -212,4 +207,12 @@
       android:layout_marginTop="593dp"
       android:scaleType="centerInside"
       android:src="@drawable/tao_bai_viet_container_frame2" />
+
+  <ImageView
+      android:layout_width="393dp"
+      android:layout_height="591dp"
+      android:layout_gravity="top|left"
+      android:layout_marginTop="104dp"
+      android:background="@drawable/tao_bai_viet_drawable_layer"
+      android:scaleType="centerInside" />
 </FrameLayout>
