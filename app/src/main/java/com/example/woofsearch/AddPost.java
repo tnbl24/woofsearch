@@ -170,4 +170,9 @@ public class AddPost extends AppCompatActivity {
              videoUri = data.getData();
         }
     }
+    public void onBackClick(View view) {
+        Intent intent = new Intent(AddPost.this, Dien_dan.class);
+        startActivity(intent);
+        finish();
+    }
 }
