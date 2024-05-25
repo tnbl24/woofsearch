@@ -38,6 +38,8 @@
       android:layout_marginTop="48dp"
       android:scaleType="centerInside"
       android:clickable="true"
+      android:focusable="true"
+      android:onClick="onBackClick"
       android:src="@drawable/tao_bai_viet_container_frame" />
 
   <TextView
