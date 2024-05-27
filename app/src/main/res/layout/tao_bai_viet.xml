@@ -17,10 +17,8 @@
       android:background="@drawable/button_background"
       android:text="Đăng bài"
       android:textColor="#020000"
+      android:onClick="onClickAddPost"
       app:backgroundTint="@null"/>
-
-
-
   <ImageView
       android:id="@+id/tao_bai_viet_container_group"
       android:layout_width="393dp"
@@ -28,7 +26,6 @@
       android:layout_gravity="top|left"
       android:scaleType="centerInside"
       android:src="@drawable/tao_bai_viet_container_group" />
-
   <ImageView
       android:id="@+id/add_post_back"
       android:layout_width="27dp"
@@ -41,7 +38,6 @@
       android:focusable="true"
       android:onClick="onBackClick"
       android:src="@drawable/tao_bai_viet_container_frame" />
-
   <TextView
       android:layout_width="wrap_content"
       android:layout_height="32dp"
@@ -55,9 +51,6 @@
       android:text="Tạo bài viết"
       android:textColor="#FFFFFFFF"
       android:textSize="26dp" />
-
-
-
   <FrameLayout
       android:id="@+id/add_post_noi_dung"
       android:layout_width="370dp"
@@ -123,7 +116,6 @@
             android:scaleType="centerInside"
             android:src="@drawable/tao_bai_viet_image_group" />
   </FrameLayout>
-
   <FrameLayout
       android:id="@+id/add_post_video"
       android:layout_width="370dp"
@@ -156,7 +148,6 @@
         android:textColor="#FF000000"
         android:textSize="18dp" />
   </FrameLayout>
-
   <FrameLayout
       android:id="@+id/add_post_icon"
       android:layout_width="370dp"
@@ -189,7 +180,6 @@
         android:textColor="#000000"
         android:textSize="18dp" />
   </FrameLayout>
-
   <ImageView
       android:id="@+id/tao_bai_viet_container_frame1"
       android:layout_width="28dp"
@@ -199,7 +189,6 @@
       android:layout_marginTop="509dp"
       android:scaleType="centerInside"
       android:src="@drawable/tao_bai_viet_container_frame1" />
-
   <ImageView
       android:id="@+id/tao_bai_viet_container_frame2"
       android:layout_width="30dp"
@@ -209,7 +198,6 @@
       android:layout_marginTop="593dp"
       android:scaleType="centerInside"
       android:src="@drawable/tao_bai_viet_container_frame2" />
-
   <ImageView
       android:layout_width="393dp"
       android:layout_height="591dp"
